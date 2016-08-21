@@ -1,0 +1,1098 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+-format	Makefile	/^	avr-size --format=berkeley $(BUILDDIR)\/main.elf$/;"	m
+AVRDUDE	Makefile	/^AVRDUDE = avrdude $(PROGRAMMER) -p $(DEVICE) -B 10 -F$/;"	m
+BUILDDIR	Makefile	/^BUILDDIR = build$/;"	m
+CLOCK	Makefile	/^CLOCK      = 16000000$/;"	m
+COMPILE	Makefile	/^COMPILE = avr-gcc -Wall -Os -DF_CPU=$(CLOCK) -mmcu=$(DEVICE) -I. -ffunction-sections -fdata-sections$/;"	m
+DEVICE	Makefile	/^DEVICE    	= atmega328p$/;"	m
+FUSES	Makefile	/^FUSES      = -U hfuse:w:0xd2:m -U lfuse:w:0xff:m$/;"	m
+OBJECTS	Makefile	/^OBJECTS = $(addprefix $(BUILDDIR)\/,$(notdir $(SOURCE:.c=.o)))$/;"	m
+PROGRAMMER	Makefile	/^PROGRAMMER = -c avrisp2 -P usb$/;"	m
+SOURCE	Makefile	/^SOURCE    = main.c motion_control.c gcode.c spindle_control.c coolant_control.c serial.c \\$/;"	m
+SOURCEDIR	Makefile	/^SOURCEDIR = grbl$/;"	m
+f	doc/script/simple_stream.py	/^f = open('grbl.gcode','r');$/;"	v
+grbl_out	doc/script/simple_stream.py	/^    grbl_out = s.readline() # Wait for grbl response with carriage return$/;"	v
+l	doc/script/simple_stream.py	/^    l = line.strip() # Strip all EOL characters for consistency$/;"	v
+s	doc/script/simple_stream.py	/^s = serial.Serial('\/dev\/tty.usbmodem1811',115200)$/;"	v
+serial	doc/script/simple_stream.py	/^import serial$/;"	i
+time	doc/script/simple_stream.py	/^import time$/;"	i
+RX_BUFFER_SIZE	doc/script/stream.py	/^RX_BUFFER_SIZE = 128$/;"	v
+argparse	doc/script/stream.py	/^import argparse$/;"	i
+args	doc/script/stream.py	/^args = parser.parse_args()$/;"	v
+c_line	doc/script/stream.py	/^    c_line = []$/;"	v
+f	doc/script/stream.py	/^f = args.gcode_file$/;"	v
+g_count	doc/script/stream.py	/^    g_count = 0$/;"	v
+grbl_out	doc/script/stream.py	/^        grbl_out = '' $/;"	v
+grbl_out	doc/script/stream.py	/^        grbl_out = s.readline().strip() # Wait for grbl response with carriage return$/;"	v
+help	doc/script/stream.py	/^        help='g-code filename to be streamed')$/;"	v
+help	doc/script/stream.py	/^        help='serial device path')$/;"	v
+help	doc/script/stream.py	/^        help='settings write mode')        $/;"	v
+help	doc/script/stream.py	/^        help='suppress output text')$/;"	v
+l_block	doc/script/stream.py	/^        l_block = line.strip() # Strip all EOL characters for consistency$/;"	v
+l_block	doc/script/stream.py	/^        l_block = line.strip()$/;"	v
+l_count	doc/script/stream.py	/^l_count = 0$/;"	v
+out_temp	doc/script/stream.py	/^            out_temp = s.readline().strip() # Wait for grbl response$/;"	v
+parser	doc/script/stream.py	/^parser = argparse.ArgumentParser(description='Stream g-code file to grbl. (pySerial and argparse libraries required)')$/;"	v
+re	doc/script/stream.py	/^import re$/;"	i
+s	doc/script/stream.py	/^s = serial.Serial(args.device_file,115200)$/;"	v
+serial	doc/script/stream.py	/^import serial$/;"	i
+settings_mode	doc/script/stream.py	/^settings_mode = False$/;"	v
+sys	doc/script/stream.py	/^import sys$/;"	i
+time	doc/script/stream.py	/^import time$/;"	i
+verbose	doc/script/stream.py	/^verbose = True$/;"	v
+ACCELERATION_TICKS_PER_SECOND	grbl/config.h	205;"	d
+ADAPTIVE_MULTI_AXIS_STEP_SMOOTHING	grbl/config.h	212;"	d
+ARC_ANGULAR_TRAVEL_EPSILON	grbl/config.h	310;"	d
+BAUD_RATE	grbl/config.h	37;"	d
+CMD_CYCLE_START	grbl/config.h	51;"	d
+CMD_FEED_HOLD	grbl/config.h	50;"	d
+CMD_RESET	grbl/config.h	52;"	d
+CMD_SAFETY_DOOR	grbl/config.h	53;"	d
+CMD_STATUS_REPORT	grbl/config.h	49;"	d
+CPU_MAP_ATMEGA328P	grbl/config.h	41;"	d
+DEFAULTS_GENERIC	grbl/config.h	34;"	d
+DWELL_TIME_STEP	grbl/config.h	317;"	d
+HOMING_CYCLE_0	grbl/config.h	75;"	d
+HOMING_CYCLE_1	grbl/config.h	76;"	d
+HOMING_INIT_LOCK	grbl/config.h	58;"	d
+MESSAGE_PROBE_COORDINATES	grbl/config.h	126;"	d
+MINIMUM_FEED_RATE	grbl/config.h	294;"	d
+MINIMUM_JUNCTION_SPEED	grbl/config.h	288;"	d
+MINIMUM_SPINDLE_PWM	grbl/config.h	261;"	d
+N_ARC_CORRECTION	grbl/config.h	300;"	d
+N_DECIMAL_COORDVALUE_INCH	grbl/config.h	100;"	d
+N_DECIMAL_COORDVALUE_MM	grbl/config.h	101;"	d
+N_DECIMAL_RATEVALUE_INCH	grbl/config.h	102;"	d
+N_DECIMAL_RATEVALUE_MM	grbl/config.h	103;"	d
+N_DECIMAL_SETTINGVALUE	grbl/config.h	104;"	d
+N_HOMING_LOCATE_CYCLE	grbl/config.h	82;"	d
+N_STARTUP_LINE	grbl/config.h	93;"	d
+SAFETY_DOOR_COOLANT_DELAY	grbl/config.h	143;"	d
+SAFETY_DOOR_SPINDLE_DELAY	grbl/config.h	142;"	d
+SPINDLE_MAX_RPM	grbl/config.h	254;"	d
+SPINDLE_MIN_RPM	grbl/config.h	255;"	d
+TOOL_LENGTH_OFFSET_AXIS	grbl/config.h	241;"	d
+VARIABLE_SPINDLE	grbl/config.h	247;"	d
+config_h	grbl/config.h	29;"	d
+coolant_init	grbl/coolant_control.c	/^void coolant_init()$/;"	f
+coolant_run	grbl/coolant_control.c	/^void coolant_run(uint8_t mode)$/;"	f
+coolant_set_state	grbl/coolant_control.c	/^void coolant_set_state(uint8_t mode)$/;"	f
+coolant_stop	grbl/coolant_control.c	/^void coolant_stop()$/;"	f
+coolant_control_h	grbl/coolant_control.h	22;"	d
+cpu_map_h	grbl/cpu_map.h	29;"	d
+COMB_BIT	grbl/cpu_map/cpu_map_atmega2560.h	129;"	d
+CONTROL_DDR	grbl/cpu_map/cpu_map_atmega2560.h	100;"	d
+CONTROL_INT	grbl/cpu_map/cpu_map_atmega2560.h	107;"	d
+CONTROL_INT_vect	grbl/cpu_map/cpu_map_atmega2560.h	108;"	d
+CONTROL_INVERT_MASK	grbl/cpu_map/cpu_map_atmega2560.h	111;"	d
+CONTROL_MASK	grbl/cpu_map/cpu_map_atmega2560.h	110;"	d
+CONTROL_PCMSK	grbl/cpu_map/cpu_map_atmega2560.h	109;"	d
+CONTROL_PIN	grbl/cpu_map/cpu_map_atmega2560.h	101;"	d
+CONTROL_PORT	grbl/cpu_map/cpu_map_atmega2560.h	102;"	d
+COOLANT_FLOOD_BIT	grbl/cpu_map/cpu_map_atmega2560.h	91;"	d
+COOLANT_FLOOD_DDR	grbl/cpu_map/cpu_map_atmega2560.h	89;"	d
+COOLANT_FLOOD_PORT	grbl/cpu_map/cpu_map_atmega2560.h	90;"	d
+COOLANT_MIST_BIT	grbl/cpu_map/cpu_map_atmega2560.h	95;"	d
+COOLANT_MIST_DDR	grbl/cpu_map/cpu_map_atmega2560.h	93;"	d
+COOLANT_MIST_PORT	grbl/cpu_map/cpu_map_atmega2560.h	94;"	d
+CYCLE_START_BIT	grbl/cpu_map/cpu_map_atmega2560.h	105;"	d
+DIRECTION_DDR	grbl/cpu_map/cpu_map_atmega2560.h	51;"	d
+DIRECTION_MASK	grbl/cpu_map/cpu_map_atmega2560.h	57;"	d
+DIRECTION_PIN	grbl/cpu_map/cpu_map_atmega2560.h	53;"	d
+DIRECTION_PORT	grbl/cpu_map/cpu_map_atmega2560.h	52;"	d
+FEED_HOLD_BIT	grbl/cpu_map/cpu_map_atmega2560.h	104;"	d
+GRBL_PLATFORM	grbl/cpu_map/cpu_map_atmega2560.h	29;"	d
+LIMIT_DDR	grbl/cpu_map/cpu_map_atmega2560.h	67;"	d
+LIMIT_INT	grbl/cpu_map/cpu_map_atmega2560.h	73;"	d
+LIMIT_INT_vect	grbl/cpu_map/cpu_map_atmega2560.h	74;"	d
+LIMIT_MASK	grbl/cpu_map/cpu_map_atmega2560.h	76;"	d
+LIMIT_PCMSK	grbl/cpu_map/cpu_map_atmega2560.h	75;"	d
+LIMIT_PIN	grbl/cpu_map/cpu_map_atmega2560.h	69;"	d
+LIMIT_PORT	grbl/cpu_map/cpu_map_atmega2560.h	68;"	d
+OCR_REGISTER	grbl/cpu_map/cpu_map_atmega2560.h	127;"	d
+PROBE_BIT	grbl/cpu_map/cpu_map_atmega2560.h	117;"	d
+PROBE_DDR	grbl/cpu_map/cpu_map_atmega2560.h	114;"	d
+PROBE_MASK	grbl/cpu_map/cpu_map_atmega2560.h	118;"	d
+PROBE_PIN	grbl/cpu_map/cpu_map_atmega2560.h	115;"	d
+PROBE_PORT	grbl/cpu_map/cpu_map_atmega2560.h	116;"	d
+PWM_MAX_VALUE	grbl/cpu_map/cpu_map_atmega2560.h	124;"	d
+RESET_BIT	grbl/cpu_map/cpu_map_atmega2560.h	103;"	d
+SAFETY_DOOR_BIT	grbl/cpu_map/cpu_map_atmega2560.h	106;"	d
+SERIAL_RX	grbl/cpu_map/cpu_map_atmega2560.h	32;"	d
+SERIAL_UDRE	grbl/cpu_map/cpu_map_atmega2560.h	33;"	d
+SPINDLE_DIRECTION_BIT	grbl/cpu_map/cpu_map_atmega2560.h	84;"	d
+SPINDLE_DIRECTION_DDR	grbl/cpu_map/cpu_map_atmega2560.h	82;"	d
+SPINDLE_DIRECTION_PORT	grbl/cpu_map/cpu_map_atmega2560.h	83;"	d
+SPINDLE_ENABLE_BIT	grbl/cpu_map/cpu_map_atmega2560.h	81;"	d
+SPINDLE_ENABLE_DDR	grbl/cpu_map/cpu_map_atmega2560.h	79;"	d
+SPINDLE_ENABLE_PORT	grbl/cpu_map/cpu_map_atmega2560.h	80;"	d
+SPINDLE_PWM_BIT	grbl/cpu_map/cpu_map_atmega2560.h	137;"	d
+SPINDLE_PWM_DDR	grbl/cpu_map/cpu_map_atmega2560.h	135;"	d
+SPINDLE_PWM_PORT	grbl/cpu_map/cpu_map_atmega2560.h	136;"	d
+STEPPERS_DISABLE_BIT	grbl/cpu_map/cpu_map_atmega2560.h	62;"	d
+STEPPERS_DISABLE_DDR	grbl/cpu_map/cpu_map_atmega2560.h	60;"	d
+STEPPERS_DISABLE_MASK	grbl/cpu_map/cpu_map_atmega2560.h	63;"	d
+STEPPERS_DISABLE_PORT	grbl/cpu_map/cpu_map_atmega2560.h	61;"	d
+STEP_DDR	grbl/cpu_map/cpu_map_atmega2560.h	42;"	d
+STEP_MASK	grbl/cpu_map/cpu_map_atmega2560.h	48;"	d
+STEP_PIN	grbl/cpu_map/cpu_map_atmega2560.h	44;"	d
+STEP_PORT	grbl/cpu_map/cpu_map_atmega2560.h	43;"	d
+TCCRA_REGISTER	grbl/cpu_map/cpu_map_atmega2560.h	125;"	d
+TCCRB_REGISTER	grbl/cpu_map/cpu_map_atmega2560.h	126;"	d
+WAVE0_REGISTER	grbl/cpu_map/cpu_map_atmega2560.h	130;"	d
+WAVE1_REGISTER	grbl/cpu_map/cpu_map_atmega2560.h	131;"	d
+WAVE2_REGISTER	grbl/cpu_map/cpu_map_atmega2560.h	132;"	d
+WAVE3_REGISTER	grbl/cpu_map/cpu_map_atmega2560.h	133;"	d
+X_DIRECTION_BIT	grbl/cpu_map/cpu_map_atmega2560.h	54;"	d
+X_LIMIT_BIT	grbl/cpu_map/cpu_map_atmega2560.h	70;"	d
+X_STEP_BIT	grbl/cpu_map/cpu_map_atmega2560.h	45;"	d
+Y_DIRECTION_BIT	grbl/cpu_map/cpu_map_atmega2560.h	55;"	d
+Y_LIMIT_BIT	grbl/cpu_map/cpu_map_atmega2560.h	71;"	d
+Y_STEP_BIT	grbl/cpu_map/cpu_map_atmega2560.h	46;"	d
+Z_DIRECTION_BIT	grbl/cpu_map/cpu_map_atmega2560.h	56;"	d
+Z_LIMIT_BIT	grbl/cpu_map/cpu_map_atmega2560.h	72;"	d
+Z_STEP_BIT	grbl/cpu_map/cpu_map_atmega2560.h	47;"	d
+COMB_BIT	grbl/cpu_map/cpu_map_atmega328p.h	137;"	d
+CONTROL_DDR	grbl/cpu_map/cpu_map_atmega328p.h	109;"	d
+CONTROL_INT	grbl/cpu_map/cpu_map_atmega328p.h	116;"	d
+CONTROL_INT_vect	grbl/cpu_map/cpu_map_atmega328p.h	117;"	d
+CONTROL_INVERT_MASK	grbl/cpu_map/cpu_map_atmega328p.h	120;"	d
+CONTROL_MASK	grbl/cpu_map/cpu_map_atmega328p.h	119;"	d
+CONTROL_PCMSK	grbl/cpu_map/cpu_map_atmega328p.h	118;"	d
+CONTROL_PIN	grbl/cpu_map/cpu_map_atmega328p.h	110;"	d
+CONTROL_PORT	grbl/cpu_map/cpu_map_atmega328p.h	111;"	d
+COOLANT_FLOOD_BIT	grbl/cpu_map/cpu_map_atmega328p.h	100;"	d
+COOLANT_FLOOD_DDR	grbl/cpu_map/cpu_map_atmega328p.h	98;"	d
+COOLANT_FLOOD_PORT	grbl/cpu_map/cpu_map_atmega328p.h	99;"	d
+COOLANT_MIST_BIT	grbl/cpu_map/cpu_map_atmega328p.h	104;"	d
+COOLANT_MIST_DDR	grbl/cpu_map/cpu_map_atmega328p.h	102;"	d
+COOLANT_MIST_PORT	grbl/cpu_map/cpu_map_atmega328p.h	103;"	d
+CYCLE_START_BIT	grbl/cpu_map/cpu_map_atmega328p.h	114;"	d
+DIRECTION_DDR	grbl/cpu_map/cpu_map_atmega328p.h	45;"	d
+DIRECTION_MASK	grbl/cpu_map/cpu_map_atmega328p.h	50;"	d
+DIRECTION_PORT	grbl/cpu_map/cpu_map_atmega328p.h	46;"	d
+FEED_HOLD_BIT	grbl/cpu_map/cpu_map_atmega328p.h	113;"	d
+GRBL_PLATFORM	grbl/cpu_map/cpu_map_atmega328p.h	30;"	d
+LIMIT_DDR	grbl/cpu_map/cpu_map_atmega328p.h	60;"	d
+LIMIT_INT	grbl/cpu_map/cpu_map_atmega328p.h	71;"	d
+LIMIT_INT_vect	grbl/cpu_map/cpu_map_atmega328p.h	72;"	d
+LIMIT_MASK	grbl/cpu_map/cpu_map_atmega328p.h	70;"	d
+LIMIT_PCMSK	grbl/cpu_map/cpu_map_atmega328p.h	73;"	d
+LIMIT_PIN	grbl/cpu_map/cpu_map_atmega328p.h	61;"	d
+LIMIT_PORT	grbl/cpu_map/cpu_map_atmega328p.h	62;"	d
+OCR_REGISTER	grbl/cpu_map/cpu_map_atmega328p.h	135;"	d
+PROBE_BIT	grbl/cpu_map/cpu_map_atmega328p.h	126;"	d
+PROBE_DDR	grbl/cpu_map/cpu_map_atmega328p.h	123;"	d
+PROBE_MASK	grbl/cpu_map/cpu_map_atmega328p.h	127;"	d
+PROBE_PIN	grbl/cpu_map/cpu_map_atmega328p.h	124;"	d
+PROBE_PORT	grbl/cpu_map/cpu_map_atmega328p.h	125;"	d
+PWM_MAX_VALUE	grbl/cpu_map/cpu_map_atmega328p.h	132;"	d
+RESET_BIT	grbl/cpu_map/cpu_map_atmega328p.h	112;"	d
+SAFETY_DOOR_BIT	grbl/cpu_map/cpu_map_atmega328p.h	115;"	d
+SERIAL_RX	grbl/cpu_map/cpu_map_atmega328p.h	33;"	d
+SERIAL_UDRE	grbl/cpu_map/cpu_map_atmega328p.h	34;"	d
+SPINDLE_DIRECTION_BIT	grbl/cpu_map/cpu_map_atmega328p.h	92;"	d
+SPINDLE_DIRECTION_DDR	grbl/cpu_map/cpu_map_atmega328p.h	90;"	d
+SPINDLE_DIRECTION_PORT	grbl/cpu_map/cpu_map_atmega328p.h	91;"	d
+SPINDLE_ENABLE_BIT	grbl/cpu_map/cpu_map_atmega328p.h	82;"	d
+SPINDLE_ENABLE_BIT	grbl/cpu_map/cpu_map_atmega328p.h	84;"	d
+SPINDLE_ENABLE_BIT	grbl/cpu_map/cpu_map_atmega328p.h	87;"	d
+SPINDLE_ENABLE_DDR	grbl/cpu_map/cpu_map_atmega328p.h	76;"	d
+SPINDLE_ENABLE_PORT	grbl/cpu_map/cpu_map_atmega328p.h	77;"	d
+SPINDLE_PWM_BIT	grbl/cpu_map/cpu_map_atmega328p.h	146;"	d
+SPINDLE_PWM_DDR	grbl/cpu_map/cpu_map_atmega328p.h	144;"	d
+SPINDLE_PWM_PORT	grbl/cpu_map/cpu_map_atmega328p.h	145;"	d
+STEPPERS_DISABLE_BIT	grbl/cpu_map/cpu_map_atmega328p.h	55;"	d
+STEPPERS_DISABLE_DDR	grbl/cpu_map/cpu_map_atmega328p.h	53;"	d
+STEPPERS_DISABLE_MASK	grbl/cpu_map/cpu_map_atmega328p.h	56;"	d
+STEPPERS_DISABLE_PORT	grbl/cpu_map/cpu_map_atmega328p.h	54;"	d
+STEP_DDR	grbl/cpu_map/cpu_map_atmega328p.h	37;"	d
+STEP_MASK	grbl/cpu_map/cpu_map_atmega328p.h	42;"	d
+STEP_PORT	grbl/cpu_map/cpu_map_atmega328p.h	38;"	d
+TCCRA_REGISTER	grbl/cpu_map/cpu_map_atmega328p.h	133;"	d
+TCCRB_REGISTER	grbl/cpu_map/cpu_map_atmega328p.h	134;"	d
+WAVE0_REGISTER	grbl/cpu_map/cpu_map_atmega328p.h	138;"	d
+WAVE1_REGISTER	grbl/cpu_map/cpu_map_atmega328p.h	139;"	d
+WAVE2_REGISTER	grbl/cpu_map/cpu_map_atmega328p.h	140;"	d
+WAVE3_REGISTER	grbl/cpu_map/cpu_map_atmega328p.h	141;"	d
+X_DIRECTION_BIT	grbl/cpu_map/cpu_map_atmega328p.h	47;"	d
+X_LIMIT_BIT	grbl/cpu_map/cpu_map_atmega328p.h	63;"	d
+X_STEP_BIT	grbl/cpu_map/cpu_map_atmega328p.h	39;"	d
+Y_DIRECTION_BIT	grbl/cpu_map/cpu_map_atmega328p.h	48;"	d
+Y_LIMIT_BIT	grbl/cpu_map/cpu_map_atmega328p.h	64;"	d
+Y_STEP_BIT	grbl/cpu_map/cpu_map_atmega328p.h	40;"	d
+Z_DIRECTION_BIT	grbl/cpu_map/cpu_map_atmega328p.h	49;"	d
+Z_LIMIT_BIT	grbl/cpu_map/cpu_map_atmega328p.h	66;"	d
+Z_LIMIT_BIT	grbl/cpu_map/cpu_map_atmega328p.h	68;"	d
+Z_STEP_BIT	grbl/cpu_map/cpu_map_atmega328p.h	41;"	d
+DEFAULT_ARC_TOLERANCE	grbl/defaults/defaults_generic.h	49;"	d
+DEFAULT_DIRECTION_INVERT_MASK	grbl/defaults/defaults_generic.h	45;"	d
+DEFAULT_HARD_LIMIT_ENABLE	grbl/defaults/defaults_generic.h	54;"	d
+DEFAULT_HOMING_DEBOUNCE_DELAY	grbl/defaults/defaults_generic.h	59;"	d
+DEFAULT_HOMING_DIR_MASK	grbl/defaults/defaults_generic.h	56;"	d
+DEFAULT_HOMING_ENABLE	grbl/defaults/defaults_generic.h	55;"	d
+DEFAULT_HOMING_FEED_RATE	grbl/defaults/defaults_generic.h	57;"	d
+DEFAULT_HOMING_PULLOFF	grbl/defaults/defaults_generic.h	60;"	d
+DEFAULT_HOMING_SEEK_RATE	grbl/defaults/defaults_generic.h	58;"	d
+DEFAULT_INVERT_LIMIT_PINS	grbl/defaults/defaults_generic.h	52;"	d
+DEFAULT_INVERT_ST_ENABLE	grbl/defaults/defaults_generic.h	51;"	d
+DEFAULT_JUNCTION_DEVIATION	grbl/defaults/defaults_generic.h	48;"	d
+DEFAULT_REPORT_INCHES	grbl/defaults/defaults_generic.h	50;"	d
+DEFAULT_SOFT_LIMIT_ENABLE	grbl/defaults/defaults_generic.h	53;"	d
+DEFAULT_STATUS_REPORT_MASK	grbl/defaults/defaults_generic.h	47;"	d
+DEFAULT_STEPPER_IDLE_LOCK_TIME	grbl/defaults/defaults_generic.h	46;"	d
+DEFAULT_STEPPING_INVERT_MASK	grbl/defaults/defaults_generic.h	44;"	d
+DEFAULT_STEP_PULSE_MICROSECONDS	grbl/defaults/defaults_generic.h	43;"	d
+DEFAULT_X_ACCELERATION	grbl/defaults/defaults_generic.h	37;"	d
+DEFAULT_X_MAX_RATE	grbl/defaults/defaults_generic.h	34;"	d
+DEFAULT_X_MAX_TRAVEL	grbl/defaults/defaults_generic.h	40;"	d
+DEFAULT_X_STEPS_PER_MM	grbl/defaults/defaults_generic.h	31;"	d
+DEFAULT_Y_ACCELERATION	grbl/defaults/defaults_generic.h	38;"	d
+DEFAULT_Y_MAX_RATE	grbl/defaults/defaults_generic.h	35;"	d
+DEFAULT_Y_MAX_TRAVEL	grbl/defaults/defaults_generic.h	41;"	d
+DEFAULT_Y_STEPS_PER_MM	grbl/defaults/defaults_generic.h	32;"	d
+DEFAULT_Z_ACCELERATION	grbl/defaults/defaults_generic.h	39;"	d
+DEFAULT_Z_MAX_RATE	grbl/defaults/defaults_generic.h	36;"	d
+DEFAULT_Z_MAX_TRAVEL	grbl/defaults/defaults_generic.h	42;"	d
+DEFAULT_Z_STEPS_PER_MM	grbl/defaults/defaults_generic.h	33;"	d
+defaults_h	grbl/defaults/defaults_generic.h	28;"	d
+DEFAULT_ARC_TOLERANCE	grbl/defaults/defaults_oxcnc.h	50;"	d
+DEFAULT_DIRECTION_INVERT_MASK	grbl/defaults/defaults_oxcnc.h	46;"	d
+DEFAULT_HARD_LIMIT_ENABLE	grbl/defaults/defaults_oxcnc.h	55;"	d
+DEFAULT_HOMING_DEBOUNCE_DELAY	grbl/defaults/defaults_oxcnc.h	60;"	d
+DEFAULT_HOMING_DIR_MASK	grbl/defaults/defaults_oxcnc.h	57;"	d
+DEFAULT_HOMING_ENABLE	grbl/defaults/defaults_oxcnc.h	56;"	d
+DEFAULT_HOMING_FEED_RATE	grbl/defaults/defaults_oxcnc.h	58;"	d
+DEFAULT_HOMING_PULLOFF	grbl/defaults/defaults_oxcnc.h	61;"	d
+DEFAULT_HOMING_SEEK_RATE	grbl/defaults/defaults_oxcnc.h	59;"	d
+DEFAULT_INVERT_LIMIT_PINS	grbl/defaults/defaults_oxcnc.h	53;"	d
+DEFAULT_INVERT_ST_ENABLE	grbl/defaults/defaults_oxcnc.h	52;"	d
+DEFAULT_JUNCTION_DEVIATION	grbl/defaults/defaults_oxcnc.h	49;"	d
+DEFAULT_REPORT_INCHES	grbl/defaults/defaults_oxcnc.h	51;"	d
+DEFAULT_SOFT_LIMIT_ENABLE	grbl/defaults/defaults_oxcnc.h	54;"	d
+DEFAULT_STATUS_REPORT_MASK	grbl/defaults/defaults_oxcnc.h	48;"	d
+DEFAULT_STEPPER_IDLE_LOCK_TIME	grbl/defaults/defaults_oxcnc.h	47;"	d
+DEFAULT_STEPPING_INVERT_MASK	grbl/defaults/defaults_oxcnc.h	45;"	d
+DEFAULT_STEP_PULSE_MICROSECONDS	grbl/defaults/defaults_oxcnc.h	44;"	d
+DEFAULT_X_ACCELERATION	grbl/defaults/defaults_oxcnc.h	38;"	d
+DEFAULT_X_MAX_RATE	grbl/defaults/defaults_oxcnc.h	35;"	d
+DEFAULT_X_MAX_TRAVEL	grbl/defaults/defaults_oxcnc.h	41;"	d
+DEFAULT_X_STEPS_PER_MM	grbl/defaults/defaults_oxcnc.h	32;"	d
+DEFAULT_Y_ACCELERATION	grbl/defaults/defaults_oxcnc.h	39;"	d
+DEFAULT_Y_MAX_RATE	grbl/defaults/defaults_oxcnc.h	36;"	d
+DEFAULT_Y_MAX_TRAVEL	grbl/defaults/defaults_oxcnc.h	42;"	d
+DEFAULT_Y_STEPS_PER_MM	grbl/defaults/defaults_oxcnc.h	33;"	d
+DEFAULT_Z_ACCELERATION	grbl/defaults/defaults_oxcnc.h	40;"	d
+DEFAULT_Z_MAX_RATE	grbl/defaults/defaults_oxcnc.h	37;"	d
+DEFAULT_Z_MAX_TRAVEL	grbl/defaults/defaults_oxcnc.h	43;"	d
+DEFAULT_Z_STEPS_PER_MM	grbl/defaults/defaults_oxcnc.h	34;"	d
+defaults_h	grbl/defaults/defaults_oxcnc.h	28;"	d
+DEFAULT_ARC_TOLERANCE	grbl/defaults/defaults_shapeoko.h	57;"	d
+DEFAULT_DIRECTION_INVERT_MASK	grbl/defaults/defaults_shapeoko.h	53;"	d
+DEFAULT_HARD_LIMIT_ENABLE	grbl/defaults/defaults_shapeoko.h	62;"	d
+DEFAULT_HOMING_DEBOUNCE_DELAY	grbl/defaults/defaults_shapeoko.h	67;"	d
+DEFAULT_HOMING_DIR_MASK	grbl/defaults/defaults_shapeoko.h	64;"	d
+DEFAULT_HOMING_ENABLE	grbl/defaults/defaults_shapeoko.h	63;"	d
+DEFAULT_HOMING_FEED_RATE	grbl/defaults/defaults_shapeoko.h	65;"	d
+DEFAULT_HOMING_PULLOFF	grbl/defaults/defaults_shapeoko.h	68;"	d
+DEFAULT_HOMING_SEEK_RATE	grbl/defaults/defaults_shapeoko.h	66;"	d
+DEFAULT_INVERT_LIMIT_PINS	grbl/defaults/defaults_shapeoko.h	60;"	d
+DEFAULT_INVERT_ST_ENABLE	grbl/defaults/defaults_shapeoko.h	59;"	d
+DEFAULT_JUNCTION_DEVIATION	grbl/defaults/defaults_shapeoko.h	56;"	d
+DEFAULT_REPORT_INCHES	grbl/defaults/defaults_shapeoko.h	58;"	d
+DEFAULT_SOFT_LIMIT_ENABLE	grbl/defaults/defaults_shapeoko.h	61;"	d
+DEFAULT_STATUS_REPORT_MASK	grbl/defaults/defaults_shapeoko.h	55;"	d
+DEFAULT_STEPPER_IDLE_LOCK_TIME	grbl/defaults/defaults_shapeoko.h	54;"	d
+DEFAULT_STEPPING_INVERT_MASK	grbl/defaults/defaults_shapeoko.h	52;"	d
+DEFAULT_STEP_PULSE_MICROSECONDS	grbl/defaults/defaults_shapeoko.h	51;"	d
+DEFAULT_X_ACCELERATION	grbl/defaults/defaults_shapeoko.h	45;"	d
+DEFAULT_X_MAX_RATE	grbl/defaults/defaults_shapeoko.h	42;"	d
+DEFAULT_X_MAX_TRAVEL	grbl/defaults/defaults_shapeoko.h	48;"	d
+DEFAULT_X_STEPS_PER_MM	grbl/defaults/defaults_shapeoko.h	39;"	d
+DEFAULT_Y_ACCELERATION	grbl/defaults/defaults_shapeoko.h	46;"	d
+DEFAULT_Y_MAX_RATE	grbl/defaults/defaults_shapeoko.h	43;"	d
+DEFAULT_Y_MAX_TRAVEL	grbl/defaults/defaults_shapeoko.h	49;"	d
+DEFAULT_Y_STEPS_PER_MM	grbl/defaults/defaults_shapeoko.h	40;"	d
+DEFAULT_Z_ACCELERATION	grbl/defaults/defaults_shapeoko.h	47;"	d
+DEFAULT_Z_MAX_RATE	grbl/defaults/defaults_shapeoko.h	44;"	d
+DEFAULT_Z_MAX_TRAVEL	grbl/defaults/defaults_shapeoko.h	50;"	d
+DEFAULT_Z_STEPS_PER_MM	grbl/defaults/defaults_shapeoko.h	41;"	d
+MICROSTEPS_XY	grbl/defaults/defaults_shapeoko.h	33;"	d
+MICROSTEPS_Z	grbl/defaults/defaults_shapeoko.h	36;"	d
+MM_PER_REV_XY	grbl/defaults/defaults_shapeoko.h	35;"	d
+MM_PER_REV_Z	grbl/defaults/defaults_shapeoko.h	38;"	d
+STEP_REVS_XY	grbl/defaults/defaults_shapeoko.h	34;"	d
+STEP_REVS_Z	grbl/defaults/defaults_shapeoko.h	37;"	d
+defaults_h	grbl/defaults/defaults_shapeoko.h	28;"	d
+DEFAULT_ARC_TOLERANCE	grbl/defaults/defaults_shapeoko2.h	56;"	d
+DEFAULT_DIRECTION_INVERT_MASK	grbl/defaults/defaults_shapeoko2.h	52;"	d
+DEFAULT_HARD_LIMIT_ENABLE	grbl/defaults/defaults_shapeoko2.h	61;"	d
+DEFAULT_HOMING_DEBOUNCE_DELAY	grbl/defaults/defaults_shapeoko2.h	66;"	d
+DEFAULT_HOMING_DIR_MASK	grbl/defaults/defaults_shapeoko2.h	63;"	d
+DEFAULT_HOMING_ENABLE	grbl/defaults/defaults_shapeoko2.h	62;"	d
+DEFAULT_HOMING_FEED_RATE	grbl/defaults/defaults_shapeoko2.h	64;"	d
+DEFAULT_HOMING_PULLOFF	grbl/defaults/defaults_shapeoko2.h	67;"	d
+DEFAULT_HOMING_SEEK_RATE	grbl/defaults/defaults_shapeoko2.h	65;"	d
+DEFAULT_INVERT_LIMIT_PINS	grbl/defaults/defaults_shapeoko2.h	59;"	d
+DEFAULT_INVERT_ST_ENABLE	grbl/defaults/defaults_shapeoko2.h	58;"	d
+DEFAULT_JUNCTION_DEVIATION	grbl/defaults/defaults_shapeoko2.h	55;"	d
+DEFAULT_REPORT_INCHES	grbl/defaults/defaults_shapeoko2.h	57;"	d
+DEFAULT_SOFT_LIMIT_ENABLE	grbl/defaults/defaults_shapeoko2.h	60;"	d
+DEFAULT_STATUS_REPORT_MASK	grbl/defaults/defaults_shapeoko2.h	54;"	d
+DEFAULT_STEPPER_IDLE_LOCK_TIME	grbl/defaults/defaults_shapeoko2.h	53;"	d
+DEFAULT_STEPPING_INVERT_MASK	grbl/defaults/defaults_shapeoko2.h	51;"	d
+DEFAULT_STEP_PULSE_MICROSECONDS	grbl/defaults/defaults_shapeoko2.h	50;"	d
+DEFAULT_X_ACCELERATION	grbl/defaults/defaults_shapeoko2.h	44;"	d
+DEFAULT_X_MAX_RATE	grbl/defaults/defaults_shapeoko2.h	41;"	d
+DEFAULT_X_MAX_TRAVEL	grbl/defaults/defaults_shapeoko2.h	47;"	d
+DEFAULT_X_STEPS_PER_MM	grbl/defaults/defaults_shapeoko2.h	38;"	d
+DEFAULT_Y_ACCELERATION	grbl/defaults/defaults_shapeoko2.h	45;"	d
+DEFAULT_Y_MAX_RATE	grbl/defaults/defaults_shapeoko2.h	42;"	d
+DEFAULT_Y_MAX_TRAVEL	grbl/defaults/defaults_shapeoko2.h	48;"	d
+DEFAULT_Y_STEPS_PER_MM	grbl/defaults/defaults_shapeoko2.h	39;"	d
+DEFAULT_Z_ACCELERATION	grbl/defaults/defaults_shapeoko2.h	46;"	d
+DEFAULT_Z_MAX_RATE	grbl/defaults/defaults_shapeoko2.h	43;"	d
+DEFAULT_Z_MAX_TRAVEL	grbl/defaults/defaults_shapeoko2.h	49;"	d
+DEFAULT_Z_STEPS_PER_MM	grbl/defaults/defaults_shapeoko2.h	40;"	d
+MICROSTEPS_XY	grbl/defaults/defaults_shapeoko2.h	32;"	d
+MICROSTEPS_Z	grbl/defaults/defaults_shapeoko2.h	35;"	d
+MM_PER_REV_XY	grbl/defaults/defaults_shapeoko2.h	34;"	d
+MM_PER_REV_Z	grbl/defaults/defaults_shapeoko2.h	37;"	d
+STEP_REVS_XY	grbl/defaults/defaults_shapeoko2.h	33;"	d
+STEP_REVS_Z	grbl/defaults/defaults_shapeoko2.h	36;"	d
+defaults_h	grbl/defaults/defaults_shapeoko2.h	28;"	d
+DEFAULT_ARC_TOLERANCE	grbl/defaults/defaults_shapeoko3.h	55;"	d
+DEFAULT_DIRECTION_INVERT_MASK	grbl/defaults/defaults_shapeoko3.h	51;"	d
+DEFAULT_HARD_LIMIT_ENABLE	grbl/defaults/defaults_shapeoko3.h	60;"	d
+DEFAULT_HOMING_DEBOUNCE_DELAY	grbl/defaults/defaults_shapeoko3.h	65;"	d
+DEFAULT_HOMING_DIR_MASK	grbl/defaults/defaults_shapeoko3.h	62;"	d
+DEFAULT_HOMING_ENABLE	grbl/defaults/defaults_shapeoko3.h	61;"	d
+DEFAULT_HOMING_FEED_RATE	grbl/defaults/defaults_shapeoko3.h	63;"	d
+DEFAULT_HOMING_PULLOFF	grbl/defaults/defaults_shapeoko3.h	66;"	d
+DEFAULT_HOMING_SEEK_RATE	grbl/defaults/defaults_shapeoko3.h	64;"	d
+DEFAULT_INVERT_LIMIT_PINS	grbl/defaults/defaults_shapeoko3.h	58;"	d
+DEFAULT_INVERT_ST_ENABLE	grbl/defaults/defaults_shapeoko3.h	57;"	d
+DEFAULT_JUNCTION_DEVIATION	grbl/defaults/defaults_shapeoko3.h	54;"	d
+DEFAULT_REPORT_INCHES	grbl/defaults/defaults_shapeoko3.h	56;"	d
+DEFAULT_SOFT_LIMIT_ENABLE	grbl/defaults/defaults_shapeoko3.h	59;"	d
+DEFAULT_STATUS_REPORT_MASK	grbl/defaults/defaults_shapeoko3.h	53;"	d
+DEFAULT_STEPPER_IDLE_LOCK_TIME	grbl/defaults/defaults_shapeoko3.h	52;"	d
+DEFAULT_STEPPING_INVERT_MASK	grbl/defaults/defaults_shapeoko3.h	50;"	d
+DEFAULT_STEP_PULSE_MICROSECONDS	grbl/defaults/defaults_shapeoko3.h	49;"	d
+DEFAULT_X_ACCELERATION	grbl/defaults/defaults_shapeoko3.h	43;"	d
+DEFAULT_X_MAX_RATE	grbl/defaults/defaults_shapeoko3.h	40;"	d
+DEFAULT_X_MAX_TRAVEL	grbl/defaults/defaults_shapeoko3.h	46;"	d
+DEFAULT_X_STEPS_PER_MM	grbl/defaults/defaults_shapeoko3.h	37;"	d
+DEFAULT_Y_ACCELERATION	grbl/defaults/defaults_shapeoko3.h	44;"	d
+DEFAULT_Y_MAX_RATE	grbl/defaults/defaults_shapeoko3.h	41;"	d
+DEFAULT_Y_MAX_TRAVEL	grbl/defaults/defaults_shapeoko3.h	47;"	d
+DEFAULT_Y_STEPS_PER_MM	grbl/defaults/defaults_shapeoko3.h	38;"	d
+DEFAULT_Z_ACCELERATION	grbl/defaults/defaults_shapeoko3.h	45;"	d
+DEFAULT_Z_MAX_RATE	grbl/defaults/defaults_shapeoko3.h	42;"	d
+DEFAULT_Z_MAX_TRAVEL	grbl/defaults/defaults_shapeoko3.h	48;"	d
+DEFAULT_Z_STEPS_PER_MM	grbl/defaults/defaults_shapeoko3.h	39;"	d
+MICROSTEPS_XY	grbl/defaults/defaults_shapeoko3.h	31;"	d
+MICROSTEPS_Z	grbl/defaults/defaults_shapeoko3.h	34;"	d
+MM_PER_REV_XY	grbl/defaults/defaults_shapeoko3.h	33;"	d
+MM_PER_REV_Z	grbl/defaults/defaults_shapeoko3.h	36;"	d
+STEP_REVS_XY	grbl/defaults/defaults_shapeoko3.h	32;"	d
+STEP_REVS_Z	grbl/defaults/defaults_shapeoko3.h	35;"	d
+defaults_h	grbl/defaults/defaults_shapeoko3.h	28;"	d
+DEFAULT_ARC_TOLERANCE	grbl/defaults/defaults_sherline.h	53;"	d
+DEFAULT_DIRECTION_INVERT_MASK	grbl/defaults/defaults_sherline.h	49;"	d
+DEFAULT_HARD_LIMIT_ENABLE	grbl/defaults/defaults_sherline.h	58;"	d
+DEFAULT_HOMING_DEBOUNCE_DELAY	grbl/defaults/defaults_sherline.h	63;"	d
+DEFAULT_HOMING_DIR_MASK	grbl/defaults/defaults_sherline.h	60;"	d
+DEFAULT_HOMING_ENABLE	grbl/defaults/defaults_sherline.h	59;"	d
+DEFAULT_HOMING_FEED_RATE	grbl/defaults/defaults_sherline.h	61;"	d
+DEFAULT_HOMING_PULLOFF	grbl/defaults/defaults_sherline.h	64;"	d
+DEFAULT_HOMING_SEEK_RATE	grbl/defaults/defaults_sherline.h	62;"	d
+DEFAULT_INVERT_LIMIT_PINS	grbl/defaults/defaults_sherline.h	56;"	d
+DEFAULT_INVERT_ST_ENABLE	grbl/defaults/defaults_sherline.h	55;"	d
+DEFAULT_JUNCTION_DEVIATION	grbl/defaults/defaults_sherline.h	52;"	d
+DEFAULT_REPORT_INCHES	grbl/defaults/defaults_sherline.h	54;"	d
+DEFAULT_SOFT_LIMIT_ENABLE	grbl/defaults/defaults_sherline.h	57;"	d
+DEFAULT_STATUS_REPORT_MASK	grbl/defaults/defaults_sherline.h	51;"	d
+DEFAULT_STEPPER_IDLE_LOCK_TIME	grbl/defaults/defaults_sherline.h	50;"	d
+DEFAULT_STEPPING_INVERT_MASK	grbl/defaults/defaults_sherline.h	48;"	d
+DEFAULT_STEP_PULSE_MICROSECONDS	grbl/defaults/defaults_sherline.h	47;"	d
+DEFAULT_X_ACCELERATION	grbl/defaults/defaults_sherline.h	41;"	d
+DEFAULT_X_MAX_RATE	grbl/defaults/defaults_sherline.h	38;"	d
+DEFAULT_X_MAX_TRAVEL	grbl/defaults/defaults_sherline.h	44;"	d
+DEFAULT_X_STEPS_PER_MM	grbl/defaults/defaults_sherline.h	35;"	d
+DEFAULT_Y_ACCELERATION	grbl/defaults/defaults_sherline.h	42;"	d
+DEFAULT_Y_MAX_RATE	grbl/defaults/defaults_sherline.h	39;"	d
+DEFAULT_Y_MAX_TRAVEL	grbl/defaults/defaults_sherline.h	45;"	d
+DEFAULT_Y_STEPS_PER_MM	grbl/defaults/defaults_sherline.h	36;"	d
+DEFAULT_Z_ACCELERATION	grbl/defaults/defaults_sherline.h	43;"	d
+DEFAULT_Z_MAX_RATE	grbl/defaults/defaults_sherline.h	40;"	d
+DEFAULT_Z_MAX_TRAVEL	grbl/defaults/defaults_sherline.h	46;"	d
+DEFAULT_Z_STEPS_PER_MM	grbl/defaults/defaults_sherline.h	37;"	d
+MICROSTEPS	grbl/defaults/defaults_sherline.h	32;"	d
+MM_PER_REV	grbl/defaults/defaults_sherline.h	34;"	d
+STEPS_PER_REV	grbl/defaults/defaults_sherline.h	33;"	d
+defaults_h	grbl/defaults/defaults_sherline.h	28;"	d
+DEFAULT_ARC_TOLERANCE	grbl/defaults/defaults_simulator.h	50;"	d
+DEFAULT_DIRECTION_INVERT_MASK	grbl/defaults/defaults_simulator.h	46;"	d
+DEFAULT_HARD_LIMIT_ENABLE	grbl/defaults/defaults_simulator.h	55;"	d
+DEFAULT_HOMING_DEBOUNCE_DELAY	grbl/defaults/defaults_simulator.h	60;"	d
+DEFAULT_HOMING_DIR_MASK	grbl/defaults/defaults_simulator.h	57;"	d
+DEFAULT_HOMING_ENABLE	grbl/defaults/defaults_simulator.h	56;"	d
+DEFAULT_HOMING_FEED_RATE	grbl/defaults/defaults_simulator.h	58;"	d
+DEFAULT_HOMING_PULLOFF	grbl/defaults/defaults_simulator.h	61;"	d
+DEFAULT_HOMING_SEEK_RATE	grbl/defaults/defaults_simulator.h	59;"	d
+DEFAULT_INVERT_LIMIT_PINS	grbl/defaults/defaults_simulator.h	53;"	d
+DEFAULT_INVERT_ST_ENABLE	grbl/defaults/defaults_simulator.h	52;"	d
+DEFAULT_JUNCTION_DEVIATION	grbl/defaults/defaults_simulator.h	49;"	d
+DEFAULT_REPORT_INCHES	grbl/defaults/defaults_simulator.h	51;"	d
+DEFAULT_SOFT_LIMIT_ENABLE	grbl/defaults/defaults_simulator.h	54;"	d
+DEFAULT_STATUS_REPORT_MASK	grbl/defaults/defaults_simulator.h	48;"	d
+DEFAULT_STEPPER_IDLE_LOCK_TIME	grbl/defaults/defaults_simulator.h	47;"	d
+DEFAULT_STEPPING_INVERT_MASK	grbl/defaults/defaults_simulator.h	45;"	d
+DEFAULT_STEP_PULSE_MICROSECONDS	grbl/defaults/defaults_simulator.h	44;"	d
+DEFAULT_X_ACCELERATION	grbl/defaults/defaults_simulator.h	38;"	d
+DEFAULT_X_MAX_RATE	grbl/defaults/defaults_simulator.h	35;"	d
+DEFAULT_X_MAX_TRAVEL	grbl/defaults/defaults_simulator.h	41;"	d
+DEFAULT_X_STEPS_PER_MM	grbl/defaults/defaults_simulator.h	32;"	d
+DEFAULT_Y_ACCELERATION	grbl/defaults/defaults_simulator.h	39;"	d
+DEFAULT_Y_MAX_RATE	grbl/defaults/defaults_simulator.h	36;"	d
+DEFAULT_Y_MAX_TRAVEL	grbl/defaults/defaults_simulator.h	42;"	d
+DEFAULT_Y_STEPS_PER_MM	grbl/defaults/defaults_simulator.h	33;"	d
+DEFAULT_Z_ACCELERATION	grbl/defaults/defaults_simulator.h	40;"	d
+DEFAULT_Z_MAX_RATE	grbl/defaults/defaults_simulator.h	37;"	d
+DEFAULT_Z_MAX_TRAVEL	grbl/defaults/defaults_simulator.h	43;"	d
+DEFAULT_Z_STEPS_PER_MM	grbl/defaults/defaults_simulator.h	34;"	d
+defaults_h	grbl/defaults/defaults_simulator.h	28;"	d
+DEFAULT_ARC_TOLERANCE	grbl/defaults/defaults_x_carve_1000mm.h	56;"	d
+DEFAULT_DIRECTION_INVERT_MASK	grbl/defaults/defaults_x_carve_1000mm.h	52;"	d
+DEFAULT_HARD_LIMIT_ENABLE	grbl/defaults/defaults_x_carve_1000mm.h	61;"	d
+DEFAULT_HOMING_DEBOUNCE_DELAY	grbl/defaults/defaults_x_carve_1000mm.h	66;"	d
+DEFAULT_HOMING_DIR_MASK	grbl/defaults/defaults_x_carve_1000mm.h	63;"	d
+DEFAULT_HOMING_ENABLE	grbl/defaults/defaults_x_carve_1000mm.h	62;"	d
+DEFAULT_HOMING_FEED_RATE	grbl/defaults/defaults_x_carve_1000mm.h	64;"	d
+DEFAULT_HOMING_PULLOFF	grbl/defaults/defaults_x_carve_1000mm.h	67;"	d
+DEFAULT_HOMING_SEEK_RATE	grbl/defaults/defaults_x_carve_1000mm.h	65;"	d
+DEFAULT_INVERT_LIMIT_PINS	grbl/defaults/defaults_x_carve_1000mm.h	59;"	d
+DEFAULT_INVERT_ST_ENABLE	grbl/defaults/defaults_x_carve_1000mm.h	58;"	d
+DEFAULT_JUNCTION_DEVIATION	grbl/defaults/defaults_x_carve_1000mm.h	55;"	d
+DEFAULT_REPORT_INCHES	grbl/defaults/defaults_x_carve_1000mm.h	57;"	d
+DEFAULT_SOFT_LIMIT_ENABLE	grbl/defaults/defaults_x_carve_1000mm.h	60;"	d
+DEFAULT_STATUS_REPORT_MASK	grbl/defaults/defaults_x_carve_1000mm.h	54;"	d
+DEFAULT_STEPPER_IDLE_LOCK_TIME	grbl/defaults/defaults_x_carve_1000mm.h	53;"	d
+DEFAULT_STEPPING_INVERT_MASK	grbl/defaults/defaults_x_carve_1000mm.h	51;"	d
+DEFAULT_STEP_PULSE_MICROSECONDS	grbl/defaults/defaults_x_carve_1000mm.h	50;"	d
+DEFAULT_X_ACCELERATION	grbl/defaults/defaults_x_carve_1000mm.h	44;"	d
+DEFAULT_X_MAX_RATE	grbl/defaults/defaults_x_carve_1000mm.h	41;"	d
+DEFAULT_X_MAX_TRAVEL	grbl/defaults/defaults_x_carve_1000mm.h	47;"	d
+DEFAULT_X_STEPS_PER_MM	grbl/defaults/defaults_x_carve_1000mm.h	38;"	d
+DEFAULT_Y_ACCELERATION	grbl/defaults/defaults_x_carve_1000mm.h	45;"	d
+DEFAULT_Y_MAX_RATE	grbl/defaults/defaults_x_carve_1000mm.h	42;"	d
+DEFAULT_Y_MAX_TRAVEL	grbl/defaults/defaults_x_carve_1000mm.h	48;"	d
+DEFAULT_Y_STEPS_PER_MM	grbl/defaults/defaults_x_carve_1000mm.h	39;"	d
+DEFAULT_Z_ACCELERATION	grbl/defaults/defaults_x_carve_1000mm.h	46;"	d
+DEFAULT_Z_MAX_RATE	grbl/defaults/defaults_x_carve_1000mm.h	43;"	d
+DEFAULT_Z_MAX_TRAVEL	grbl/defaults/defaults_x_carve_1000mm.h	49;"	d
+DEFAULT_Z_STEPS_PER_MM	grbl/defaults/defaults_x_carve_1000mm.h	40;"	d
+MICROSTEPS_XY	grbl/defaults/defaults_x_carve_1000mm.h	32;"	d
+MICROSTEPS_Z	grbl/defaults/defaults_x_carve_1000mm.h	35;"	d
+MM_PER_REV_XY	grbl/defaults/defaults_x_carve_1000mm.h	34;"	d
+MM_PER_REV_Z	grbl/defaults/defaults_x_carve_1000mm.h	37;"	d
+STEP_REVS_XY	grbl/defaults/defaults_x_carve_1000mm.h	33;"	d
+STEP_REVS_Z	grbl/defaults/defaults_x_carve_1000mm.h	36;"	d
+defaults_h	grbl/defaults/defaults_x_carve_1000mm.h	28;"	d
+DEFAULT_ARC_TOLERANCE	grbl/defaults/defaults_x_carve_500mm.h	56;"	d
+DEFAULT_DIRECTION_INVERT_MASK	grbl/defaults/defaults_x_carve_500mm.h	52;"	d
+DEFAULT_HARD_LIMIT_ENABLE	grbl/defaults/defaults_x_carve_500mm.h	61;"	d
+DEFAULT_HOMING_DEBOUNCE_DELAY	grbl/defaults/defaults_x_carve_500mm.h	66;"	d
+DEFAULT_HOMING_DIR_MASK	grbl/defaults/defaults_x_carve_500mm.h	63;"	d
+DEFAULT_HOMING_ENABLE	grbl/defaults/defaults_x_carve_500mm.h	62;"	d
+DEFAULT_HOMING_FEED_RATE	grbl/defaults/defaults_x_carve_500mm.h	64;"	d
+DEFAULT_HOMING_PULLOFF	grbl/defaults/defaults_x_carve_500mm.h	67;"	d
+DEFAULT_HOMING_SEEK_RATE	grbl/defaults/defaults_x_carve_500mm.h	65;"	d
+DEFAULT_INVERT_LIMIT_PINS	grbl/defaults/defaults_x_carve_500mm.h	59;"	d
+DEFAULT_INVERT_ST_ENABLE	grbl/defaults/defaults_x_carve_500mm.h	58;"	d
+DEFAULT_JUNCTION_DEVIATION	grbl/defaults/defaults_x_carve_500mm.h	55;"	d
+DEFAULT_REPORT_INCHES	grbl/defaults/defaults_x_carve_500mm.h	57;"	d
+DEFAULT_SOFT_LIMIT_ENABLE	grbl/defaults/defaults_x_carve_500mm.h	60;"	d
+DEFAULT_STATUS_REPORT_MASK	grbl/defaults/defaults_x_carve_500mm.h	54;"	d
+DEFAULT_STEPPER_IDLE_LOCK_TIME	grbl/defaults/defaults_x_carve_500mm.h	53;"	d
+DEFAULT_STEPPING_INVERT_MASK	grbl/defaults/defaults_x_carve_500mm.h	51;"	d
+DEFAULT_STEP_PULSE_MICROSECONDS	grbl/defaults/defaults_x_carve_500mm.h	50;"	d
+DEFAULT_X_ACCELERATION	grbl/defaults/defaults_x_carve_500mm.h	44;"	d
+DEFAULT_X_MAX_RATE	grbl/defaults/defaults_x_carve_500mm.h	41;"	d
+DEFAULT_X_MAX_TRAVEL	grbl/defaults/defaults_x_carve_500mm.h	47;"	d
+DEFAULT_X_STEPS_PER_MM	grbl/defaults/defaults_x_carve_500mm.h	38;"	d
+DEFAULT_Y_ACCELERATION	grbl/defaults/defaults_x_carve_500mm.h	45;"	d
+DEFAULT_Y_MAX_RATE	grbl/defaults/defaults_x_carve_500mm.h	42;"	d
+DEFAULT_Y_MAX_TRAVEL	grbl/defaults/defaults_x_carve_500mm.h	48;"	d
+DEFAULT_Y_STEPS_PER_MM	grbl/defaults/defaults_x_carve_500mm.h	39;"	d
+DEFAULT_Z_ACCELERATION	grbl/defaults/defaults_x_carve_500mm.h	46;"	d
+DEFAULT_Z_MAX_RATE	grbl/defaults/defaults_x_carve_500mm.h	43;"	d
+DEFAULT_Z_MAX_TRAVEL	grbl/defaults/defaults_x_carve_500mm.h	49;"	d
+DEFAULT_Z_STEPS_PER_MM	grbl/defaults/defaults_x_carve_500mm.h	40;"	d
+MICROSTEPS_XY	grbl/defaults/defaults_x_carve_500mm.h	32;"	d
+MICROSTEPS_Z	grbl/defaults/defaults_x_carve_500mm.h	35;"	d
+MM_PER_REV_XY	grbl/defaults/defaults_x_carve_500mm.h	34;"	d
+MM_PER_REV_Z	grbl/defaults/defaults_x_carve_500mm.h	37;"	d
+STEP_REVS_XY	grbl/defaults/defaults_x_carve_500mm.h	33;"	d
+STEP_REVS_Z	grbl/defaults/defaults_x_carve_500mm.h	36;"	d
+defaults_h	grbl/defaults/defaults_x_carve_500mm.h	28;"	d
+DEFAULT_ARC_TOLERANCE	grbl/defaults/defaults_zen_toolworks_7x7.h	54;"	d
+DEFAULT_DIRECTION_INVERT_MASK	grbl/defaults/defaults_zen_toolworks_7x7.h	50;"	d
+DEFAULT_HARD_LIMIT_ENABLE	grbl/defaults/defaults_zen_toolworks_7x7.h	59;"	d
+DEFAULT_HOMING_DEBOUNCE_DELAY	grbl/defaults/defaults_zen_toolworks_7x7.h	64;"	d
+DEFAULT_HOMING_DIR_MASK	grbl/defaults/defaults_zen_toolworks_7x7.h	61;"	d
+DEFAULT_HOMING_ENABLE	grbl/defaults/defaults_zen_toolworks_7x7.h	60;"	d
+DEFAULT_HOMING_FEED_RATE	grbl/defaults/defaults_zen_toolworks_7x7.h	62;"	d
+DEFAULT_HOMING_PULLOFF	grbl/defaults/defaults_zen_toolworks_7x7.h	65;"	d
+DEFAULT_HOMING_SEEK_RATE	grbl/defaults/defaults_zen_toolworks_7x7.h	63;"	d
+DEFAULT_INVERT_LIMIT_PINS	grbl/defaults/defaults_zen_toolworks_7x7.h	57;"	d
+DEFAULT_INVERT_ST_ENABLE	grbl/defaults/defaults_zen_toolworks_7x7.h	56;"	d
+DEFAULT_JUNCTION_DEVIATION	grbl/defaults/defaults_zen_toolworks_7x7.h	53;"	d
+DEFAULT_REPORT_INCHES	grbl/defaults/defaults_zen_toolworks_7x7.h	55;"	d
+DEFAULT_SOFT_LIMIT_ENABLE	grbl/defaults/defaults_zen_toolworks_7x7.h	58;"	d
+DEFAULT_STATUS_REPORT_MASK	grbl/defaults/defaults_zen_toolworks_7x7.h	52;"	d
+DEFAULT_STEPPER_IDLE_LOCK_TIME	grbl/defaults/defaults_zen_toolworks_7x7.h	51;"	d
+DEFAULT_STEPPING_INVERT_MASK	grbl/defaults/defaults_zen_toolworks_7x7.h	49;"	d
+DEFAULT_STEP_PULSE_MICROSECONDS	grbl/defaults/defaults_zen_toolworks_7x7.h	48;"	d
+DEFAULT_X_ACCELERATION	grbl/defaults/defaults_zen_toolworks_7x7.h	42;"	d
+DEFAULT_X_MAX_RATE	grbl/defaults/defaults_zen_toolworks_7x7.h	39;"	d
+DEFAULT_X_MAX_TRAVEL	grbl/defaults/defaults_zen_toolworks_7x7.h	45;"	d
+DEFAULT_X_STEPS_PER_MM	grbl/defaults/defaults_zen_toolworks_7x7.h	36;"	d
+DEFAULT_Y_ACCELERATION	grbl/defaults/defaults_zen_toolworks_7x7.h	43;"	d
+DEFAULT_Y_MAX_RATE	grbl/defaults/defaults_zen_toolworks_7x7.h	40;"	d
+DEFAULT_Y_MAX_TRAVEL	grbl/defaults/defaults_zen_toolworks_7x7.h	46;"	d
+DEFAULT_Y_STEPS_PER_MM	grbl/defaults/defaults_zen_toolworks_7x7.h	37;"	d
+DEFAULT_Z_ACCELERATION	grbl/defaults/defaults_zen_toolworks_7x7.h	44;"	d
+DEFAULT_Z_MAX_RATE	grbl/defaults/defaults_zen_toolworks_7x7.h	41;"	d
+DEFAULT_Z_MAX_TRAVEL	grbl/defaults/defaults_zen_toolworks_7x7.h	47;"	d
+DEFAULT_Z_STEPS_PER_MM	grbl/defaults/defaults_zen_toolworks_7x7.h	38;"	d
+MICROSTEPS	grbl/defaults/defaults_zen_toolworks_7x7.h	33;"	d
+MM_PER_REV	grbl/defaults/defaults_zen_toolworks_7x7.h	35;"	d
+STEPS_PER_REV	grbl/defaults/defaults_zen_toolworks_7x7.h	34;"	d
+defaults_h	grbl/defaults/defaults_zen_toolworks_7x7.h	28;"	d
+EEMPE	grbl/eeprom.c	30;"	d	file:
+EEPE	grbl/eeprom.c	29;"	d	file:
+EEPM0	grbl/eeprom.c	35;"	d	file:
+EEPM1	grbl/eeprom.c	34;"	d	file:
+EEPROM_IGNORE_SELFPROG	grbl/eeprom.c	38;"	d	file:
+eeprom_get_char	grbl/eeprom.c	/^unsigned char eeprom_get_char( unsigned int addr )$/;"	f
+eeprom_put_char	grbl/eeprom.c	/^void eeprom_put_char( unsigned int addr, unsigned char new_value )$/;"	f
+memcpy_from_eeprom_with_checksum	grbl/eeprom.c	/^int memcpy_from_eeprom_with_checksum(char *destination, unsigned int source, unsigned int size) {$/;"	f
+memcpy_to_eeprom_with_checksum	grbl/eeprom.c	/^void memcpy_to_eeprom_with_checksum(unsigned int destination, char *source, unsigned int size) {$/;"	f
+eeprom_h	grbl/eeprom.h	22;"	d
+AXIS_COMMAND_MOTION_MODE	grbl/gcode.c	31;"	d	file:
+AXIS_COMMAND_NONE	grbl/gcode.c	29;"	d	file:
+AXIS_COMMAND_NON_MODAL	grbl/gcode.c	30;"	d	file:
+AXIS_COMMAND_TOOL_LENGTH_OFFSET	grbl/gcode.c	32;"	d	file:
+FAIL	grbl/gcode.c	38;"	d	file:
+MAX_LINE_NUMBER	grbl/gcode.c	27;"	d	file:
+gc_block	grbl/gcode.c	/^parser_block_t gc_block;$/;"	v
+gc_check_same_position	grbl/gcode.c	/^static uint8_t gc_check_same_position(float *pos_a, float *pos_b) $/;"	f	file:
+gc_execute_line	grbl/gcode.c	/^uint8_t gc_execute_line(char *line) $/;"	f
+gc_init	grbl/gcode.c	/^void gc_init() $/;"	f
+gc_state	grbl/gcode.c	/^parser_state_t gc_state;$/;"	v
+gc_sync_position	grbl/gcode.c	/^void gc_sync_position() $/;"	f
+CONTROL_MODE_EXACT_PATH	grbl/gcode.h	107;"	d
+COOLANT_DISABLE	grbl/gcode.h	115;"	d
+COOLANT_FLOOD_ENABLE	grbl/gcode.h	117;"	d
+COOLANT_MIST_ENABLE	grbl/gcode.h	116;"	d
+CUTTER_COMP_DISABLE	grbl/gcode.h	104;"	d
+DISTANCE_ARC_MODE_INCREMENTAL	grbl/gcode.h	88;"	d
+DISTANCE_MODE_ABSOLUTE	grbl/gcode.h	84;"	d
+DISTANCE_MODE_INCREMENTAL	grbl/gcode.h	85;"	d
+FEED_RATE_MODE_INVERSE_TIME	grbl/gcode.h	97;"	d
+FEED_RATE_MODE_UNITS_PER_MIN	grbl/gcode.h	96;"	d
+MODAL_GROUP_G0	grbl/gcode.h	32;"	d
+MODAL_GROUP_G1	grbl/gcode.h	33;"	d
+MODAL_GROUP_G12	grbl/gcode.h	41;"	d
+MODAL_GROUP_G13	grbl/gcode.h	42;"	d
+MODAL_GROUP_G2	grbl/gcode.h	34;"	d
+MODAL_GROUP_G3	grbl/gcode.h	35;"	d
+MODAL_GROUP_G4	grbl/gcode.h	36;"	d
+MODAL_GROUP_G5	grbl/gcode.h	37;"	d
+MODAL_GROUP_G6	grbl/gcode.h	38;"	d
+MODAL_GROUP_G7	grbl/gcode.h	39;"	d
+MODAL_GROUP_G8	grbl/gcode.h	40;"	d
+MODAL_GROUP_M4	grbl/gcode.h	44;"	d
+MODAL_GROUP_M7	grbl/gcode.h	45;"	d
+MODAL_GROUP_M8	grbl/gcode.h	46;"	d
+MOTION_MODE_CCW_ARC	grbl/gcode.h	71;"	d
+MOTION_MODE_CW_ARC	grbl/gcode.h	70;"	d
+MOTION_MODE_LINEAR	grbl/gcode.h	69;"	d
+MOTION_MODE_NONE	grbl/gcode.h	76;"	d
+MOTION_MODE_PROBE_AWAY	grbl/gcode.h	74;"	d
+MOTION_MODE_PROBE_AWAY_NO_ERROR	grbl/gcode.h	75;"	d
+MOTION_MODE_PROBE_TOWARD	grbl/gcode.h	72;"	d
+MOTION_MODE_PROBE_TOWARD_NO_ERROR	grbl/gcode.h	73;"	d
+MOTION_MODE_SEEK	grbl/gcode.h	68;"	d
+NON_MODAL_ABSOLUTE_OVERRIDE	grbl/gcode.h	63;"	d
+NON_MODAL_DWELL	grbl/gcode.h	57;"	d
+NON_MODAL_GO_HOME_0	grbl/gcode.h	59;"	d
+NON_MODAL_GO_HOME_1	grbl/gcode.h	61;"	d
+NON_MODAL_NO_ACTION	grbl/gcode.h	56;"	d
+NON_MODAL_RESET_COORDINATE_OFFSET	grbl/gcode.h	65;"	d
+NON_MODAL_SET_COORDINATE_DATA	grbl/gcode.h	58;"	d
+NON_MODAL_SET_COORDINATE_OFFSET	grbl/gcode.h	64;"	d
+NON_MODAL_SET_HOME_0	grbl/gcode.h	60;"	d
+NON_MODAL_SET_HOME_1	grbl/gcode.h	62;"	d
+PLANE_SELECT_XY	grbl/gcode.h	79;"	d
+PLANE_SELECT_YZ	grbl/gcode.h	81;"	d
+PLANE_SELECT_ZX	grbl/gcode.h	80;"	d
+PROGRAM_FLOW_COMPLETED	grbl/gcode.h	93;"	d
+PROGRAM_FLOW_PAUSED	grbl/gcode.h	92;"	d
+PROGRAM_FLOW_RUNNING	grbl/gcode.h	91;"	d
+SPINDLE_DISABLE	grbl/gcode.h	110;"	d
+SPINDLE_ENABLE_CCW	grbl/gcode.h	112;"	d
+SPINDLE_ENABLE_CW	grbl/gcode.h	111;"	d
+TOOL_LENGTH_OFFSET_CANCEL	grbl/gcode.h	120;"	d
+TOOL_LENGTH_OFFSET_ENABLE_DYNAMIC	grbl/gcode.h	121;"	d
+UNITS_MODE_INCHES	grbl/gcode.h	101;"	d
+UNITS_MODE_MM	grbl/gcode.h	100;"	d
+WORD_F	grbl/gcode.h	128;"	d
+WORD_I	grbl/gcode.h	129;"	d
+WORD_J	grbl/gcode.h	130;"	d
+WORD_K	grbl/gcode.h	131;"	d
+WORD_L	grbl/gcode.h	132;"	d
+WORD_N	grbl/gcode.h	133;"	d
+WORD_P	grbl/gcode.h	134;"	d
+WORD_R	grbl/gcode.h	135;"	d
+WORD_S	grbl/gcode.h	136;"	d
+WORD_T	grbl/gcode.h	137;"	d
+WORD_X	grbl/gcode.h	138;"	d
+WORD_Y	grbl/gcode.h	139;"	d
+WORD_Z	grbl/gcode.h	140;"	d
+coolant	grbl/gcode.h	/^  uint8_t coolant;         \/\/ {M7,M8,M9}$/;"	m	struct:__anon1
+coord_offset	grbl/gcode.h	/^  float coord_offset[N_AXIS];   \/\/ Retains the G92 coordinate offset (work coordinates) relative to$/;"	m	struct:__anon3
+coord_select	grbl/gcode.h	/^  uint8_t coord_select;    \/\/ {G54,G55,G56,G57,G58,G59}$/;"	m	struct:__anon1
+coord_system	grbl/gcode.h	/^  float coord_system[N_AXIS];   \/\/ Current work coordinate system (G54+). Stores offset from absolute machine$/;"	m	struct:__anon3
+distance	grbl/gcode.h	/^  uint8_t distance;        \/\/ {G90,G91}$/;"	m	struct:__anon1
+f	grbl/gcode.h	/^  float f;         \/\/ Feed$/;"	m	struct:__anon2
+feed_rate	grbl/gcode.h	/^  float feed_rate;              \/\/ Millimeters\/min$/;"	m	struct:__anon3
+feed_rate	grbl/gcode.h	/^  uint8_t feed_rate;       \/\/ {G93,G94}$/;"	m	struct:__anon1
+gc_modal_t	grbl/gcode.h	/^} gc_modal_t;  $/;"	t	typeref:struct:__anon1
+gc_values_t	grbl/gcode.h	/^} gc_values_t;$/;"	t	typeref:struct:__anon2
+gcode_h	grbl/gcode.h	23;"	d
+ijk	grbl/gcode.h	/^  float ijk[3];    \/\/ I,J,K Axis arc offsets$/;"	m	struct:__anon2
+l	grbl/gcode.h	/^  uint8_t l;       \/\/ G10 or canned cycles parameters$/;"	m	struct:__anon2
+line_number	grbl/gcode.h	/^  int32_t line_number;          \/\/ Last line number sent$/;"	m	struct:__anon3
+modal	grbl/gcode.h	/^  gc_modal_t modal;$/;"	m	struct:__anon3
+modal	grbl/gcode.h	/^  gc_modal_t modal;$/;"	m	struct:__anon4
+motion	grbl/gcode.h	/^  uint8_t motion;          \/\/ {G0,G1,G2,G3,G38.2,G80}$/;"	m	struct:__anon1
+n	grbl/gcode.h	/^  int32_t n;       \/\/ Line number$/;"	m	struct:__anon2
+non_modal_command	grbl/gcode.h	/^  uint8_t non_modal_command;$/;"	m	struct:__anon4
+p	grbl/gcode.h	/^  float p;         \/\/ G10 or dwell parameters$/;"	m	struct:__anon2
+parser_block_t	grbl/gcode.h	/^} parser_block_t;$/;"	t	typeref:struct:__anon4
+parser_state_t	grbl/gcode.h	/^} parser_state_t;$/;"	t	typeref:struct:__anon3
+plane_select	grbl/gcode.h	/^  uint8_t plane_select;    \/\/ {G17,G18,G19}$/;"	m	struct:__anon1
+position	grbl/gcode.h	/^  float position[N_AXIS];       \/\/ Where the interpreter considers the tool to be at this point in the code$/;"	m	struct:__anon3
+program_flow	grbl/gcode.h	/^  uint8_t program_flow;    \/\/ {M0,M1,M2,M30}$/;"	m	struct:__anon1
+r	grbl/gcode.h	/^  float r;         \/\/ Arc radius$/;"	m	struct:__anon2
+s	grbl/gcode.h	/^  float s;         \/\/ Spindle speed$/;"	m	struct:__anon2
+spindle	grbl/gcode.h	/^  uint8_t spindle;         \/\/ {M3,M4,M5}$/;"	m	struct:__anon1
+spindle_speed	grbl/gcode.h	/^  float spindle_speed;          \/\/ RPM$/;"	m	struct:__anon3
+t	grbl/gcode.h	/^  uint8_t t;       \/\/ Tool selection$/;"	m	struct:__anon2
+tool	grbl/gcode.h	/^  uint8_t tool;                 \/\/ Tracks tool number. NOT USED.$/;"	m	struct:__anon3
+tool_length	grbl/gcode.h	/^  uint8_t tool_length;     \/\/ {G43.1,G49}$/;"	m	struct:__anon1
+tool_length_offset	grbl/gcode.h	/^  float tool_length_offset;     \/\/ Tracks tool length offset value when enabled.$/;"	m	struct:__anon3
+units	grbl/gcode.h	/^  uint8_t units;           \/\/ {G20,G21}$/;"	m	struct:__anon1
+values	grbl/gcode.h	/^  gc_values_t values;$/;"	m	struct:__anon4
+xyz	grbl/gcode.h	/^  float xyz[3];    \/\/ X,Y,Z Translational axes$/;"	m	struct:__anon2
+GRBL_VERSION	grbl/grbl.h	25;"	d
+GRBL_VERSION_BUILD	grbl/grbl.h	26;"	d
+grbl_h	grbl/grbl.h	22;"	d
+HOMING_AXIS_LOCATE_SCALAR	grbl/limits.c	30;"	d	file:
+HOMING_AXIS_SEARCH_SCALAR	grbl/limits.c	27;"	d	file:
+ISR	grbl/limits.c	/^  ISR(LIMIT_INT_vect) \/\/ DEFAULT: Limit pin change interrupt process. $/;"	f
+ISR	grbl/limits.c	/^  ISR(LIMIT_INT_vect) { if (!(WDTCSR & (1<<WDIE))) { WDTCSR |= (1<<WDIE); } }$/;"	f
+ISR	grbl/limits.c	/^  ISR(WDT_vect) \/\/ Watchdog timer ISR$/;"	f
+limits_disable	grbl/limits.c	/^void limits_disable()$/;"	f
+limits_get_state	grbl/limits.c	/^uint8_t limits_get_state()$/;"	f
+limits_go_home	grbl/limits.c	/^void limits_go_home(uint8_t cycle_mask) $/;"	f
+limits_init	grbl/limits.c	/^void limits_init() $/;"	f
+limits_soft_check	grbl/limits.c	/^void limits_soft_check(float *target)$/;"	f
+limits_h	grbl/limits.h	23;"	d
+main	grbl/main.c	/^int main(void)$/;"	f
+sys	grbl/main.c	/^system_t sys; $/;"	v
+mc_arc	grbl/motion_control.c	/^  void mc_arc(float *position, float *target, float *offset, float radius, float feed_rate, $/;"	f
+mc_dwell	grbl/motion_control.c	/^void mc_dwell(float seconds) $/;"	f
+mc_homing_cycle	grbl/motion_control.c	/^void mc_homing_cycle()$/;"	f
+mc_line	grbl/motion_control.c	/^  void mc_line(float *target, float feed_rate, uint8_t invert_feed_rate, int32_t line_number)$/;"	f
+mc_probe_cycle	grbl/motion_control.c	/^  void mc_probe_cycle(float *target, float feed_rate, uint8_t invert_feed_rate, uint8_t is_probe_away, $/;"	f
+mc_reset	grbl/motion_control.c	/^void mc_reset()$/;"	f
+HOMING_CYCLE_LINE_NUMBER	grbl/motion_control.h	26;"	d
+motion_control_h	grbl/motion_control.h	23;"	d
+MAX_INT_DIGITS	grbl/nuts_bolts.c	25;"	d	file:
+delay_ms	grbl/nuts_bolts.c	/^void delay_ms(uint16_t ms) $/;"	f
+delay_us	grbl/nuts_bolts.c	/^void delay_us(uint32_t us) $/;"	f
+hypot_f	grbl/nuts_bolts.c	/^float hypot_f(float x, float y) { return(sqrt(x*x + y*y)); }$/;"	f
+read_float	grbl/nuts_bolts.c	/^uint8_t read_float(char *line, uint8_t *char_counter, float *float_ptr)                  $/;"	f
+A_MOTOR	grbl/nuts_bolts.h	38;"	d
+B_MOTOR	grbl/nuts_bolts.h	39;"	d
+INCH_PER_MM	grbl/nuts_bolts.h	44;"	d
+MM_PER_INCH	grbl/nuts_bolts.h	43;"	d
+N_AXIS	grbl/nuts_bolts.h	29;"	d
+TICKS_PER_MICROSECOND	grbl/nuts_bolts.h	45;"	d
+X_AXIS	grbl/nuts_bolts.h	30;"	d
+Y_AXIS	grbl/nuts_bolts.h	31;"	d
+Z_AXIS	grbl/nuts_bolts.h	32;"	d
+bit	grbl/nuts_bolts.h	55;"	d
+bit_false	grbl/nuts_bolts.h	60;"	d
+bit_false_atomic	grbl/nuts_bolts.h	57;"	d
+bit_isfalse	grbl/nuts_bolts.h	62;"	d
+bit_istrue	grbl/nuts_bolts.h	61;"	d
+bit_toggle_atomic	grbl/nuts_bolts.h	58;"	d
+bit_true	grbl/nuts_bolts.h	59;"	d
+bit_true_atomic	grbl/nuts_bolts.h	56;"	d
+clear_vector	grbl/nuts_bolts.h	48;"	d
+clear_vector_float	grbl/nuts_bolts.h	49;"	d
+false	grbl/nuts_bolts.h	25;"	d
+max	grbl/nuts_bolts.h	51;"	d
+min	grbl/nuts_bolts.h	52;"	d
+nuts_bolts_h	grbl/nuts_bolts.h	23;"	d
+true	grbl/nuts_bolts.h	26;"	d
+SOME_LARGE_VALUE	grbl/planner.c	25;"	d	file:
+block_buffer	grbl/planner.c	/^static plan_block_t block_buffer[BLOCK_BUFFER_SIZE];  \/\/ A ring buffer for motion instructions$/;"	v	file:
+block_buffer_head	grbl/planner.c	/^static uint8_t block_buffer_head;     \/\/ Index of the next block to be pushed$/;"	v	file:
+block_buffer_planned	grbl/planner.c	/^static uint8_t block_buffer_planned;  \/\/ Index of the optimally planned block$/;"	v	file:
+block_buffer_tail	grbl/planner.c	/^static uint8_t block_buffer_tail;     \/\/ Index of the block to process now$/;"	v	file:
+next_buffer_head	grbl/planner.c	/^static uint8_t next_buffer_head;      \/\/ Index of the next buffer head$/;"	v	file:
+pl	grbl/planner.c	/^static planner_t pl;$/;"	v	file:
+plan_buffer_line	grbl/planner.c	/^  void plan_buffer_line(float *target, float feed_rate, uint8_t invert_feed_rate, int32_t line_number) $/;"	f
+plan_check_full_buffer	grbl/planner.c	/^uint8_t plan_check_full_buffer()$/;"	f
+plan_cycle_reinitialize	grbl/planner.c	/^void plan_cycle_reinitialize()$/;"	f
+plan_discard_current_block	grbl/planner.c	/^void plan_discard_current_block() $/;"	f
+plan_get_block_buffer_count	grbl/planner.c	/^uint8_t plan_get_block_buffer_count()$/;"	f
+plan_get_current_block	grbl/planner.c	/^plan_block_t *plan_get_current_block() $/;"	f
+plan_get_exec_block_exit_speed	grbl/planner.c	/^float plan_get_exec_block_exit_speed()$/;"	f
+plan_next_block_index	grbl/planner.c	/^uint8_t plan_next_block_index(uint8_t block_index) $/;"	f
+plan_prev_block_index	grbl/planner.c	/^static uint8_t plan_prev_block_index(uint8_t block_index) $/;"	f	file:
+plan_reset	grbl/planner.c	/^void plan_reset() $/;"	f
+plan_sync_position	grbl/planner.c	/^void plan_sync_position()$/;"	f
+planner_recalculate	grbl/planner.c	/^static void planner_recalculate() $/;"	f	file:
+planner_t	grbl/planner.c	/^} planner_t;$/;"	t	typeref:struct:__anon5	file:
+position	grbl/planner.c	/^  int32_t position[N_AXIS];          \/\/ The planner position of the tool in absolute steps. Kept separate$/;"	m	struct:__anon5	file:
+previous_nominal_speed_sqr	grbl/planner.c	/^  float previous_nominal_speed_sqr;  \/\/ Nominal speed of previous path line segment$/;"	m	struct:__anon5	file:
+previous_unit_vec	grbl/planner.c	/^  float previous_unit_vec[N_AXIS];   \/\/ Unit vector of previous path line segment$/;"	m	struct:__anon5	file:
+BLOCK_BUFFER_SIZE	grbl/planner.h	29;"	d
+BLOCK_BUFFER_SIZE	grbl/planner.h	31;"	d
+acceleration	grbl/planner.h	/^  float acceleration;            \/\/ Axis-limit adjusted line acceleration in (mm\/min^2)$/;"	m	struct:__anon6
+direction_bits	grbl/planner.h	/^  uint8_t direction_bits;    \/\/ The direction bit set for this block (refers to *_DIRECTION_BIT in config.h)$/;"	m	struct:__anon6
+entry_speed_sqr	grbl/planner.h	/^  float entry_speed_sqr;         \/\/ The current planned entry speed at block junction in (mm\/min)^2$/;"	m	struct:__anon6
+line_number	grbl/planner.h	/^    int32_t line_number;$/;"	m	struct:__anon6
+max_entry_speed_sqr	grbl/planner.h	/^  float max_entry_speed_sqr;     \/\/ Maximum allowable entry speed based on the minimum of junction limit and $/;"	m	struct:__anon6
+max_junction_speed_sqr	grbl/planner.h	/^  float max_junction_speed_sqr;  \/\/ Junction entry speed limit based on direction vectors in (mm\/min)^2$/;"	m	struct:__anon6
+millimeters	grbl/planner.h	/^  float millimeters;             \/\/ The remaining distance for this block to be executed in (mm)$/;"	m	struct:__anon6
+nominal_speed_sqr	grbl/planner.h	/^  float nominal_speed_sqr;       \/\/ Axis-limit adjusted nominal speed for this block in (mm\/min)^2$/;"	m	struct:__anon6
+plan_block_t	grbl/planner.h	/^} plan_block_t;$/;"	t	typeref:struct:__anon6
+planner_h	grbl/planner.h	23;"	d
+step_event_count	grbl/planner.h	/^  uint32_t step_event_count; \/\/ The maximum step axis count and number of steps required to complete this block. $/;"	m	struct:__anon6
+steps	grbl/planner.h	/^  uint32_t steps[N_AXIS];    \/\/ Step count along each axis$/;"	m	struct:__anon6
+printFloat	grbl/print.c	/^void printFloat(float n, uint8_t decimal_places)$/;"	f
+printFloat_CoordValue	grbl/print.c	/^void printFloat_CoordValue(float n) { $/;"	f
+printFloat_RateValue	grbl/print.c	/^void printFloat_RateValue(float n) { $/;"	f
+printFloat_SettingValue	grbl/print.c	/^void printFloat_SettingValue(float n) { printFloat(n,N_DECIMAL_SETTINGVALUE); }$/;"	f
+printInteger	grbl/print.c	/^void printInteger(long n)$/;"	f
+printPgmString	grbl/print.c	/^void printPgmString(const char *s)$/;"	f
+printString	grbl/print.c	/^void printString(const char *s)$/;"	f
+print_uint32_base10	grbl/print.c	/^void print_uint32_base10(uint32_t n)$/;"	f
+print_uint8_base10	grbl/print.c	/^void print_uint8_base10(uint8_t n)$/;"	f
+print_uint8_base2	grbl/print.c	/^void print_uint8_base2(uint8_t n) {$/;"	f
+print_unsigned_int8	grbl/print.c	/^void print_unsigned_int8(uint8_t n, uint8_t base, uint8_t digits)$/;"	f
+print_h	grbl/print.h	23;"	d
+probe_configure_invert_mask	grbl/probe.c	/^void probe_configure_invert_mask(uint8_t is_probe_away)$/;"	f
+probe_get_state	grbl/probe.c	/^uint8_t probe_get_state() { return((PROBE_PIN & PROBE_MASK) ^ probe_invert_mask); }$/;"	f
+probe_init	grbl/probe.c	/^void probe_init() $/;"	f
+probe_invert_mask	grbl/probe.c	/^uint8_t probe_invert_mask;$/;"	v
+probe_state_monitor	grbl/probe.c	/^void probe_state_monitor()$/;"	f
+PROBE_ACTIVE	grbl/probe.h	26;"	d
+PROBE_OFF	grbl/probe.h	25;"	d
+probe_h	grbl/probe.h	22;"	d
+COMMENT_NONE	grbl/protocol.c	25;"	d	file:
+COMMENT_TYPE_PARENTHESES	grbl/protocol.c	26;"	d	file:
+COMMENT_TYPE_SEMICOLON	grbl/protocol.c	27;"	d	file:
+line	grbl/protocol.c	/^static char line[LINE_BUFFER_SIZE]; \/\/ Line to be executed. Zero-terminated.$/;"	v	file:
+protocol_auto_cycle_start	grbl/protocol.c	/^void protocol_auto_cycle_start() { bit_true_atomic(sys_rt_exec_state, EXEC_CYCLE_START); } $/;"	f
+protocol_buffer_synchronize	grbl/protocol.c	/^void protocol_buffer_synchronize()$/;"	f
+protocol_execute_line	grbl/protocol.c	/^static void protocol_execute_line(char *line) $/;"	f	file:
+protocol_execute_realtime	grbl/protocol.c	/^void protocol_execute_realtime()$/;"	f
+protocol_main_loop	grbl/protocol.c	/^void protocol_main_loop()$/;"	f
+LINE_BUFFER_SIZE	grbl/protocol.h	32;"	d
+protocol_h	grbl/protocol.h	23;"	d
+report_alarm_message	grbl/report.c	/^void report_alarm_message(int8_t alarm_code)$/;"	f
+report_build_info	grbl/report.c	/^void report_build_info(char *line)$/;"	f
+report_echo_line_received	grbl/report.c	/^void report_echo_line_received(char *line)$/;"	f
+report_feedback_message	grbl/report.c	/^void report_feedback_message(uint8_t message_code)$/;"	f
+report_gcode_modes	grbl/report.c	/^void report_gcode_modes()$/;"	f
+report_grbl_help	grbl/report.c	/^void report_grbl_help() {$/;"	f
+report_grbl_settings	grbl/report.c	/^void report_grbl_settings() {$/;"	f
+report_init_message	grbl/report.c	/^void report_init_message()$/;"	f
+report_ngc_parameters	grbl/report.c	/^void report_ngc_parameters()$/;"	f
+report_probe_parameters	grbl/report.c	/^void report_probe_parameters()$/;"	f
+report_realtime_status	grbl/report.c	/^void report_realtime_status()$/;"	f
+report_startup_line	grbl/report.c	/^void report_startup_line(uint8_t n, char *line)$/;"	f
+report_status_message	grbl/report.c	/^void report_status_message(uint8_t status_code) $/;"	f
+ALARM_ABORT_CYCLE	grbl/report.h	60;"	d
+ALARM_HARD_LIMIT_ERROR	grbl/report.h	58;"	d
+ALARM_HOMING_FAIL	grbl/report.h	62;"	d
+ALARM_PROBE_FAIL	grbl/report.h	61;"	d
+ALARM_SOFT_LIMIT_ERROR	grbl/report.h	59;"	d
+MESSAGE_ALARM_LOCK	grbl/report.h	66;"	d
+MESSAGE_ALARM_UNLOCK	grbl/report.h	67;"	d
+MESSAGE_CRITICAL_EVENT	grbl/report.h	65;"	d
+MESSAGE_DISABLED	grbl/report.h	69;"	d
+MESSAGE_ENABLED	grbl/report.h	68;"	d
+MESSAGE_PROGRAM_END	grbl/report.h	71;"	d
+MESSAGE_RESTORE_DEFAULTS	grbl/report.h	72;"	d
+MESSAGE_SAFETY_DOOR_AJAR	grbl/report.h	70;"	d
+STATUS_ALARM_LOCK	grbl/report.h	33;"	d
+STATUS_BAD_NUMBER_FORMAT	grbl/report.h	26;"	d
+STATUS_EXPECTED_COMMAND_LETTER	grbl/report.h	25;"	d
+STATUS_GCODE_ARC_RADIUS_ERROR	grbl/report.h	52;"	d
+STATUS_GCODE_AXIS_COMMAND_CONFLICT	grbl/report.h	42;"	d
+STATUS_GCODE_AXIS_WORDS_EXIST	grbl/report.h	49;"	d
+STATUS_GCODE_COMMAND_VALUE_NOT_INTEGER	grbl/report.h	41;"	d
+STATUS_GCODE_G43_DYNAMIC_AXIS_ERROR	grbl/report.h	55;"	d
+STATUS_GCODE_G53_INVALID_MOTION_MODE	grbl/report.h	48;"	d
+STATUS_GCODE_INVALID_LINE_NUMBER	grbl/report.h	45;"	d
+STATUS_GCODE_INVALID_TARGET	grbl/report.h	51;"	d
+STATUS_GCODE_MODAL_GROUP_VIOLATION	grbl/report.h	39;"	d
+STATUS_GCODE_NO_AXIS_WORDS	grbl/report.h	44;"	d
+STATUS_GCODE_NO_AXIS_WORDS_IN_PLANE	grbl/report.h	50;"	d
+STATUS_GCODE_NO_OFFSETS_IN_PLANE	grbl/report.h	53;"	d
+STATUS_GCODE_UNDEFINED_FEED_RATE	grbl/report.h	40;"	d
+STATUS_GCODE_UNSUPPORTED_COMMAND	grbl/report.h	38;"	d
+STATUS_GCODE_UNSUPPORTED_COORD_SYS	grbl/report.h	47;"	d
+STATUS_GCODE_UNUSED_WORDS	grbl/report.h	54;"	d
+STATUS_GCODE_VALUE_WORD_MISSING	grbl/report.h	46;"	d
+STATUS_GCODE_WORD_REPEATED	grbl/report.h	43;"	d
+STATUS_IDLE_ERROR	grbl/report.h	32;"	d
+STATUS_INVALID_STATEMENT	grbl/report.h	27;"	d
+STATUS_MAX_STEP_RATE_EXCEEDED	grbl/report.h	36;"	d
+STATUS_NEGATIVE_VALUE	grbl/report.h	28;"	d
+STATUS_OK	grbl/report.h	24;"	d
+STATUS_OVERFLOW	grbl/report.h	35;"	d
+STATUS_SETTING_DISABLED	grbl/report.h	29;"	d
+STATUS_SETTING_READ_FAIL	grbl/report.h	31;"	d
+STATUS_SETTING_STEP_PULSE_MIN	grbl/report.h	30;"	d
+STATUS_SOFT_LIMIT_ERROR	grbl/report.h	34;"	d
+report_h	grbl/report.h	21;"	d
+ISR	grbl/serial.c	/^ISR(SERIAL_RX)$/;"	f
+ISR	grbl/serial.c	/^ISR(SERIAL_UDRE)$/;"	f
+flow_ctrl	grbl/serial.c	/^  volatile uint8_t flow_ctrl = XON_SENT; \/\/ Flow control state variable$/;"	v
+serial_get_rx_buffer_count	grbl/serial.c	/^uint8_t serial_get_rx_buffer_count()$/;"	f
+serial_get_tx_buffer_count	grbl/serial.c	/^uint8_t serial_get_tx_buffer_count()$/;"	f
+serial_init	grbl/serial.c	/^void serial_init()$/;"	f
+serial_read	grbl/serial.c	/^uint8_t serial_read()$/;"	f
+serial_reset_read_buffer	grbl/serial.c	/^void serial_reset_read_buffer() $/;"	f
+serial_rx_buffer	grbl/serial.c	/^uint8_t serial_rx_buffer[RX_BUFFER_SIZE];$/;"	v
+serial_rx_buffer_head	grbl/serial.c	/^uint8_t serial_rx_buffer_head = 0;$/;"	v
+serial_rx_buffer_tail	grbl/serial.c	/^volatile uint8_t serial_rx_buffer_tail = 0;$/;"	v
+serial_tx_buffer	grbl/serial.c	/^uint8_t serial_tx_buffer[TX_BUFFER_SIZE];$/;"	v
+serial_tx_buffer_head	grbl/serial.c	/^uint8_t serial_tx_buffer_head = 0;$/;"	v
+serial_tx_buffer_tail	grbl/serial.c	/^volatile uint8_t serial_tx_buffer_tail = 0;$/;"	v
+serial_write	grbl/serial.c	/^void serial_write(uint8_t data) {$/;"	f
+RX_BUFFER_FULL	grbl/serial.h	36;"	d
+RX_BUFFER_LOW	grbl/serial.h	37;"	d
+RX_BUFFER_SIZE	grbl/serial.h	27;"	d
+SEND_XOFF	grbl/serial.h	38;"	d
+SEND_XON	grbl/serial.h	39;"	d
+SERIAL_NO_DATA	grbl/serial.h	33;"	d
+TX_BUFFER_SIZE	grbl/serial.h	30;"	d
+XOFF_CHAR	grbl/serial.h	42;"	d
+XOFF_SENT	grbl/serial.h	40;"	d
+XON_CHAR	grbl/serial.h	43;"	d
+XON_SENT	grbl/serial.h	41;"	d
+serial_h	grbl/serial.h	23;"	d
+get_direction_pin_mask	grbl/settings.c	/^uint8_t get_direction_pin_mask(uint8_t axis_idx)$/;"	f
+get_limit_pin_mask	grbl/settings.c	/^uint8_t get_limit_pin_mask(uint8_t axis_idx)$/;"	f
+get_step_pin_mask	grbl/settings.c	/^uint8_t get_step_pin_mask(uint8_t axis_idx)$/;"	f
+read_global_settings	grbl/settings.c	/^uint8_t read_global_settings() {$/;"	f
+settings	grbl/settings.c	/^settings_t settings;$/;"	v
+settings_init	grbl/settings.c	/^void settings_init() {$/;"	f
+settings_read_build_info	grbl/settings.c	/^uint8_t settings_read_build_info(char *line)$/;"	f
+settings_read_coord_data	grbl/settings.c	/^uint8_t settings_read_coord_data(uint8_t coord_select, float *coord_data)$/;"	f
+settings_read_startup_line	grbl/settings.c	/^uint8_t settings_read_startup_line(uint8_t n, char *line)$/;"	f
+settings_restore	grbl/settings.c	/^void settings_restore(uint8_t restore_flag) {  $/;"	f
+settings_store_build_info	grbl/settings.c	/^void settings_store_build_info(char *line)$/;"	f
+settings_store_global_setting	grbl/settings.c	/^uint8_t settings_store_global_setting(uint8_t parameter, float value) {$/;"	f
+settings_store_startup_line	grbl/settings.c	/^void settings_store_startup_line(uint8_t n, char *line)$/;"	f
+settings_write_coord_data	grbl/settings.c	/^void settings_write_coord_data(uint8_t coord_select, float *coord_data)$/;"	f
+write_global_settings	grbl/settings.c	/^void write_global_settings() $/;"	f
+AXIS_N_SETTINGS	grbl/settings.h	74;"	d
+AXIS_SETTINGS_INCREMENT	grbl/settings.h	76;"	d
+AXIS_SETTINGS_START_VAL	grbl/settings.h	75;"	d
+BITFLAG_HARD_LIMIT_ENABLE	grbl/settings.h	36;"	d
+BITFLAG_HOMING_ENABLE	grbl/settings.h	37;"	d
+BITFLAG_INVERT_LIMIT_PINS	grbl/settings.h	39;"	d
+BITFLAG_INVERT_PROBE_PIN	grbl/settings.h	40;"	d
+BITFLAG_INVERT_ST_ENABLE	grbl/settings.h	35;"	d
+BITFLAG_REPORT_INCHES	grbl/settings.h	33;"	d
+BITFLAG_RT_STATUS_LIMIT_PINS	grbl/settings.h	47;"	d
+BITFLAG_RT_STATUS_MACHINE_POSITION	grbl/settings.h	43;"	d
+BITFLAG_RT_STATUS_PLANNER_BUFFER	grbl/settings.h	45;"	d
+BITFLAG_RT_STATUS_SERIAL_RX	grbl/settings.h	46;"	d
+BITFLAG_RT_STATUS_WORK_POSITION	grbl/settings.h	44;"	d
+BITFLAG_SOFT_LIMIT_ENABLE	grbl/settings.h	38;"	d
+EEPROM_ADDR_BUILD_INFO	grbl/settings.h	63;"	d
+EEPROM_ADDR_GLOBAL	grbl/settings.h	60;"	d
+EEPROM_ADDR_PARAMETERS	grbl/settings.h	61;"	d
+EEPROM_ADDR_STARTUP_BLOCK	grbl/settings.h	62;"	d
+N_COORDINATE_SYSTEM	grbl/settings.h	66;"	d
+SETTINGS_RESTORE_ALL	grbl/settings.h	50;"	d
+SETTINGS_RESTORE_BUILD_INFO	grbl/settings.h	54;"	d
+SETTINGS_RESTORE_DEFAULTS	grbl/settings.h	51;"	d
+SETTINGS_RESTORE_PARAMETERS	grbl/settings.h	52;"	d
+SETTINGS_RESTORE_STARTUP_LINES	grbl/settings.h	53;"	d
+SETTINGS_VERSION	grbl/settings.h	30;"	d
+SETTING_INDEX_G28	grbl/settings.h	69;"	d
+SETTING_INDEX_G30	grbl/settings.h	70;"	d
+SETTING_INDEX_NCOORD	grbl/settings.h	67;"	d
+acceleration	grbl/settings.h	/^  float acceleration[N_AXIS];$/;"	m	struct:__anon7
+arc_tolerance	grbl/settings.h	/^  float arc_tolerance;$/;"	m	struct:__anon7
+dir_invert_mask	grbl/settings.h	/^  uint8_t dir_invert_mask;$/;"	m	struct:__anon7
+flags	grbl/settings.h	/^  uint8_t flags;  \/\/ Contains default boolean settings$/;"	m	struct:__anon7
+homing_debounce_delay	grbl/settings.h	/^  uint16_t homing_debounce_delay;$/;"	m	struct:__anon7
+homing_dir_mask	grbl/settings.h	/^  uint8_t homing_dir_mask;$/;"	m	struct:__anon7
+homing_feed_rate	grbl/settings.h	/^  float homing_feed_rate;$/;"	m	struct:__anon7
+homing_pulloff	grbl/settings.h	/^  float homing_pulloff;$/;"	m	struct:__anon7
+homing_seek_rate	grbl/settings.h	/^  float homing_seek_rate;$/;"	m	struct:__anon7
+junction_deviation	grbl/settings.h	/^  float junction_deviation;$/;"	m	struct:__anon7
+max_rate	grbl/settings.h	/^  float max_rate[N_AXIS];$/;"	m	struct:__anon7
+max_travel	grbl/settings.h	/^  float max_travel[N_AXIS];$/;"	m	struct:__anon7
+pulse_microseconds	grbl/settings.h	/^  uint8_t pulse_microseconds;$/;"	m	struct:__anon7
+settings_h	grbl/settings.h	23;"	d
+settings_t	grbl/settings.h	/^} settings_t;$/;"	t	typeref:struct:__anon7
+status_report_mask	grbl/settings.h	/^  uint8_t status_report_mask; \/\/ Mask to indicate desired report data.$/;"	m	struct:__anon7
+step_invert_mask	grbl/settings.h	/^  uint8_t step_invert_mask;$/;"	m	struct:__anon7
+stepper_idle_lock_time	grbl/settings.h	/^  uint8_t stepper_idle_lock_time; \/\/ If max value 255, steppers do not disable.$/;"	m	struct:__anon7
+steps_per_mm	grbl/settings.h	/^  float steps_per_mm[N_AXIS];$/;"	m	struct:__anon7
+SPINDLE_RPM_RANGE	grbl/spindle_control.c	100;"	d	file:
+spindle_init	grbl/spindle_control.c	/^void spindle_init()$/;"	f
+spindle_run	grbl/spindle_control.c	/^void spindle_run(uint8_t state, float rpm)$/;"	f
+spindle_set_state	grbl/spindle_control.c	/^void spindle_set_state(uint8_t state, float rpm)$/;"	f
+spindle_stop	grbl/spindle_control.c	/^void spindle_stop()$/;"	f
+spindle_control_h	grbl/spindle_control.h	23;"	d
+AMASS_LEVEL1	grbl/stepper.c	43;"	d	file:
+AMASS_LEVEL2	grbl/stepper.c	44;"	d	file:
+AMASS_LEVEL3	grbl/stepper.c	45;"	d	file:
+DT_SEGMENT	grbl/stepper.c	26;"	d	file:
+ISR	grbl/stepper.c	/^  ISR(TIMER0_COMPA_vect) $/;"	f
+ISR	grbl/stepper.c	/^ISR(TIMER0_OVF_vect)$/;"	f
+ISR	grbl/stepper.c	/^ISR(TIMER1_COMPA_vect)$/;"	f
+MAX_AMASS_LEVEL	grbl/stepper.c	41;"	d	file:
+RAMP_ACCEL	grbl/stepper.c	28;"	d	file:
+RAMP_CRUISE	grbl/stepper.c	29;"	d	file:
+RAMP_DECEL	grbl/stepper.c	30;"	d	file:
+REQ_MM_INCREMENT_SCALAR	grbl/stepper.c	27;"	d	file:
+accelerate_until	grbl/stepper.c	/^  float accelerate_until; \/\/ Acceleration ramp end measured from end of block (mm)$/;"	m	struct:__anon11	file:
+amass_level	grbl/stepper.c	/^    uint8_t amass_level;    \/\/ Indicates AMASS level for the ISR to execute this segment$/;"	m	struct:__anon9	file:
+busy	grbl/stepper.c	/^static volatile uint8_t busy;   $/;"	v	file:
+counter_x	grbl/stepper.c	/^  uint32_t counter_x,        \/\/ Counter variables for the bresenham line tracer$/;"	m	struct:__anon10	file:
+counter_y	grbl/stepper.c	/^           counter_y, $/;"	m	struct:__anon10	file:
+counter_z	grbl/stepper.c	/^           counter_z;$/;"	m	struct:__anon10	file:
+current_speed	grbl/stepper.c	/^  float current_speed;    \/\/ Current speed at the end of the segment buffer (mm\/min)$/;"	m	struct:__anon11	file:
+cycles_per_tick	grbl/stepper.c	/^  uint16_t cycles_per_tick; \/\/ Step distance traveled per ISR tick, aka step rate.$/;"	m	struct:__anon9	file:
+decelerate_after	grbl/stepper.c	/^  float decelerate_after; \/\/ Deceleration ramp start measured from end of block (mm)$/;"	m	struct:__anon11	file:
+dir_outbits	grbl/stepper.c	/^  uint8_t dir_outbits;$/;"	m	struct:__anon10	file:
+dir_port_invert_mask	grbl/stepper.c	/^static uint8_t dir_port_invert_mask;$/;"	v	file:
+direction_bits	grbl/stepper.c	/^  uint8_t direction_bits;$/;"	m	struct:__anon8	file:
+dt_remainder	grbl/stepper.c	/^  float dt_remainder;$/;"	m	struct:__anon11	file:
+exec_block	grbl/stepper.c	/^  st_block_t *exec_block;   \/\/ Pointer to the block data for the segment being executed$/;"	m	struct:__anon10	file:
+exec_block_index	grbl/stepper.c	/^  uint8_t exec_block_index; \/\/ Tracks the current st_block index. Change indicates new block.$/;"	m	struct:__anon10	file:
+exec_segment	grbl/stepper.c	/^  segment_t *exec_segment;  \/\/ Pointer to the segment being executed$/;"	m	struct:__anon10	file:
+execute_step	grbl/stepper.c	/^  uint8_t execute_step;     \/\/ Flags step execution for each interrupt.$/;"	m	struct:__anon10	file:
+exit_speed	grbl/stepper.c	/^  float exit_speed;       \/\/ Exit speed of executing block (mm\/min)$/;"	m	struct:__anon11	file:
+flag_partial_block	grbl/stepper.c	/^  uint8_t flag_partial_block;  \/\/ Flag indicating the last block completed. Time to load a new one.$/;"	m	struct:__anon11	file:
+maximum_speed	grbl/stepper.c	/^  float maximum_speed;    \/\/ Maximum speed of executing block. Not always nominal speed. (mm\/min)$/;"	m	struct:__anon11	file:
+mm_complete	grbl/stepper.c	/^  float mm_complete;      \/\/ End of velocity profile from end of current planner block in (mm).$/;"	m	struct:__anon11	file:
+n_step	grbl/stepper.c	/^  uint16_t n_step;          \/\/ Number of step events to be executed for this segment$/;"	m	struct:__anon9	file:
+pl_block	grbl/stepper.c	/^static plan_block_t *pl_block;     \/\/ Pointer to the planner block being prepped$/;"	v	file:
+prep	grbl/stepper.c	/^static st_prep_t prep;$/;"	v	file:
+prescaler	grbl/stepper.c	/^    uint8_t prescaler;      \/\/ Without AMASS, a prescaler is required to adjust for slow timing.$/;"	m	struct:__anon9	file:
+ramp_type	grbl/stepper.c	/^  uint8_t ramp_type;      \/\/ Current segment ramp state$/;"	m	struct:__anon11	file:
+req_mm_increment	grbl/stepper.c	/^  float req_mm_increment;$/;"	m	struct:__anon11	file:
+segment_buffer	grbl/stepper.c	/^static segment_t segment_buffer[SEGMENT_BUFFER_SIZE];$/;"	v	file:
+segment_buffer_head	grbl/stepper.c	/^static uint8_t segment_buffer_head;$/;"	v	file:
+segment_buffer_tail	grbl/stepper.c	/^static volatile uint8_t segment_buffer_tail;$/;"	v	file:
+segment_next_head	grbl/stepper.c	/^static uint8_t segment_next_head;$/;"	v	file:
+segment_t	grbl/stepper.c	/^} segment_t;$/;"	t	typeref:struct:__anon9	file:
+st	grbl/stepper.c	/^static stepper_t st;$/;"	v	file:
+st_block_buffer	grbl/stepper.c	/^static st_block_t st_block_buffer[SEGMENT_BUFFER_SIZE-1];$/;"	v	file:
+st_block_index	grbl/stepper.c	/^  uint8_t st_block_index;   \/\/ Stepper block data index. Uses this information to execute this segment.$/;"	m	struct:__anon9	file:
+st_block_index	grbl/stepper.c	/^  uint8_t st_block_index;  \/\/ Index of stepper common data block being prepped$/;"	m	struct:__anon11	file:
+st_block_t	grbl/stepper.c	/^} st_block_t;$/;"	t	typeref:struct:__anon8	file:
+st_generate_step_dir_invert_masks	grbl/stepper.c	/^void st_generate_step_dir_invert_masks()$/;"	f
+st_get_realtime_rate	grbl/stepper.c	/^  float st_get_realtime_rate()$/;"	f
+st_go_idle	grbl/stepper.c	/^void st_go_idle() $/;"	f
+st_prep_block	grbl/stepper.c	/^static st_block_t *st_prep_block;  \/\/ Pointer to the stepper block data being prepped $/;"	v	file:
+st_prep_buffer	grbl/stepper.c	/^void st_prep_buffer()$/;"	f
+st_prep_t	grbl/stepper.c	/^} st_prep_t;$/;"	t	typeref:struct:__anon11	file:
+st_reset	grbl/stepper.c	/^void st_reset()$/;"	f
+st_update_plan_block_parameters	grbl/stepper.c	/^void st_update_plan_block_parameters()$/;"	f
+st_wake_up	grbl/stepper.c	/^void st_wake_up() $/;"	f
+step_bits	grbl/stepper.c	/^    uint8_t step_bits;  \/\/ Stores out_bits output to complete the step pulse delay$/;"	m	struct:__anon10	file:
+step_count	grbl/stepper.c	/^  uint16_t step_count;       \/\/ Steps remaining in line segment motion  $/;"	m	struct:__anon10	file:
+step_event_count	grbl/stepper.c	/^  uint32_t step_event_count;$/;"	m	struct:__anon8	file:
+step_outbits	grbl/stepper.c	/^  uint8_t step_outbits;         \/\/ The next stepping-bits to be output$/;"	m	struct:__anon10	file:
+step_per_mm	grbl/stepper.c	/^  float step_per_mm;           \/\/ Current planner block step\/millimeter conversion scalar$/;"	m	struct:__anon11	file:
+step_port_invert_mask	grbl/stepper.c	/^static uint8_t step_port_invert_mask;$/;"	v	file:
+step_pulse_time	grbl/stepper.c	/^  uint8_t step_pulse_time;  \/\/ Step pulse reset time after step rise$/;"	m	struct:__anon10	file:
+stepper_init	grbl/stepper.c	/^void stepper_init()$/;"	f
+stepper_t	grbl/stepper.c	/^} stepper_t;$/;"	t	typeref:struct:__anon10	file:
+steps	grbl/stepper.c	/^    uint32_t steps[N_AXIS];$/;"	m	struct:__anon10	file:
+steps	grbl/stepper.c	/^  uint32_t steps[N_AXIS];$/;"	m	struct:__anon8	file:
+steps_remaining	grbl/stepper.c	/^  float steps_remaining;$/;"	m	struct:__anon11	file:
+SEGMENT_BUFFER_SIZE	grbl/stepper.h	26;"	d
+stepper_h	grbl/stepper.h	23;"	d
+ISR	grbl/system.c	/^ISR(CONTROL_INT_vect) $/;"	f
+system_check_safety_door_ajar	grbl/system.c	/^uint8_t system_check_safety_door_ajar()$/;"	f
+system_convert_array_steps_to_mpos	grbl/system.c	/^void system_convert_array_steps_to_mpos(float *position, int32_t *steps)$/;"	f
+system_convert_axis_steps_to_mpos	grbl/system.c	/^float system_convert_axis_steps_to_mpos(int32_t *steps, uint8_t idx)$/;"	f
+system_execute_line	grbl/system.c	/^uint8_t system_execute_line(char *line) $/;"	f
+system_execute_startup	grbl/system.c	/^void system_execute_startup(char *line) $/;"	f
+system_init	grbl/system.c	/^void system_init() $/;"	f
+EXEC_ALARM_ABORT_CYCLE	grbl/system.h	46;"	d
+EXEC_ALARM_HARD_LIMIT	grbl/system.h	44;"	d
+EXEC_ALARM_HOMING_FAIL	grbl/system.h	48;"	d
+EXEC_ALARM_PROBE_FAIL	grbl/system.h	47;"	d
+EXEC_ALARM_SOFT_LIMIT	grbl/system.h	45;"	d
+EXEC_CRITICAL_EVENT	grbl/system.h	43;"	d
+EXEC_CYCLE_START	grbl/system.h	32;"	d
+EXEC_CYCLE_STOP	grbl/system.h	33;"	d
+EXEC_FEED_HOLD	grbl/system.h	34;"	d
+EXEC_MOTION_CANCEL	grbl/system.h	37;"	d
+EXEC_RESET	grbl/system.h	35;"	d
+EXEC_SAFETY_DOOR	grbl/system.h	36;"	d
+EXEC_STATUS_REPORT	grbl/system.h	31;"	d
+STATE_ALARM	grbl/system.h	54;"	d
+STATE_CHECK_MODE	grbl/system.h	55;"	d
+STATE_CYCLE	grbl/system.h	57;"	d
+STATE_HOLD	grbl/system.h	58;"	d
+STATE_HOMING	grbl/system.h	56;"	d
+STATE_IDLE	grbl/system.h	53;"	d
+STATE_MOTION_CANCEL	grbl/system.h	60;"	d
+STATE_SAFETY_DOOR	grbl/system.h	59;"	d
+SUSPEND_DISABLE	grbl/system.h	63;"	d
+SUSPEND_ENABLE_HOLD	grbl/system.h	64;"	d
+SUSPEND_ENABLE_READY	grbl/system.h	65;"	d
+SUSPEND_ENERGIZE	grbl/system.h	66;"	d
+SUSPEND_MOTION_CANCEL	grbl/system.h	67;"	d
+abort	grbl/system.h	/^  uint8_t abort;                 \/\/ System abort flag. Forces exit back to main loop for reset.$/;"	m	struct:__anon12
+homing_axis_lock	grbl/system.h	/^  uint8_t homing_axis_lock;       \/\/ Locks axes when limits engage. Used as an axis motion mask in the stepper ISR.$/;"	m	struct:__anon12
+position	grbl/system.h	/^  int32_t position[N_AXIS];      \/\/ Real-time machine (aka home) position vector in steps. $/;"	m	struct:__anon12
+probe_position	grbl/system.h	/^  int32_t probe_position[N_AXIS]; \/\/ Last probe position in machine coordinates and steps.$/;"	m	struct:__anon12
+probe_succeeded	grbl/system.h	/^  uint8_t probe_succeeded;        \/\/ Tracks if last probing cycle was successful.$/;"	m	struct:__anon12
+soft_limit	grbl/system.h	/^  uint8_t soft_limit;            \/\/ Tracks soft limit errors for the state machine. (boolean)$/;"	m	struct:__anon12
+state	grbl/system.h	/^  uint8_t state;                 \/\/ Tracks the current state of Grbl.$/;"	m	struct:__anon12
+suspend	grbl/system.h	/^  uint8_t suspend;               \/\/ System suspend bitflag variable that manages holds, cancels, and safety door.$/;"	m	struct:__anon12
+sys_probe_state	grbl/system.h	/^volatile uint8_t sys_probe_state;   \/\/ Probing state value.  Used to coordinate the probing cycle with stepper ISR.$/;"	v
+sys_rt_exec_alarm	grbl/system.h	/^volatile uint8_t sys_rt_exec_alarm;  \/\/ Global realtime executor bitflag variable for setting various alarms.$/;"	v
+sys_rt_exec_state	grbl/system.h	/^volatile uint8_t sys_rt_exec_state;  \/\/ Global realtime executor bitflag variable for state management. See EXEC bitmasks.$/;"	v
+system_h	grbl/system.h	22;"	d
+system_t	grbl/system.h	/^} system_t;$/;"	t	typeref:struct:__anon12
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/

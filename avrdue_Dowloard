@@ -1,0 +1,2 @@
+#!/bin/bash
+avrdude -p m328p -P /dev/tty.wchusbserial14220 -c arduino -b 115200 -F -u -U flash:w:grbl.hex

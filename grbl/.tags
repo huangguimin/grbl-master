@@ -1,0 +1,1058 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACCELERATION_TICKS_PER_SECOND	config.h	/^#define ACCELERATION_TICKS_PER_SECOND /;"	d
+ADAPTIVE_MULTI_AXIS_STEP_SMOOTHING	config.h	/^#define ADAPTIVE_MULTI_AXIS_STEP_SMOOTHING /;"	d
+ALARM_ABORT_CYCLE	report.h	/^#define ALARM_ABORT_CYCLE /;"	d
+ALARM_HARD_LIMIT_ERROR	report.h	/^#define ALARM_HARD_LIMIT_ERROR /;"	d
+ALARM_HOMING_FAIL	report.h	/^#define ALARM_HOMING_FAIL /;"	d
+ALARM_PROBE_FAIL	report.h	/^#define ALARM_PROBE_FAIL /;"	d
+ALARM_SOFT_LIMIT_ERROR	report.h	/^#define ALARM_SOFT_LIMIT_ERROR /;"	d
+AMASS_LEVEL1	stepper.c	/^#define AMASS_LEVEL1 /;"	d	file:
+AMASS_LEVEL2	stepper.c	/^#define AMASS_LEVEL2 /;"	d	file:
+AMASS_LEVEL3	stepper.c	/^#define AMASS_LEVEL3 /;"	d	file:
+ARC_ANGULAR_TRAVEL_EPSILON	config.h	/^#define ARC_ANGULAR_TRAVEL_EPSILON /;"	d
+AXIS_COMMAND_MOTION_MODE	gcode.c	/^#define AXIS_COMMAND_MOTION_MODE /;"	d	file:
+AXIS_COMMAND_NONE	gcode.c	/^#define AXIS_COMMAND_NONE /;"	d	file:
+AXIS_COMMAND_NON_MODAL	gcode.c	/^#define AXIS_COMMAND_NON_MODAL /;"	d	file:
+AXIS_COMMAND_TOOL_LENGTH_OFFSET	gcode.c	/^#define AXIS_COMMAND_TOOL_LENGTH_OFFSET /;"	d	file:
+AXIS_N_SETTINGS	settings.h	/^#define AXIS_N_SETTINGS /;"	d
+AXIS_SETTINGS_INCREMENT	settings.h	/^#define AXIS_SETTINGS_INCREMENT /;"	d
+AXIS_SETTINGS_START_VAL	settings.h	/^#define AXIS_SETTINGS_START_VAL /;"	d
+A_MOTOR	nuts_bolts.h	/^ #define A_MOTOR /;"	d
+BAUD_RATE	config.h	/^#define BAUD_RATE /;"	d
+BITFLAG_HARD_LIMIT_ENABLE	settings.h	/^#define BITFLAG_HARD_LIMIT_ENABLE /;"	d
+BITFLAG_HOMING_ENABLE	settings.h	/^#define BITFLAG_HOMING_ENABLE /;"	d
+BITFLAG_INVERT_LIMIT_PINS	settings.h	/^#define BITFLAG_INVERT_LIMIT_PINS /;"	d
+BITFLAG_INVERT_PROBE_PIN	settings.h	/^#define BITFLAG_INVERT_PROBE_PIN /;"	d
+BITFLAG_INVERT_ST_ENABLE	settings.h	/^#define BITFLAG_INVERT_ST_ENABLE /;"	d
+BITFLAG_REPORT_INCHES	settings.h	/^#define BITFLAG_REPORT_INCHES /;"	d
+BITFLAG_RT_STATUS_LIMIT_PINS	settings.h	/^#define BITFLAG_RT_STATUS_LIMIT_PINS /;"	d
+BITFLAG_RT_STATUS_MACHINE_POSITION	settings.h	/^#define BITFLAG_RT_STATUS_MACHINE_POSITION /;"	d
+BITFLAG_RT_STATUS_PLANNER_BUFFER	settings.h	/^#define BITFLAG_RT_STATUS_PLANNER_BUFFER /;"	d
+BITFLAG_RT_STATUS_SERIAL_RX	settings.h	/^#define BITFLAG_RT_STATUS_SERIAL_RX /;"	d
+BITFLAG_RT_STATUS_WORK_POSITION	settings.h	/^#define BITFLAG_RT_STATUS_WORK_POSITION /;"	d
+BITFLAG_SOFT_LIMIT_ENABLE	settings.h	/^#define BITFLAG_SOFT_LIMIT_ENABLE /;"	d
+BLOCK_BUFFER_SIZE	planner.h	/^    #define BLOCK_BUFFER_SIZE /;"	d
+B_MOTOR	nuts_bolts.h	/^ #define B_MOTOR /;"	d
+CMD_CYCLE_START	config.h	/^#define CMD_CYCLE_START /;"	d
+CMD_FEED_HOLD	config.h	/^#define CMD_FEED_HOLD /;"	d
+CMD_RESET	config.h	/^#define CMD_RESET /;"	d
+CMD_SAFETY_DOOR	config.h	/^#define CMD_SAFETY_DOOR /;"	d
+CMD_STATUS_REPORT	config.h	/^#define CMD_STATUS_REPORT /;"	d
+COMB_BIT	cpu_map/cpu_map_atmega2560.h	/^  #define COMB_BIT	/;"	d
+COMB_BIT	cpu_map/cpu_map_atmega328p.h	/^  #define COMB_BIT	/;"	d
+COMMENT_NONE	protocol.c	/^#define COMMENT_NONE /;"	d	file:
+COMMENT_TYPE_PARENTHESES	protocol.c	/^#define COMMENT_TYPE_PARENTHESES /;"	d	file:
+COMMENT_TYPE_SEMICOLON	protocol.c	/^#define COMMENT_TYPE_SEMICOLON /;"	d	file:
+CONTROL_DDR	cpu_map/cpu_map_atmega2560.h	/^#define CONTROL_DDR /;"	d
+CONTROL_DDR	cpu_map/cpu_map_atmega328p.h	/^#define CONTROL_DDR /;"	d
+CONTROL_INT	cpu_map/cpu_map_atmega2560.h	/^#define CONTROL_INT /;"	d
+CONTROL_INT	cpu_map/cpu_map_atmega328p.h	/^#define CONTROL_INT /;"	d
+CONTROL_INT_vect	cpu_map/cpu_map_atmega2560.h	/^#define CONTROL_INT_vect /;"	d
+CONTROL_INT_vect	cpu_map/cpu_map_atmega328p.h	/^#define CONTROL_INT_vect /;"	d
+CONTROL_INVERT_MASK	cpu_map/cpu_map_atmega2560.h	/^#define CONTROL_INVERT_MASK /;"	d
+CONTROL_INVERT_MASK	cpu_map/cpu_map_atmega328p.h	/^#define CONTROL_INVERT_MASK /;"	d
+CONTROL_MASK	cpu_map/cpu_map_atmega2560.h	/^#define CONTROL_MASK /;"	d
+CONTROL_MASK	cpu_map/cpu_map_atmega328p.h	/^#define CONTROL_MASK /;"	d
+CONTROL_MODE_EXACT_PATH	gcode.h	/^#define CONTROL_MODE_EXACT_PATH /;"	d
+CONTROL_PCMSK	cpu_map/cpu_map_atmega2560.h	/^#define CONTROL_PCMSK /;"	d
+CONTROL_PCMSK	cpu_map/cpu_map_atmega328p.h	/^#define CONTROL_PCMSK /;"	d
+CONTROL_PIN	cpu_map/cpu_map_atmega2560.h	/^#define CONTROL_PIN /;"	d
+CONTROL_PIN	cpu_map/cpu_map_atmega328p.h	/^#define CONTROL_PIN /;"	d
+CONTROL_PORT	cpu_map/cpu_map_atmega2560.h	/^#define CONTROL_PORT /;"	d
+CONTROL_PORT	cpu_map/cpu_map_atmega328p.h	/^#define CONTROL_PORT /;"	d
+COOLANT_DISABLE	gcode.h	/^#define COOLANT_DISABLE /;"	d
+COOLANT_FLOOD_BIT	cpu_map/cpu_map_atmega2560.h	/^#define COOLANT_FLOOD_BIT /;"	d
+COOLANT_FLOOD_BIT	cpu_map/cpu_map_atmega328p.h	/^#define COOLANT_FLOOD_BIT /;"	d
+COOLANT_FLOOD_DDR	cpu_map/cpu_map_atmega2560.h	/^#define COOLANT_FLOOD_DDR /;"	d
+COOLANT_FLOOD_DDR	cpu_map/cpu_map_atmega328p.h	/^#define COOLANT_FLOOD_DDR /;"	d
+COOLANT_FLOOD_ENABLE	gcode.h	/^#define COOLANT_FLOOD_ENABLE /;"	d
+COOLANT_FLOOD_PORT	cpu_map/cpu_map_atmega2560.h	/^#define COOLANT_FLOOD_PORT /;"	d
+COOLANT_FLOOD_PORT	cpu_map/cpu_map_atmega328p.h	/^#define COOLANT_FLOOD_PORT /;"	d
+COOLANT_MIST_BIT	cpu_map/cpu_map_atmega2560.h	/^#define COOLANT_MIST_BIT /;"	d
+COOLANT_MIST_BIT	cpu_map/cpu_map_atmega328p.h	/^  #define COOLANT_MIST_BIT /;"	d
+COOLANT_MIST_DDR	cpu_map/cpu_map_atmega2560.h	/^#define COOLANT_MIST_DDR /;"	d
+COOLANT_MIST_DDR	cpu_map/cpu_map_atmega328p.h	/^  #define COOLANT_MIST_DDR /;"	d
+COOLANT_MIST_ENABLE	gcode.h	/^#define COOLANT_MIST_ENABLE /;"	d
+COOLANT_MIST_PORT	cpu_map/cpu_map_atmega2560.h	/^#define COOLANT_MIST_PORT /;"	d
+COOLANT_MIST_PORT	cpu_map/cpu_map_atmega328p.h	/^  #define COOLANT_MIST_PORT /;"	d
+CPU_MAP_ATMEGA328P	config.h	/^#define CPU_MAP_ATMEGA328P /;"	d
+CUTTER_COMP_DISABLE	gcode.h	/^#define CUTTER_COMP_DISABLE /;"	d
+CYCLE_START_BIT	cpu_map/cpu_map_atmega2560.h	/^#define CYCLE_START_BIT /;"	d
+CYCLE_START_BIT	cpu_map/cpu_map_atmega328p.h	/^#define CYCLE_START_BIT /;"	d
+DEFAULTS_GENERIC	config.h	/^#define DEFAULTS_GENERIC$/;"	d
+DEFAULT_ARC_TOLERANCE	defaults/defaults_generic.h	/^  #define DEFAULT_ARC_TOLERANCE /;"	d
+DEFAULT_ARC_TOLERANCE	defaults/defaults_oxcnc.h	/^  #define DEFAULT_ARC_TOLERANCE /;"	d
+DEFAULT_ARC_TOLERANCE	defaults/defaults_shapeoko.h	/^  #define DEFAULT_ARC_TOLERANCE /;"	d
+DEFAULT_ARC_TOLERANCE	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_ARC_TOLERANCE /;"	d
+DEFAULT_ARC_TOLERANCE	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_ARC_TOLERANCE /;"	d
+DEFAULT_ARC_TOLERANCE	defaults/defaults_sherline.h	/^  #define DEFAULT_ARC_TOLERANCE /;"	d
+DEFAULT_ARC_TOLERANCE	defaults/defaults_simulator.h	/^  #define DEFAULT_ARC_TOLERANCE /;"	d
+DEFAULT_ARC_TOLERANCE	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_ARC_TOLERANCE /;"	d
+DEFAULT_ARC_TOLERANCE	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_ARC_TOLERANCE /;"	d
+DEFAULT_ARC_TOLERANCE	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_ARC_TOLERANCE /;"	d
+DEFAULT_DIRECTION_INVERT_MASK	defaults/defaults_generic.h	/^  #define DEFAULT_DIRECTION_INVERT_MASK /;"	d
+DEFAULT_DIRECTION_INVERT_MASK	defaults/defaults_oxcnc.h	/^  #define DEFAULT_DIRECTION_INVERT_MASK /;"	d
+DEFAULT_DIRECTION_INVERT_MASK	defaults/defaults_shapeoko.h	/^  #define DEFAULT_DIRECTION_INVERT_MASK /;"	d
+DEFAULT_DIRECTION_INVERT_MASK	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_DIRECTION_INVERT_MASK /;"	d
+DEFAULT_DIRECTION_INVERT_MASK	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_DIRECTION_INVERT_MASK /;"	d
+DEFAULT_DIRECTION_INVERT_MASK	defaults/defaults_sherline.h	/^  #define DEFAULT_DIRECTION_INVERT_MASK /;"	d
+DEFAULT_DIRECTION_INVERT_MASK	defaults/defaults_simulator.h	/^  #define DEFAULT_DIRECTION_INVERT_MASK /;"	d
+DEFAULT_DIRECTION_INVERT_MASK	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_DIRECTION_INVERT_MASK /;"	d
+DEFAULT_DIRECTION_INVERT_MASK	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_DIRECTION_INVERT_MASK /;"	d
+DEFAULT_DIRECTION_INVERT_MASK	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_DIRECTION_INVERT_MASK /;"	d
+DEFAULT_HARD_LIMIT_ENABLE	defaults/defaults_generic.h	/^  #define DEFAULT_HARD_LIMIT_ENABLE /;"	d
+DEFAULT_HARD_LIMIT_ENABLE	defaults/defaults_oxcnc.h	/^  #define DEFAULT_HARD_LIMIT_ENABLE /;"	d
+DEFAULT_HARD_LIMIT_ENABLE	defaults/defaults_shapeoko.h	/^  #define DEFAULT_HARD_LIMIT_ENABLE /;"	d
+DEFAULT_HARD_LIMIT_ENABLE	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_HARD_LIMIT_ENABLE /;"	d
+DEFAULT_HARD_LIMIT_ENABLE	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_HARD_LIMIT_ENABLE /;"	d
+DEFAULT_HARD_LIMIT_ENABLE	defaults/defaults_sherline.h	/^  #define DEFAULT_HARD_LIMIT_ENABLE /;"	d
+DEFAULT_HARD_LIMIT_ENABLE	defaults/defaults_simulator.h	/^  #define DEFAULT_HARD_LIMIT_ENABLE /;"	d
+DEFAULT_HARD_LIMIT_ENABLE	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_HARD_LIMIT_ENABLE /;"	d
+DEFAULT_HARD_LIMIT_ENABLE	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_HARD_LIMIT_ENABLE /;"	d
+DEFAULT_HARD_LIMIT_ENABLE	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_HARD_LIMIT_ENABLE /;"	d
+DEFAULT_HOMING_DEBOUNCE_DELAY	defaults/defaults_generic.h	/^  #define DEFAULT_HOMING_DEBOUNCE_DELAY /;"	d
+DEFAULT_HOMING_DEBOUNCE_DELAY	defaults/defaults_oxcnc.h	/^  #define DEFAULT_HOMING_DEBOUNCE_DELAY /;"	d
+DEFAULT_HOMING_DEBOUNCE_DELAY	defaults/defaults_shapeoko.h	/^  #define DEFAULT_HOMING_DEBOUNCE_DELAY /;"	d
+DEFAULT_HOMING_DEBOUNCE_DELAY	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_HOMING_DEBOUNCE_DELAY /;"	d
+DEFAULT_HOMING_DEBOUNCE_DELAY	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_HOMING_DEBOUNCE_DELAY /;"	d
+DEFAULT_HOMING_DEBOUNCE_DELAY	defaults/defaults_sherline.h	/^  #define DEFAULT_HOMING_DEBOUNCE_DELAY /;"	d
+DEFAULT_HOMING_DEBOUNCE_DELAY	defaults/defaults_simulator.h	/^  #define DEFAULT_HOMING_DEBOUNCE_DELAY /;"	d
+DEFAULT_HOMING_DEBOUNCE_DELAY	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_HOMING_DEBOUNCE_DELAY /;"	d
+DEFAULT_HOMING_DEBOUNCE_DELAY	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_HOMING_DEBOUNCE_DELAY /;"	d
+DEFAULT_HOMING_DEBOUNCE_DELAY	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_HOMING_DEBOUNCE_DELAY /;"	d
+DEFAULT_HOMING_DIR_MASK	defaults/defaults_generic.h	/^  #define DEFAULT_HOMING_DIR_MASK /;"	d
+DEFAULT_HOMING_DIR_MASK	defaults/defaults_oxcnc.h	/^  #define DEFAULT_HOMING_DIR_MASK /;"	d
+DEFAULT_HOMING_DIR_MASK	defaults/defaults_shapeoko.h	/^  #define DEFAULT_HOMING_DIR_MASK /;"	d
+DEFAULT_HOMING_DIR_MASK	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_HOMING_DIR_MASK /;"	d
+DEFAULT_HOMING_DIR_MASK	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_HOMING_DIR_MASK /;"	d
+DEFAULT_HOMING_DIR_MASK	defaults/defaults_sherline.h	/^  #define DEFAULT_HOMING_DIR_MASK /;"	d
+DEFAULT_HOMING_DIR_MASK	defaults/defaults_simulator.h	/^  #define DEFAULT_HOMING_DIR_MASK /;"	d
+DEFAULT_HOMING_DIR_MASK	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_HOMING_DIR_MASK /;"	d
+DEFAULT_HOMING_DIR_MASK	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_HOMING_DIR_MASK /;"	d
+DEFAULT_HOMING_DIR_MASK	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_HOMING_DIR_MASK /;"	d
+DEFAULT_HOMING_ENABLE	defaults/defaults_generic.h	/^  #define DEFAULT_HOMING_ENABLE /;"	d
+DEFAULT_HOMING_ENABLE	defaults/defaults_oxcnc.h	/^  #define DEFAULT_HOMING_ENABLE /;"	d
+DEFAULT_HOMING_ENABLE	defaults/defaults_shapeoko.h	/^  #define DEFAULT_HOMING_ENABLE /;"	d
+DEFAULT_HOMING_ENABLE	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_HOMING_ENABLE /;"	d
+DEFAULT_HOMING_ENABLE	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_HOMING_ENABLE /;"	d
+DEFAULT_HOMING_ENABLE	defaults/defaults_sherline.h	/^  #define DEFAULT_HOMING_ENABLE /;"	d
+DEFAULT_HOMING_ENABLE	defaults/defaults_simulator.h	/^  #define DEFAULT_HOMING_ENABLE /;"	d
+DEFAULT_HOMING_ENABLE	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_HOMING_ENABLE /;"	d
+DEFAULT_HOMING_ENABLE	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_HOMING_ENABLE /;"	d
+DEFAULT_HOMING_ENABLE	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_HOMING_ENABLE /;"	d
+DEFAULT_HOMING_FEED_RATE	defaults/defaults_generic.h	/^  #define DEFAULT_HOMING_FEED_RATE /;"	d
+DEFAULT_HOMING_FEED_RATE	defaults/defaults_oxcnc.h	/^  #define DEFAULT_HOMING_FEED_RATE /;"	d
+DEFAULT_HOMING_FEED_RATE	defaults/defaults_shapeoko.h	/^  #define DEFAULT_HOMING_FEED_RATE /;"	d
+DEFAULT_HOMING_FEED_RATE	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_HOMING_FEED_RATE /;"	d
+DEFAULT_HOMING_FEED_RATE	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_HOMING_FEED_RATE /;"	d
+DEFAULT_HOMING_FEED_RATE	defaults/defaults_sherline.h	/^  #define DEFAULT_HOMING_FEED_RATE /;"	d
+DEFAULT_HOMING_FEED_RATE	defaults/defaults_simulator.h	/^  #define DEFAULT_HOMING_FEED_RATE /;"	d
+DEFAULT_HOMING_FEED_RATE	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_HOMING_FEED_RATE /;"	d
+DEFAULT_HOMING_FEED_RATE	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_HOMING_FEED_RATE /;"	d
+DEFAULT_HOMING_FEED_RATE	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_HOMING_FEED_RATE /;"	d
+DEFAULT_HOMING_PULLOFF	defaults/defaults_generic.h	/^  #define DEFAULT_HOMING_PULLOFF /;"	d
+DEFAULT_HOMING_PULLOFF	defaults/defaults_oxcnc.h	/^  #define DEFAULT_HOMING_PULLOFF /;"	d
+DEFAULT_HOMING_PULLOFF	defaults/defaults_shapeoko.h	/^  #define DEFAULT_HOMING_PULLOFF /;"	d
+DEFAULT_HOMING_PULLOFF	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_HOMING_PULLOFF /;"	d
+DEFAULT_HOMING_PULLOFF	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_HOMING_PULLOFF /;"	d
+DEFAULT_HOMING_PULLOFF	defaults/defaults_sherline.h	/^  #define DEFAULT_HOMING_PULLOFF /;"	d
+DEFAULT_HOMING_PULLOFF	defaults/defaults_simulator.h	/^  #define DEFAULT_HOMING_PULLOFF /;"	d
+DEFAULT_HOMING_PULLOFF	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_HOMING_PULLOFF /;"	d
+DEFAULT_HOMING_PULLOFF	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_HOMING_PULLOFF /;"	d
+DEFAULT_HOMING_PULLOFF	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_HOMING_PULLOFF /;"	d
+DEFAULT_HOMING_SEEK_RATE	defaults/defaults_generic.h	/^  #define DEFAULT_HOMING_SEEK_RATE /;"	d
+DEFAULT_HOMING_SEEK_RATE	defaults/defaults_oxcnc.h	/^  #define DEFAULT_HOMING_SEEK_RATE /;"	d
+DEFAULT_HOMING_SEEK_RATE	defaults/defaults_shapeoko.h	/^  #define DEFAULT_HOMING_SEEK_RATE /;"	d
+DEFAULT_HOMING_SEEK_RATE	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_HOMING_SEEK_RATE /;"	d
+DEFAULT_HOMING_SEEK_RATE	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_HOMING_SEEK_RATE /;"	d
+DEFAULT_HOMING_SEEK_RATE	defaults/defaults_sherline.h	/^  #define DEFAULT_HOMING_SEEK_RATE /;"	d
+DEFAULT_HOMING_SEEK_RATE	defaults/defaults_simulator.h	/^  #define DEFAULT_HOMING_SEEK_RATE /;"	d
+DEFAULT_HOMING_SEEK_RATE	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_HOMING_SEEK_RATE /;"	d
+DEFAULT_HOMING_SEEK_RATE	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_HOMING_SEEK_RATE /;"	d
+DEFAULT_HOMING_SEEK_RATE	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_HOMING_SEEK_RATE /;"	d
+DEFAULT_INVERT_LIMIT_PINS	defaults/defaults_generic.h	/^  #define DEFAULT_INVERT_LIMIT_PINS /;"	d
+DEFAULT_INVERT_LIMIT_PINS	defaults/defaults_oxcnc.h	/^  #define DEFAULT_INVERT_LIMIT_PINS /;"	d
+DEFAULT_INVERT_LIMIT_PINS	defaults/defaults_shapeoko.h	/^  #define DEFAULT_INVERT_LIMIT_PINS /;"	d
+DEFAULT_INVERT_LIMIT_PINS	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_INVERT_LIMIT_PINS /;"	d
+DEFAULT_INVERT_LIMIT_PINS	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_INVERT_LIMIT_PINS /;"	d
+DEFAULT_INVERT_LIMIT_PINS	defaults/defaults_sherline.h	/^  #define DEFAULT_INVERT_LIMIT_PINS /;"	d
+DEFAULT_INVERT_LIMIT_PINS	defaults/defaults_simulator.h	/^  #define DEFAULT_INVERT_LIMIT_PINS /;"	d
+DEFAULT_INVERT_LIMIT_PINS	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_INVERT_LIMIT_PINS /;"	d
+DEFAULT_INVERT_LIMIT_PINS	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_INVERT_LIMIT_PINS /;"	d
+DEFAULT_INVERT_LIMIT_PINS	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_INVERT_LIMIT_PINS /;"	d
+DEFAULT_INVERT_ST_ENABLE	defaults/defaults_generic.h	/^  #define DEFAULT_INVERT_ST_ENABLE /;"	d
+DEFAULT_INVERT_ST_ENABLE	defaults/defaults_oxcnc.h	/^  #define DEFAULT_INVERT_ST_ENABLE /;"	d
+DEFAULT_INVERT_ST_ENABLE	defaults/defaults_shapeoko.h	/^  #define DEFAULT_INVERT_ST_ENABLE /;"	d
+DEFAULT_INVERT_ST_ENABLE	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_INVERT_ST_ENABLE /;"	d
+DEFAULT_INVERT_ST_ENABLE	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_INVERT_ST_ENABLE /;"	d
+DEFAULT_INVERT_ST_ENABLE	defaults/defaults_sherline.h	/^  #define DEFAULT_INVERT_ST_ENABLE /;"	d
+DEFAULT_INVERT_ST_ENABLE	defaults/defaults_simulator.h	/^  #define DEFAULT_INVERT_ST_ENABLE /;"	d
+DEFAULT_INVERT_ST_ENABLE	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_INVERT_ST_ENABLE /;"	d
+DEFAULT_INVERT_ST_ENABLE	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_INVERT_ST_ENABLE /;"	d
+DEFAULT_INVERT_ST_ENABLE	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_INVERT_ST_ENABLE /;"	d
+DEFAULT_JUNCTION_DEVIATION	defaults/defaults_generic.h	/^  #define DEFAULT_JUNCTION_DEVIATION /;"	d
+DEFAULT_JUNCTION_DEVIATION	defaults/defaults_oxcnc.h	/^  #define DEFAULT_JUNCTION_DEVIATION /;"	d
+DEFAULT_JUNCTION_DEVIATION	defaults/defaults_shapeoko.h	/^  #define DEFAULT_JUNCTION_DEVIATION /;"	d
+DEFAULT_JUNCTION_DEVIATION	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_JUNCTION_DEVIATION /;"	d
+DEFAULT_JUNCTION_DEVIATION	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_JUNCTION_DEVIATION /;"	d
+DEFAULT_JUNCTION_DEVIATION	defaults/defaults_sherline.h	/^  #define DEFAULT_JUNCTION_DEVIATION /;"	d
+DEFAULT_JUNCTION_DEVIATION	defaults/defaults_simulator.h	/^  #define DEFAULT_JUNCTION_DEVIATION /;"	d
+DEFAULT_JUNCTION_DEVIATION	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_JUNCTION_DEVIATION /;"	d
+DEFAULT_JUNCTION_DEVIATION	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_JUNCTION_DEVIATION /;"	d
+DEFAULT_JUNCTION_DEVIATION	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_JUNCTION_DEVIATION /;"	d
+DEFAULT_REPORT_INCHES	defaults/defaults_generic.h	/^  #define DEFAULT_REPORT_INCHES /;"	d
+DEFAULT_REPORT_INCHES	defaults/defaults_oxcnc.h	/^  #define DEFAULT_REPORT_INCHES /;"	d
+DEFAULT_REPORT_INCHES	defaults/defaults_shapeoko.h	/^  #define DEFAULT_REPORT_INCHES /;"	d
+DEFAULT_REPORT_INCHES	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_REPORT_INCHES /;"	d
+DEFAULT_REPORT_INCHES	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_REPORT_INCHES /;"	d
+DEFAULT_REPORT_INCHES	defaults/defaults_sherline.h	/^  #define DEFAULT_REPORT_INCHES /;"	d
+DEFAULT_REPORT_INCHES	defaults/defaults_simulator.h	/^  #define DEFAULT_REPORT_INCHES /;"	d
+DEFAULT_REPORT_INCHES	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_REPORT_INCHES /;"	d
+DEFAULT_REPORT_INCHES	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_REPORT_INCHES /;"	d
+DEFAULT_REPORT_INCHES	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_REPORT_INCHES /;"	d
+DEFAULT_SOFT_LIMIT_ENABLE	defaults/defaults_generic.h	/^  #define DEFAULT_SOFT_LIMIT_ENABLE /;"	d
+DEFAULT_SOFT_LIMIT_ENABLE	defaults/defaults_oxcnc.h	/^  #define DEFAULT_SOFT_LIMIT_ENABLE /;"	d
+DEFAULT_SOFT_LIMIT_ENABLE	defaults/defaults_shapeoko.h	/^  #define DEFAULT_SOFT_LIMIT_ENABLE /;"	d
+DEFAULT_SOFT_LIMIT_ENABLE	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_SOFT_LIMIT_ENABLE /;"	d
+DEFAULT_SOFT_LIMIT_ENABLE	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_SOFT_LIMIT_ENABLE /;"	d
+DEFAULT_SOFT_LIMIT_ENABLE	defaults/defaults_sherline.h	/^  #define DEFAULT_SOFT_LIMIT_ENABLE /;"	d
+DEFAULT_SOFT_LIMIT_ENABLE	defaults/defaults_simulator.h	/^  #define DEFAULT_SOFT_LIMIT_ENABLE /;"	d
+DEFAULT_SOFT_LIMIT_ENABLE	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_SOFT_LIMIT_ENABLE /;"	d
+DEFAULT_SOFT_LIMIT_ENABLE	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_SOFT_LIMIT_ENABLE /;"	d
+DEFAULT_SOFT_LIMIT_ENABLE	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_SOFT_LIMIT_ENABLE /;"	d
+DEFAULT_STATUS_REPORT_MASK	defaults/defaults_generic.h	/^  #define DEFAULT_STATUS_REPORT_MASK /;"	d
+DEFAULT_STATUS_REPORT_MASK	defaults/defaults_oxcnc.h	/^  #define DEFAULT_STATUS_REPORT_MASK /;"	d
+DEFAULT_STATUS_REPORT_MASK	defaults/defaults_shapeoko.h	/^  #define DEFAULT_STATUS_REPORT_MASK /;"	d
+DEFAULT_STATUS_REPORT_MASK	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_STATUS_REPORT_MASK /;"	d
+DEFAULT_STATUS_REPORT_MASK	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_STATUS_REPORT_MASK /;"	d
+DEFAULT_STATUS_REPORT_MASK	defaults/defaults_sherline.h	/^  #define DEFAULT_STATUS_REPORT_MASK /;"	d
+DEFAULT_STATUS_REPORT_MASK	defaults/defaults_simulator.h	/^  #define DEFAULT_STATUS_REPORT_MASK /;"	d
+DEFAULT_STATUS_REPORT_MASK	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_STATUS_REPORT_MASK /;"	d
+DEFAULT_STATUS_REPORT_MASK	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_STATUS_REPORT_MASK /;"	d
+DEFAULT_STATUS_REPORT_MASK	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_STATUS_REPORT_MASK /;"	d
+DEFAULT_STEPPER_IDLE_LOCK_TIME	defaults/defaults_generic.h	/^  #define DEFAULT_STEPPER_IDLE_LOCK_TIME /;"	d
+DEFAULT_STEPPER_IDLE_LOCK_TIME	defaults/defaults_oxcnc.h	/^  #define DEFAULT_STEPPER_IDLE_LOCK_TIME /;"	d
+DEFAULT_STEPPER_IDLE_LOCK_TIME	defaults/defaults_shapeoko.h	/^  #define DEFAULT_STEPPER_IDLE_LOCK_TIME /;"	d
+DEFAULT_STEPPER_IDLE_LOCK_TIME	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_STEPPER_IDLE_LOCK_TIME /;"	d
+DEFAULT_STEPPER_IDLE_LOCK_TIME	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_STEPPER_IDLE_LOCK_TIME /;"	d
+DEFAULT_STEPPER_IDLE_LOCK_TIME	defaults/defaults_sherline.h	/^  #define DEFAULT_STEPPER_IDLE_LOCK_TIME /;"	d
+DEFAULT_STEPPER_IDLE_LOCK_TIME	defaults/defaults_simulator.h	/^  #define DEFAULT_STEPPER_IDLE_LOCK_TIME /;"	d
+DEFAULT_STEPPER_IDLE_LOCK_TIME	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_STEPPER_IDLE_LOCK_TIME /;"	d
+DEFAULT_STEPPER_IDLE_LOCK_TIME	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_STEPPER_IDLE_LOCK_TIME /;"	d
+DEFAULT_STEPPER_IDLE_LOCK_TIME	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_STEPPER_IDLE_LOCK_TIME /;"	d
+DEFAULT_STEPPING_INVERT_MASK	defaults/defaults_generic.h	/^  #define DEFAULT_STEPPING_INVERT_MASK /;"	d
+DEFAULT_STEPPING_INVERT_MASK	defaults/defaults_oxcnc.h	/^  #define DEFAULT_STEPPING_INVERT_MASK /;"	d
+DEFAULT_STEPPING_INVERT_MASK	defaults/defaults_shapeoko.h	/^  #define DEFAULT_STEPPING_INVERT_MASK /;"	d
+DEFAULT_STEPPING_INVERT_MASK	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_STEPPING_INVERT_MASK /;"	d
+DEFAULT_STEPPING_INVERT_MASK	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_STEPPING_INVERT_MASK /;"	d
+DEFAULT_STEPPING_INVERT_MASK	defaults/defaults_sherline.h	/^  #define DEFAULT_STEPPING_INVERT_MASK /;"	d
+DEFAULT_STEPPING_INVERT_MASK	defaults/defaults_simulator.h	/^  #define DEFAULT_STEPPING_INVERT_MASK /;"	d
+DEFAULT_STEPPING_INVERT_MASK	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_STEPPING_INVERT_MASK /;"	d
+DEFAULT_STEPPING_INVERT_MASK	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_STEPPING_INVERT_MASK /;"	d
+DEFAULT_STEPPING_INVERT_MASK	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_STEPPING_INVERT_MASK /;"	d
+DEFAULT_STEP_PULSE_MICROSECONDS	defaults/defaults_generic.h	/^  #define DEFAULT_STEP_PULSE_MICROSECONDS /;"	d
+DEFAULT_STEP_PULSE_MICROSECONDS	defaults/defaults_oxcnc.h	/^  #define DEFAULT_STEP_PULSE_MICROSECONDS /;"	d
+DEFAULT_STEP_PULSE_MICROSECONDS	defaults/defaults_shapeoko.h	/^  #define DEFAULT_STEP_PULSE_MICROSECONDS /;"	d
+DEFAULT_STEP_PULSE_MICROSECONDS	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_STEP_PULSE_MICROSECONDS /;"	d
+DEFAULT_STEP_PULSE_MICROSECONDS	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_STEP_PULSE_MICROSECONDS /;"	d
+DEFAULT_STEP_PULSE_MICROSECONDS	defaults/defaults_sherline.h	/^  #define DEFAULT_STEP_PULSE_MICROSECONDS /;"	d
+DEFAULT_STEP_PULSE_MICROSECONDS	defaults/defaults_simulator.h	/^  #define DEFAULT_STEP_PULSE_MICROSECONDS /;"	d
+DEFAULT_STEP_PULSE_MICROSECONDS	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_STEP_PULSE_MICROSECONDS /;"	d
+DEFAULT_STEP_PULSE_MICROSECONDS	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_STEP_PULSE_MICROSECONDS /;"	d
+DEFAULT_STEP_PULSE_MICROSECONDS	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_STEP_PULSE_MICROSECONDS /;"	d
+DEFAULT_X_ACCELERATION	defaults/defaults_generic.h	/^  #define DEFAULT_X_ACCELERATION /;"	d
+DEFAULT_X_ACCELERATION	defaults/defaults_oxcnc.h	/^  #define DEFAULT_X_ACCELERATION /;"	d
+DEFAULT_X_ACCELERATION	defaults/defaults_shapeoko.h	/^  #define DEFAULT_X_ACCELERATION /;"	d
+DEFAULT_X_ACCELERATION	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_X_ACCELERATION /;"	d
+DEFAULT_X_ACCELERATION	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_X_ACCELERATION /;"	d
+DEFAULT_X_ACCELERATION	defaults/defaults_sherline.h	/^  #define DEFAULT_X_ACCELERATION /;"	d
+DEFAULT_X_ACCELERATION	defaults/defaults_simulator.h	/^  #define DEFAULT_X_ACCELERATION /;"	d
+DEFAULT_X_ACCELERATION	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_X_ACCELERATION /;"	d
+DEFAULT_X_ACCELERATION	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_X_ACCELERATION /;"	d
+DEFAULT_X_ACCELERATION	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_X_ACCELERATION /;"	d
+DEFAULT_X_MAX_RATE	defaults/defaults_generic.h	/^  #define DEFAULT_X_MAX_RATE /;"	d
+DEFAULT_X_MAX_RATE	defaults/defaults_oxcnc.h	/^  #define DEFAULT_X_MAX_RATE /;"	d
+DEFAULT_X_MAX_RATE	defaults/defaults_shapeoko.h	/^  #define DEFAULT_X_MAX_RATE /;"	d
+DEFAULT_X_MAX_RATE	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_X_MAX_RATE /;"	d
+DEFAULT_X_MAX_RATE	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_X_MAX_RATE /;"	d
+DEFAULT_X_MAX_RATE	defaults/defaults_sherline.h	/^  #define DEFAULT_X_MAX_RATE /;"	d
+DEFAULT_X_MAX_RATE	defaults/defaults_simulator.h	/^  #define DEFAULT_X_MAX_RATE /;"	d
+DEFAULT_X_MAX_RATE	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_X_MAX_RATE /;"	d
+DEFAULT_X_MAX_RATE	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_X_MAX_RATE /;"	d
+DEFAULT_X_MAX_RATE	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_X_MAX_RATE /;"	d
+DEFAULT_X_MAX_TRAVEL	defaults/defaults_generic.h	/^  #define DEFAULT_X_MAX_TRAVEL /;"	d
+DEFAULT_X_MAX_TRAVEL	defaults/defaults_oxcnc.h	/^  #define DEFAULT_X_MAX_TRAVEL /;"	d
+DEFAULT_X_MAX_TRAVEL	defaults/defaults_shapeoko.h	/^  #define DEFAULT_X_MAX_TRAVEL /;"	d
+DEFAULT_X_MAX_TRAVEL	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_X_MAX_TRAVEL /;"	d
+DEFAULT_X_MAX_TRAVEL	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_X_MAX_TRAVEL /;"	d
+DEFAULT_X_MAX_TRAVEL	defaults/defaults_sherline.h	/^  #define DEFAULT_X_MAX_TRAVEL /;"	d
+DEFAULT_X_MAX_TRAVEL	defaults/defaults_simulator.h	/^  #define DEFAULT_X_MAX_TRAVEL /;"	d
+DEFAULT_X_MAX_TRAVEL	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_X_MAX_TRAVEL /;"	d
+DEFAULT_X_MAX_TRAVEL	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_X_MAX_TRAVEL /;"	d
+DEFAULT_X_MAX_TRAVEL	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_X_MAX_TRAVEL /;"	d
+DEFAULT_X_STEPS_PER_MM	defaults/defaults_generic.h	/^  #define DEFAULT_X_STEPS_PER_MM /;"	d
+DEFAULT_X_STEPS_PER_MM	defaults/defaults_oxcnc.h	/^  #define DEFAULT_X_STEPS_PER_MM /;"	d
+DEFAULT_X_STEPS_PER_MM	defaults/defaults_shapeoko.h	/^  #define DEFAULT_X_STEPS_PER_MM /;"	d
+DEFAULT_X_STEPS_PER_MM	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_X_STEPS_PER_MM /;"	d
+DEFAULT_X_STEPS_PER_MM	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_X_STEPS_PER_MM /;"	d
+DEFAULT_X_STEPS_PER_MM	defaults/defaults_sherline.h	/^  #define DEFAULT_X_STEPS_PER_MM /;"	d
+DEFAULT_X_STEPS_PER_MM	defaults/defaults_simulator.h	/^  #define DEFAULT_X_STEPS_PER_MM /;"	d
+DEFAULT_X_STEPS_PER_MM	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_X_STEPS_PER_MM /;"	d
+DEFAULT_X_STEPS_PER_MM	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_X_STEPS_PER_MM /;"	d
+DEFAULT_X_STEPS_PER_MM	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_X_STEPS_PER_MM /;"	d
+DEFAULT_Y_ACCELERATION	defaults/defaults_generic.h	/^  #define DEFAULT_Y_ACCELERATION /;"	d
+DEFAULT_Y_ACCELERATION	defaults/defaults_oxcnc.h	/^  #define DEFAULT_Y_ACCELERATION /;"	d
+DEFAULT_Y_ACCELERATION	defaults/defaults_shapeoko.h	/^  #define DEFAULT_Y_ACCELERATION /;"	d
+DEFAULT_Y_ACCELERATION	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_Y_ACCELERATION /;"	d
+DEFAULT_Y_ACCELERATION	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_Y_ACCELERATION /;"	d
+DEFAULT_Y_ACCELERATION	defaults/defaults_sherline.h	/^  #define DEFAULT_Y_ACCELERATION /;"	d
+DEFAULT_Y_ACCELERATION	defaults/defaults_simulator.h	/^  #define DEFAULT_Y_ACCELERATION /;"	d
+DEFAULT_Y_ACCELERATION	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_Y_ACCELERATION /;"	d
+DEFAULT_Y_ACCELERATION	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_Y_ACCELERATION /;"	d
+DEFAULT_Y_ACCELERATION	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_Y_ACCELERATION /;"	d
+DEFAULT_Y_MAX_RATE	defaults/defaults_generic.h	/^  #define DEFAULT_Y_MAX_RATE /;"	d
+DEFAULT_Y_MAX_RATE	defaults/defaults_oxcnc.h	/^  #define DEFAULT_Y_MAX_RATE /;"	d
+DEFAULT_Y_MAX_RATE	defaults/defaults_shapeoko.h	/^  #define DEFAULT_Y_MAX_RATE /;"	d
+DEFAULT_Y_MAX_RATE	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_Y_MAX_RATE /;"	d
+DEFAULT_Y_MAX_RATE	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_Y_MAX_RATE /;"	d
+DEFAULT_Y_MAX_RATE	defaults/defaults_sherline.h	/^  #define DEFAULT_Y_MAX_RATE /;"	d
+DEFAULT_Y_MAX_RATE	defaults/defaults_simulator.h	/^  #define DEFAULT_Y_MAX_RATE /;"	d
+DEFAULT_Y_MAX_RATE	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_Y_MAX_RATE /;"	d
+DEFAULT_Y_MAX_RATE	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_Y_MAX_RATE /;"	d
+DEFAULT_Y_MAX_RATE	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_Y_MAX_RATE /;"	d
+DEFAULT_Y_MAX_TRAVEL	defaults/defaults_generic.h	/^  #define DEFAULT_Y_MAX_TRAVEL /;"	d
+DEFAULT_Y_MAX_TRAVEL	defaults/defaults_oxcnc.h	/^  #define DEFAULT_Y_MAX_TRAVEL /;"	d
+DEFAULT_Y_MAX_TRAVEL	defaults/defaults_shapeoko.h	/^  #define DEFAULT_Y_MAX_TRAVEL /;"	d
+DEFAULT_Y_MAX_TRAVEL	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_Y_MAX_TRAVEL /;"	d
+DEFAULT_Y_MAX_TRAVEL	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_Y_MAX_TRAVEL /;"	d
+DEFAULT_Y_MAX_TRAVEL	defaults/defaults_sherline.h	/^  #define DEFAULT_Y_MAX_TRAVEL /;"	d
+DEFAULT_Y_MAX_TRAVEL	defaults/defaults_simulator.h	/^  #define DEFAULT_Y_MAX_TRAVEL /;"	d
+DEFAULT_Y_MAX_TRAVEL	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_Y_MAX_TRAVEL /;"	d
+DEFAULT_Y_MAX_TRAVEL	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_Y_MAX_TRAVEL /;"	d
+DEFAULT_Y_MAX_TRAVEL	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_Y_MAX_TRAVEL /;"	d
+DEFAULT_Y_STEPS_PER_MM	defaults/defaults_generic.h	/^  #define DEFAULT_Y_STEPS_PER_MM /;"	d
+DEFAULT_Y_STEPS_PER_MM	defaults/defaults_oxcnc.h	/^  #define DEFAULT_Y_STEPS_PER_MM /;"	d
+DEFAULT_Y_STEPS_PER_MM	defaults/defaults_shapeoko.h	/^  #define DEFAULT_Y_STEPS_PER_MM /;"	d
+DEFAULT_Y_STEPS_PER_MM	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_Y_STEPS_PER_MM /;"	d
+DEFAULT_Y_STEPS_PER_MM	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_Y_STEPS_PER_MM /;"	d
+DEFAULT_Y_STEPS_PER_MM	defaults/defaults_sherline.h	/^  #define DEFAULT_Y_STEPS_PER_MM /;"	d
+DEFAULT_Y_STEPS_PER_MM	defaults/defaults_simulator.h	/^  #define DEFAULT_Y_STEPS_PER_MM /;"	d
+DEFAULT_Y_STEPS_PER_MM	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_Y_STEPS_PER_MM /;"	d
+DEFAULT_Y_STEPS_PER_MM	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_Y_STEPS_PER_MM /;"	d
+DEFAULT_Y_STEPS_PER_MM	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_Y_STEPS_PER_MM /;"	d
+DEFAULT_Z_ACCELERATION	defaults/defaults_generic.h	/^  #define DEFAULT_Z_ACCELERATION /;"	d
+DEFAULT_Z_ACCELERATION	defaults/defaults_oxcnc.h	/^  #define DEFAULT_Z_ACCELERATION /;"	d
+DEFAULT_Z_ACCELERATION	defaults/defaults_shapeoko.h	/^  #define DEFAULT_Z_ACCELERATION /;"	d
+DEFAULT_Z_ACCELERATION	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_Z_ACCELERATION /;"	d
+DEFAULT_Z_ACCELERATION	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_Z_ACCELERATION /;"	d
+DEFAULT_Z_ACCELERATION	defaults/defaults_sherline.h	/^  #define DEFAULT_Z_ACCELERATION /;"	d
+DEFAULT_Z_ACCELERATION	defaults/defaults_simulator.h	/^  #define DEFAULT_Z_ACCELERATION /;"	d
+DEFAULT_Z_ACCELERATION	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_Z_ACCELERATION /;"	d
+DEFAULT_Z_ACCELERATION	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_Z_ACCELERATION /;"	d
+DEFAULT_Z_ACCELERATION	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_Z_ACCELERATION /;"	d
+DEFAULT_Z_MAX_RATE	defaults/defaults_generic.h	/^  #define DEFAULT_Z_MAX_RATE /;"	d
+DEFAULT_Z_MAX_RATE	defaults/defaults_oxcnc.h	/^  #define DEFAULT_Z_MAX_RATE /;"	d
+DEFAULT_Z_MAX_RATE	defaults/defaults_shapeoko.h	/^  #define DEFAULT_Z_MAX_RATE /;"	d
+DEFAULT_Z_MAX_RATE	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_Z_MAX_RATE /;"	d
+DEFAULT_Z_MAX_RATE	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_Z_MAX_RATE /;"	d
+DEFAULT_Z_MAX_RATE	defaults/defaults_sherline.h	/^  #define DEFAULT_Z_MAX_RATE /;"	d
+DEFAULT_Z_MAX_RATE	defaults/defaults_simulator.h	/^  #define DEFAULT_Z_MAX_RATE /;"	d
+DEFAULT_Z_MAX_RATE	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_Z_MAX_RATE /;"	d
+DEFAULT_Z_MAX_RATE	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_Z_MAX_RATE /;"	d
+DEFAULT_Z_MAX_RATE	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_Z_MAX_RATE /;"	d
+DEFAULT_Z_MAX_TRAVEL	defaults/defaults_generic.h	/^  #define DEFAULT_Z_MAX_TRAVEL /;"	d
+DEFAULT_Z_MAX_TRAVEL	defaults/defaults_oxcnc.h	/^  #define DEFAULT_Z_MAX_TRAVEL /;"	d
+DEFAULT_Z_MAX_TRAVEL	defaults/defaults_shapeoko.h	/^  #define DEFAULT_Z_MAX_TRAVEL /;"	d
+DEFAULT_Z_MAX_TRAVEL	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_Z_MAX_TRAVEL /;"	d
+DEFAULT_Z_MAX_TRAVEL	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_Z_MAX_TRAVEL /;"	d
+DEFAULT_Z_MAX_TRAVEL	defaults/defaults_sherline.h	/^  #define DEFAULT_Z_MAX_TRAVEL /;"	d
+DEFAULT_Z_MAX_TRAVEL	defaults/defaults_simulator.h	/^  #define DEFAULT_Z_MAX_TRAVEL /;"	d
+DEFAULT_Z_MAX_TRAVEL	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_Z_MAX_TRAVEL /;"	d
+DEFAULT_Z_MAX_TRAVEL	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_Z_MAX_TRAVEL /;"	d
+DEFAULT_Z_MAX_TRAVEL	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_Z_MAX_TRAVEL /;"	d
+DEFAULT_Z_STEPS_PER_MM	defaults/defaults_generic.h	/^  #define DEFAULT_Z_STEPS_PER_MM /;"	d
+DEFAULT_Z_STEPS_PER_MM	defaults/defaults_oxcnc.h	/^  #define DEFAULT_Z_STEPS_PER_MM /;"	d
+DEFAULT_Z_STEPS_PER_MM	defaults/defaults_shapeoko.h	/^  #define DEFAULT_Z_STEPS_PER_MM /;"	d
+DEFAULT_Z_STEPS_PER_MM	defaults/defaults_shapeoko2.h	/^  #define DEFAULT_Z_STEPS_PER_MM /;"	d
+DEFAULT_Z_STEPS_PER_MM	defaults/defaults_shapeoko3.h	/^  #define DEFAULT_Z_STEPS_PER_MM /;"	d
+DEFAULT_Z_STEPS_PER_MM	defaults/defaults_sherline.h	/^  #define DEFAULT_Z_STEPS_PER_MM /;"	d
+DEFAULT_Z_STEPS_PER_MM	defaults/defaults_simulator.h	/^  #define DEFAULT_Z_STEPS_PER_MM /;"	d
+DEFAULT_Z_STEPS_PER_MM	defaults/defaults_x_carve_1000mm.h	/^  #define DEFAULT_Z_STEPS_PER_MM /;"	d
+DEFAULT_Z_STEPS_PER_MM	defaults/defaults_x_carve_500mm.h	/^  #define DEFAULT_Z_STEPS_PER_MM /;"	d
+DEFAULT_Z_STEPS_PER_MM	defaults/defaults_zen_toolworks_7x7.h	/^  #define DEFAULT_Z_STEPS_PER_MM /;"	d
+DIRECTION_DDR	cpu_map/cpu_map_atmega2560.h	/^#define DIRECTION_DDR /;"	d
+DIRECTION_DDR	cpu_map/cpu_map_atmega328p.h	/^#define DIRECTION_DDR /;"	d
+DIRECTION_MASK	cpu_map/cpu_map_atmega2560.h	/^#define DIRECTION_MASK /;"	d
+DIRECTION_MASK	cpu_map/cpu_map_atmega328p.h	/^#define DIRECTION_MASK /;"	d
+DIRECTION_PIN	cpu_map/cpu_map_atmega2560.h	/^#define DIRECTION_PIN /;"	d
+DIRECTION_PORT	cpu_map/cpu_map_atmega2560.h	/^#define DIRECTION_PORT /;"	d
+DIRECTION_PORT	cpu_map/cpu_map_atmega328p.h	/^#define DIRECTION_PORT /;"	d
+DISTANCE_ARC_MODE_INCREMENTAL	gcode.h	/^#define DISTANCE_ARC_MODE_INCREMENTAL /;"	d
+DISTANCE_MODE_ABSOLUTE	gcode.h	/^#define DISTANCE_MODE_ABSOLUTE /;"	d
+DISTANCE_MODE_INCREMENTAL	gcode.h	/^#define DISTANCE_MODE_INCREMENTAL /;"	d
+DT_SEGMENT	stepper.c	/^#define DT_SEGMENT /;"	d	file:
+DWELL_TIME_STEP	config.h	/^#define DWELL_TIME_STEP /;"	d
+EEMPE	eeprom.c	/^		#define EEMPE /;"	d	file:
+EEPE	eeprom.c	/^		#define EEPE /;"	d	file:
+EEPM0	eeprom.c	/^#define EEPM0 /;"	d	file:
+EEPM1	eeprom.c	/^#define EEPM1 /;"	d	file:
+EEPROM_ADDR_BUILD_INFO	settings.h	/^#define EEPROM_ADDR_BUILD_INFO /;"	d
+EEPROM_ADDR_GLOBAL	settings.h	/^#define EEPROM_ADDR_GLOBAL /;"	d
+EEPROM_ADDR_PARAMETERS	settings.h	/^#define EEPROM_ADDR_PARAMETERS /;"	d
+EEPROM_ADDR_STARTUP_BLOCK	settings.h	/^#define EEPROM_ADDR_STARTUP_BLOCK /;"	d
+EEPROM_IGNORE_SELFPROG	eeprom.c	/^#define EEPROM_IGNORE_SELFPROG /;"	d	file:
+EXEC_ALARM_ABORT_CYCLE	system.h	/^#define EXEC_ALARM_ABORT_CYCLE /;"	d
+EXEC_ALARM_HARD_LIMIT	system.h	/^#define EXEC_ALARM_HARD_LIMIT /;"	d
+EXEC_ALARM_HOMING_FAIL	system.h	/^#define EXEC_ALARM_HOMING_FAIL /;"	d
+EXEC_ALARM_PROBE_FAIL	system.h	/^#define EXEC_ALARM_PROBE_FAIL /;"	d
+EXEC_ALARM_SOFT_LIMIT	system.h	/^#define EXEC_ALARM_SOFT_LIMIT /;"	d
+EXEC_CRITICAL_EVENT	system.h	/^#define EXEC_CRITICAL_EVENT /;"	d
+EXEC_CYCLE_START	system.h	/^#define EXEC_CYCLE_START /;"	d
+EXEC_CYCLE_STOP	system.h	/^#define EXEC_CYCLE_STOP /;"	d
+EXEC_FEED_HOLD	system.h	/^#define EXEC_FEED_HOLD /;"	d
+EXEC_MOTION_CANCEL	system.h	/^#define EXEC_MOTION_CANCEL /;"	d
+EXEC_RESET	system.h	/^#define EXEC_RESET /;"	d
+EXEC_SAFETY_DOOR	system.h	/^#define EXEC_SAFETY_DOOR /;"	d
+EXEC_STATUS_REPORT	system.h	/^#define EXEC_STATUS_REPORT /;"	d
+FAIL	gcode.c	/^#define FAIL(/;"	d	file:
+FEED_HOLD_BIT	cpu_map/cpu_map_atmega2560.h	/^#define FEED_HOLD_BIT /;"	d
+FEED_HOLD_BIT	cpu_map/cpu_map_atmega328p.h	/^#define FEED_HOLD_BIT /;"	d
+FEED_RATE_MODE_INVERSE_TIME	gcode.h	/^#define FEED_RATE_MODE_INVERSE_TIME /;"	d
+FEED_RATE_MODE_UNITS_PER_MIN	gcode.h	/^#define FEED_RATE_MODE_UNITS_PER_MIN /;"	d
+GRBL_PLATFORM	cpu_map/cpu_map_atmega2560.h	/^#define GRBL_PLATFORM /;"	d
+GRBL_PLATFORM	cpu_map/cpu_map_atmega328p.h	/^#define GRBL_PLATFORM /;"	d
+GRBL_VERSION	grbl.h	/^#define GRBL_VERSION /;"	d
+GRBL_VERSION_BUILD	grbl.h	/^#define GRBL_VERSION_BUILD /;"	d
+HOMING_AXIS_LOCATE_SCALAR	limits.c	/^  #define HOMING_AXIS_LOCATE_SCALAR /;"	d	file:
+HOMING_AXIS_SEARCH_SCALAR	limits.c	/^  #define HOMING_AXIS_SEARCH_SCALAR /;"	d	file:
+HOMING_CYCLE_0	config.h	/^#define HOMING_CYCLE_0 /;"	d
+HOMING_CYCLE_1	config.h	/^#define HOMING_CYCLE_1 /;"	d
+HOMING_CYCLE_LINE_NUMBER	motion_control.h	/^#define HOMING_CYCLE_LINE_NUMBER /;"	d
+HOMING_INIT_LOCK	config.h	/^#define HOMING_INIT_LOCK /;"	d
+INCH_PER_MM	nuts_bolts.h	/^#define INCH_PER_MM /;"	d
+ISR	limits.c	/^  ISR(LIMIT_INT_vect) \/\/ DEFAULT: Limit pin change interrupt process. $/;"	f
+ISR	limits.c	/^  ISR(LIMIT_INT_vect) { if (!(WDTCSR & (1<<WDIE))) { WDTCSR |= (1<<WDIE); } }$/;"	f
+ISR	limits.c	/^  ISR(WDT_vect) \/\/ Watchdog timer ISR$/;"	f
+ISR	serial.c	/^ISR(SERIAL_RX)$/;"	f
+ISR	serial.c	/^ISR(SERIAL_UDRE)$/;"	f
+ISR	stepper.c	/^  ISR(TIMER0_COMPA_vect) $/;"	f
+ISR	stepper.c	/^ISR(TIMER0_OVF_vect)$/;"	f
+ISR	stepper.c	/^ISR(TIMER1_COMPA_vect)$/;"	f
+ISR	system.c	/^ISR(CONTROL_INT_vect) $/;"	f
+LIMIT_DDR	cpu_map/cpu_map_atmega2560.h	/^#define LIMIT_DDR /;"	d
+LIMIT_DDR	cpu_map/cpu_map_atmega328p.h	/^#define LIMIT_DDR /;"	d
+LIMIT_INT	cpu_map/cpu_map_atmega2560.h	/^#define LIMIT_INT /;"	d
+LIMIT_INT	cpu_map/cpu_map_atmega328p.h	/^#define LIMIT_INT /;"	d
+LIMIT_INT_vect	cpu_map/cpu_map_atmega2560.h	/^#define LIMIT_INT_vect /;"	d
+LIMIT_INT_vect	cpu_map/cpu_map_atmega328p.h	/^#define LIMIT_INT_vect /;"	d
+LIMIT_MASK	cpu_map/cpu_map_atmega2560.h	/^#define LIMIT_MASK /;"	d
+LIMIT_MASK	cpu_map/cpu_map_atmega328p.h	/^#define LIMIT_MASK /;"	d
+LIMIT_PCMSK	cpu_map/cpu_map_atmega2560.h	/^#define LIMIT_PCMSK /;"	d
+LIMIT_PCMSK	cpu_map/cpu_map_atmega328p.h	/^#define LIMIT_PCMSK /;"	d
+LIMIT_PIN	cpu_map/cpu_map_atmega2560.h	/^#define LIMIT_PIN /;"	d
+LIMIT_PIN	cpu_map/cpu_map_atmega328p.h	/^#define LIMIT_PIN /;"	d
+LIMIT_PORT	cpu_map/cpu_map_atmega2560.h	/^#define LIMIT_PORT /;"	d
+LIMIT_PORT	cpu_map/cpu_map_atmega328p.h	/^#define LIMIT_PORT /;"	d
+LINE_BUFFER_SIZE	protocol.h	/^  #define LINE_BUFFER_SIZE /;"	d
+MAX_AMASS_LEVEL	stepper.c	/^#define MAX_AMASS_LEVEL /;"	d	file:
+MAX_INT_DIGITS	nuts_bolts.c	/^#define MAX_INT_DIGITS /;"	d	file:
+MAX_LINE_NUMBER	gcode.c	/^#define MAX_LINE_NUMBER /;"	d	file:
+MESSAGE_ALARM_LOCK	report.h	/^#define MESSAGE_ALARM_LOCK /;"	d
+MESSAGE_ALARM_UNLOCK	report.h	/^#define MESSAGE_ALARM_UNLOCK /;"	d
+MESSAGE_CRITICAL_EVENT	report.h	/^#define MESSAGE_CRITICAL_EVENT /;"	d
+MESSAGE_DISABLED	report.h	/^#define MESSAGE_DISABLED /;"	d
+MESSAGE_ENABLED	report.h	/^#define MESSAGE_ENABLED /;"	d
+MESSAGE_PROBE_COORDINATES	config.h	/^#define MESSAGE_PROBE_COORDINATES /;"	d
+MESSAGE_PROGRAM_END	report.h	/^#define MESSAGE_PROGRAM_END /;"	d
+MESSAGE_RESTORE_DEFAULTS	report.h	/^#define MESSAGE_RESTORE_DEFAULTS /;"	d
+MESSAGE_SAFETY_DOOR_AJAR	report.h	/^#define MESSAGE_SAFETY_DOOR_AJAR /;"	d
+MICROSTEPS	defaults/defaults_sherline.h	/^  #define MICROSTEPS /;"	d
+MICROSTEPS	defaults/defaults_zen_toolworks_7x7.h	/^  #define MICROSTEPS /;"	d
+MICROSTEPS_XY	defaults/defaults_shapeoko.h	/^  #define MICROSTEPS_XY /;"	d
+MICROSTEPS_XY	defaults/defaults_shapeoko2.h	/^  #define MICROSTEPS_XY /;"	d
+MICROSTEPS_XY	defaults/defaults_shapeoko3.h	/^  #define MICROSTEPS_XY /;"	d
+MICROSTEPS_XY	defaults/defaults_x_carve_1000mm.h	/^  #define MICROSTEPS_XY /;"	d
+MICROSTEPS_XY	defaults/defaults_x_carve_500mm.h	/^  #define MICROSTEPS_XY /;"	d
+MICROSTEPS_Z	defaults/defaults_shapeoko.h	/^  #define MICROSTEPS_Z /;"	d
+MICROSTEPS_Z	defaults/defaults_shapeoko2.h	/^  #define MICROSTEPS_Z /;"	d
+MICROSTEPS_Z	defaults/defaults_shapeoko3.h	/^  #define MICROSTEPS_Z /;"	d
+MICROSTEPS_Z	defaults/defaults_x_carve_1000mm.h	/^  #define MICROSTEPS_Z /;"	d
+MICROSTEPS_Z	defaults/defaults_x_carve_500mm.h	/^  #define MICROSTEPS_Z /;"	d
+MINIMUM_FEED_RATE	config.h	/^#define MINIMUM_FEED_RATE /;"	d
+MINIMUM_JUNCTION_SPEED	config.h	/^#define MINIMUM_JUNCTION_SPEED /;"	d
+MM_PER_INCH	nuts_bolts.h	/^#define MM_PER_INCH /;"	d
+MM_PER_REV	defaults/defaults_sherline.h	/^  #define MM_PER_REV /;"	d
+MM_PER_REV	defaults/defaults_zen_toolworks_7x7.h	/^  #define MM_PER_REV /;"	d
+MM_PER_REV_XY	defaults/defaults_shapeoko.h	/^  #define MM_PER_REV_XY /;"	d
+MM_PER_REV_XY	defaults/defaults_shapeoko2.h	/^  #define MM_PER_REV_XY /;"	d
+MM_PER_REV_XY	defaults/defaults_shapeoko3.h	/^  #define MM_PER_REV_XY /;"	d
+MM_PER_REV_XY	defaults/defaults_x_carve_1000mm.h	/^  #define MM_PER_REV_XY /;"	d
+MM_PER_REV_XY	defaults/defaults_x_carve_500mm.h	/^  #define MM_PER_REV_XY /;"	d
+MM_PER_REV_Z	defaults/defaults_shapeoko.h	/^  #define MM_PER_REV_Z /;"	d
+MM_PER_REV_Z	defaults/defaults_shapeoko2.h	/^  #define MM_PER_REV_Z /;"	d
+MM_PER_REV_Z	defaults/defaults_shapeoko3.h	/^  #define MM_PER_REV_Z /;"	d
+MM_PER_REV_Z	defaults/defaults_x_carve_1000mm.h	/^  #define MM_PER_REV_Z /;"	d
+MM_PER_REV_Z	defaults/defaults_x_carve_500mm.h	/^  #define MM_PER_REV_Z /;"	d
+MODAL_GROUP_G0	gcode.h	/^#define MODAL_GROUP_G0 /;"	d
+MODAL_GROUP_G1	gcode.h	/^#define MODAL_GROUP_G1 /;"	d
+MODAL_GROUP_G12	gcode.h	/^#define MODAL_GROUP_G12 /;"	d
+MODAL_GROUP_G13	gcode.h	/^#define MODAL_GROUP_G13 /;"	d
+MODAL_GROUP_G2	gcode.h	/^#define MODAL_GROUP_G2 /;"	d
+MODAL_GROUP_G3	gcode.h	/^#define MODAL_GROUP_G3 /;"	d
+MODAL_GROUP_G4	gcode.h	/^#define MODAL_GROUP_G4 /;"	d
+MODAL_GROUP_G5	gcode.h	/^#define MODAL_GROUP_G5 /;"	d
+MODAL_GROUP_G6	gcode.h	/^#define MODAL_GROUP_G6 /;"	d
+MODAL_GROUP_G7	gcode.h	/^#define MODAL_GROUP_G7 /;"	d
+MODAL_GROUP_G8	gcode.h	/^#define MODAL_GROUP_G8 /;"	d
+MODAL_GROUP_M4	gcode.h	/^#define MODAL_GROUP_M4 /;"	d
+MODAL_GROUP_M7	gcode.h	/^#define MODAL_GROUP_M7 /;"	d
+MODAL_GROUP_M8	gcode.h	/^#define MODAL_GROUP_M8 /;"	d
+MOTION_MODE_CCW_ARC	gcode.h	/^#define MOTION_MODE_CCW_ARC /;"	d
+MOTION_MODE_CW_ARC	gcode.h	/^#define MOTION_MODE_CW_ARC /;"	d
+MOTION_MODE_LINEAR	gcode.h	/^#define MOTION_MODE_LINEAR /;"	d
+MOTION_MODE_NONE	gcode.h	/^#define MOTION_MODE_NONE /;"	d
+MOTION_MODE_PROBE_AWAY	gcode.h	/^#define MOTION_MODE_PROBE_AWAY /;"	d
+MOTION_MODE_PROBE_AWAY_NO_ERROR	gcode.h	/^#define MOTION_MODE_PROBE_AWAY_NO_ERROR /;"	d
+MOTION_MODE_PROBE_TOWARD	gcode.h	/^#define MOTION_MODE_PROBE_TOWARD /;"	d
+MOTION_MODE_PROBE_TOWARD_NO_ERROR	gcode.h	/^#define MOTION_MODE_PROBE_TOWARD_NO_ERROR /;"	d
+MOTION_MODE_SEEK	gcode.h	/^#define MOTION_MODE_SEEK /;"	d
+NON_MODAL_ABSOLUTE_OVERRIDE	gcode.h	/^#define NON_MODAL_ABSOLUTE_OVERRIDE /;"	d
+NON_MODAL_DWELL	gcode.h	/^#define NON_MODAL_DWELL /;"	d
+NON_MODAL_GO_HOME_0	gcode.h	/^#define NON_MODAL_GO_HOME_0 /;"	d
+NON_MODAL_GO_HOME_1	gcode.h	/^#define NON_MODAL_GO_HOME_1 /;"	d
+NON_MODAL_NO_ACTION	gcode.h	/^#define NON_MODAL_NO_ACTION /;"	d
+NON_MODAL_RESET_COORDINATE_OFFSET	gcode.h	/^#define NON_MODAL_RESET_COORDINATE_OFFSET /;"	d
+NON_MODAL_SET_COORDINATE_DATA	gcode.h	/^#define NON_MODAL_SET_COORDINATE_DATA /;"	d
+NON_MODAL_SET_COORDINATE_OFFSET	gcode.h	/^#define NON_MODAL_SET_COORDINATE_OFFSET /;"	d
+NON_MODAL_SET_HOME_0	gcode.h	/^#define NON_MODAL_SET_HOME_0 /;"	d
+NON_MODAL_SET_HOME_1	gcode.h	/^#define NON_MODAL_SET_HOME_1 /;"	d
+N_ARC_CORRECTION	config.h	/^#define N_ARC_CORRECTION /;"	d
+N_AXIS	nuts_bolts.h	/^#define N_AXIS /;"	d
+N_COORDINATE_SYSTEM	settings.h	/^#define N_COORDINATE_SYSTEM /;"	d
+N_DECIMAL_COORDVALUE_INCH	config.h	/^#define N_DECIMAL_COORDVALUE_INCH /;"	d
+N_DECIMAL_COORDVALUE_MM	config.h	/^#define N_DECIMAL_COORDVALUE_MM /;"	d
+N_DECIMAL_RATEVALUE_INCH	config.h	/^#define N_DECIMAL_RATEVALUE_INCH /;"	d
+N_DECIMAL_RATEVALUE_MM	config.h	/^#define N_DECIMAL_RATEVALUE_MM /;"	d
+N_DECIMAL_SETTINGVALUE	config.h	/^#define N_DECIMAL_SETTINGVALUE /;"	d
+N_HOMING_LOCATE_CYCLE	config.h	/^#define N_HOMING_LOCATE_CYCLE /;"	d
+N_STARTUP_LINE	config.h	/^#define N_STARTUP_LINE /;"	d
+OCR_REGISTER	cpu_map/cpu_map_atmega2560.h	/^  #define OCR_REGISTER	/;"	d
+OCR_REGISTER	cpu_map/cpu_map_atmega328p.h	/^  #define OCR_REGISTER /;"	d
+PLANE_SELECT_XY	gcode.h	/^#define PLANE_SELECT_XY /;"	d
+PLANE_SELECT_YZ	gcode.h	/^#define PLANE_SELECT_YZ /;"	d
+PLANE_SELECT_ZX	gcode.h	/^#define PLANE_SELECT_ZX /;"	d
+PROBE_ACTIVE	probe.h	/^#define PROBE_ACTIVE /;"	d
+PROBE_BIT	cpu_map/cpu_map_atmega2560.h	/^#define PROBE_BIT /;"	d
+PROBE_BIT	cpu_map/cpu_map_atmega328p.h	/^#define PROBE_BIT /;"	d
+PROBE_DDR	cpu_map/cpu_map_atmega2560.h	/^#define PROBE_DDR /;"	d
+PROBE_DDR	cpu_map/cpu_map_atmega328p.h	/^#define PROBE_DDR /;"	d
+PROBE_MASK	cpu_map/cpu_map_atmega2560.h	/^#define PROBE_MASK /;"	d
+PROBE_MASK	cpu_map/cpu_map_atmega328p.h	/^#define PROBE_MASK /;"	d
+PROBE_OFF	probe.h	/^#define PROBE_OFF /;"	d
+PROBE_PIN	cpu_map/cpu_map_atmega2560.h	/^#define PROBE_PIN /;"	d
+PROBE_PIN	cpu_map/cpu_map_atmega328p.h	/^#define PROBE_PIN /;"	d
+PROBE_PORT	cpu_map/cpu_map_atmega2560.h	/^#define PROBE_PORT /;"	d
+PROBE_PORT	cpu_map/cpu_map_atmega328p.h	/^#define PROBE_PORT /;"	d
+PROGRAM_FLOW_COMPLETED	gcode.h	/^#define PROGRAM_FLOW_COMPLETED /;"	d
+PROGRAM_FLOW_PAUSED	gcode.h	/^#define PROGRAM_FLOW_PAUSED /;"	d
+PROGRAM_FLOW_RUNNING	gcode.h	/^#define PROGRAM_FLOW_RUNNING /;"	d
+PWM_MAX_VALUE	cpu_map/cpu_map_atmega2560.h	/^  #define PWM_MAX_VALUE /;"	d
+PWM_MAX_VALUE	cpu_map/cpu_map_atmega328p.h	/^  #define PWM_MAX_VALUE /;"	d
+RAMP_ACCEL	stepper.c	/^#define RAMP_ACCEL /;"	d	file:
+RAMP_CRUISE	stepper.c	/^#define RAMP_CRUISE /;"	d	file:
+RAMP_DECEL	stepper.c	/^#define RAMP_DECEL /;"	d	file:
+REQ_MM_INCREMENT_SCALAR	stepper.c	/^#define REQ_MM_INCREMENT_SCALAR /;"	d	file:
+RESET_BIT	cpu_map/cpu_map_atmega2560.h	/^#define RESET_BIT /;"	d
+RESET_BIT	cpu_map/cpu_map_atmega328p.h	/^#define RESET_BIT /;"	d
+RX_BUFFER_FULL	serial.h	/^  #define RX_BUFFER_FULL /;"	d
+RX_BUFFER_LOW	serial.h	/^  #define RX_BUFFER_LOW /;"	d
+RX_BUFFER_SIZE	serial.h	/^  #define RX_BUFFER_SIZE /;"	d
+SAFETY_DOOR_BIT	cpu_map/cpu_map_atmega2560.h	/^#define SAFETY_DOOR_BIT /;"	d
+SAFETY_DOOR_BIT	cpu_map/cpu_map_atmega328p.h	/^#define SAFETY_DOOR_BIT /;"	d
+SAFETY_DOOR_COOLANT_DELAY	config.h	/^#define SAFETY_DOOR_COOLANT_DELAY /;"	d
+SAFETY_DOOR_SPINDLE_DELAY	config.h	/^#define SAFETY_DOOR_SPINDLE_DELAY /;"	d
+SEGMENT_BUFFER_SIZE	stepper.h	/^  #define SEGMENT_BUFFER_SIZE /;"	d
+SEND_XOFF	serial.h	/^  #define SEND_XOFF /;"	d
+SEND_XON	serial.h	/^  #define SEND_XON /;"	d
+SERIAL_NO_DATA	serial.h	/^#define SERIAL_NO_DATA /;"	d
+SERIAL_RX	cpu_map/cpu_map_atmega2560.h	/^#define SERIAL_RX /;"	d
+SERIAL_RX	cpu_map/cpu_map_atmega328p.h	/^#define SERIAL_RX /;"	d
+SERIAL_UDRE	cpu_map/cpu_map_atmega2560.h	/^#define SERIAL_UDRE /;"	d
+SERIAL_UDRE	cpu_map/cpu_map_atmega328p.h	/^#define SERIAL_UDRE /;"	d
+SETTINGS_RESTORE_ALL	settings.h	/^#define SETTINGS_RESTORE_ALL /;"	d
+SETTINGS_RESTORE_BUILD_INFO	settings.h	/^#define SETTINGS_RESTORE_BUILD_INFO /;"	d
+SETTINGS_RESTORE_DEFAULTS	settings.h	/^#define SETTINGS_RESTORE_DEFAULTS /;"	d
+SETTINGS_RESTORE_PARAMETERS	settings.h	/^#define SETTINGS_RESTORE_PARAMETERS /;"	d
+SETTINGS_RESTORE_STARTUP_LINES	settings.h	/^#define SETTINGS_RESTORE_STARTUP_LINES /;"	d
+SETTINGS_VERSION	settings.h	/^#define SETTINGS_VERSION /;"	d
+SETTING_INDEX_G28	settings.h	/^#define SETTING_INDEX_G28 /;"	d
+SETTING_INDEX_G30	settings.h	/^#define SETTING_INDEX_G30 /;"	d
+SETTING_INDEX_NCOORD	settings.h	/^#define SETTING_INDEX_NCOORD /;"	d
+SOME_LARGE_VALUE	planner.c	/^#define SOME_LARGE_VALUE /;"	d	file:
+SPINDLE_DIRECTION_BIT	cpu_map/cpu_map_atmega2560.h	/^#define SPINDLE_DIRECTION_BIT /;"	d
+SPINDLE_DIRECTION_BIT	cpu_map/cpu_map_atmega328p.h	/^  #define SPINDLE_DIRECTION_BIT /;"	d
+SPINDLE_DIRECTION_DDR	cpu_map/cpu_map_atmega2560.h	/^#define SPINDLE_DIRECTION_DDR /;"	d
+SPINDLE_DIRECTION_DDR	cpu_map/cpu_map_atmega328p.h	/^  #define SPINDLE_DIRECTION_DDR /;"	d
+SPINDLE_DIRECTION_PORT	cpu_map/cpu_map_atmega2560.h	/^#define SPINDLE_DIRECTION_PORT /;"	d
+SPINDLE_DIRECTION_PORT	cpu_map/cpu_map_atmega328p.h	/^  #define SPINDLE_DIRECTION_PORT /;"	d
+SPINDLE_DISABLE	gcode.h	/^#define SPINDLE_DISABLE /;"	d
+SPINDLE_ENABLE_BIT	cpu_map/cpu_map_atmega2560.h	/^#define SPINDLE_ENABLE_BIT /;"	d
+SPINDLE_ENABLE_BIT	cpu_map/cpu_map_atmega328p.h	/^    #define SPINDLE_ENABLE_BIT /;"	d
+SPINDLE_ENABLE_BIT	cpu_map/cpu_map_atmega328p.h	/^  #define SPINDLE_ENABLE_BIT /;"	d
+SPINDLE_ENABLE_CCW	gcode.h	/^#define SPINDLE_ENABLE_CCW /;"	d
+SPINDLE_ENABLE_CW	gcode.h	/^#define SPINDLE_ENABLE_CW /;"	d
+SPINDLE_ENABLE_DDR	cpu_map/cpu_map_atmega2560.h	/^#define SPINDLE_ENABLE_DDR /;"	d
+SPINDLE_ENABLE_DDR	cpu_map/cpu_map_atmega328p.h	/^#define SPINDLE_ENABLE_DDR /;"	d
+SPINDLE_ENABLE_PIN	cpu_map/cpu_map_atmega328p.h	/^#define SPINDLE_ENABLE_PIN /;"	d
+SPINDLE_ENABLE_PORT	cpu_map/cpu_map_atmega2560.h	/^#define SPINDLE_ENABLE_PORT /;"	d
+SPINDLE_ENABLE_PORT	cpu_map/cpu_map_atmega328p.h	/^#define SPINDLE_ENABLE_PORT /;"	d
+SPINDLE_PWM_BIT	cpu_map/cpu_map_atmega2560.h	/^  #define SPINDLE_PWM_BIT	/;"	d
+SPINDLE_PWM_BIT	cpu_map/cpu_map_atmega328p.h	/^  #define SPINDLE_PWM_BIT	/;"	d
+SPINDLE_PWM_DDR	cpu_map/cpu_map_atmega2560.h	/^  #define SPINDLE_PWM_DDR	/;"	d
+SPINDLE_PWM_DDR	cpu_map/cpu_map_atmega328p.h	/^  #define SPINDLE_PWM_DDR	/;"	d
+SPINDLE_PWM_PORT	cpu_map/cpu_map_atmega2560.h	/^  #define SPINDLE_PWM_PORT /;"	d
+SPINDLE_PWM_PORT	cpu_map/cpu_map_atmega328p.h	/^  #define SPINDLE_PWM_PORT /;"	d
+SPINDLE_RPM_RANGE	spindle_control.c	/^        #define SPINDLE_RPM_RANGE /;"	d	file:
+STATE_ALARM	system.h	/^#define STATE_ALARM /;"	d
+STATE_CHECK_MODE	system.h	/^#define STATE_CHECK_MODE /;"	d
+STATE_CYCLE	system.h	/^#define STATE_CYCLE /;"	d
+STATE_HOLD	system.h	/^#define STATE_HOLD /;"	d
+STATE_HOMING	system.h	/^#define STATE_HOMING /;"	d
+STATE_IDLE	system.h	/^#define STATE_IDLE /;"	d
+STATE_MOTION_CANCEL	system.h	/^#define STATE_MOTION_CANCEL /;"	d
+STATE_SAFETY_DOOR	system.h	/^#define STATE_SAFETY_DOOR /;"	d
+STATUS_ALARM_LOCK	report.h	/^#define STATUS_ALARM_LOCK /;"	d
+STATUS_BAD_NUMBER_FORMAT	report.h	/^#define STATUS_BAD_NUMBER_FORMAT /;"	d
+STATUS_EXPECTED_COMMAND_LETTER	report.h	/^#define STATUS_EXPECTED_COMMAND_LETTER /;"	d
+STATUS_GCODE_ARC_RADIUS_ERROR	report.h	/^#define STATUS_GCODE_ARC_RADIUS_ERROR /;"	d
+STATUS_GCODE_AXIS_COMMAND_CONFLICT	report.h	/^#define STATUS_GCODE_AXIS_COMMAND_CONFLICT /;"	d
+STATUS_GCODE_AXIS_WORDS_EXIST	report.h	/^#define STATUS_GCODE_AXIS_WORDS_EXIST /;"	d
+STATUS_GCODE_COMMAND_VALUE_NOT_INTEGER	report.h	/^#define STATUS_GCODE_COMMAND_VALUE_NOT_INTEGER /;"	d
+STATUS_GCODE_G43_DYNAMIC_AXIS_ERROR	report.h	/^#define STATUS_GCODE_G43_DYNAMIC_AXIS_ERROR /;"	d
+STATUS_GCODE_G53_INVALID_MOTION_MODE	report.h	/^#define STATUS_GCODE_G53_INVALID_MOTION_MODE /;"	d
+STATUS_GCODE_INVALID_LINE_NUMBER	report.h	/^#define STATUS_GCODE_INVALID_LINE_NUMBER /;"	d
+STATUS_GCODE_INVALID_TARGET	report.h	/^#define STATUS_GCODE_INVALID_TARGET /;"	d
+STATUS_GCODE_MODAL_GROUP_VIOLATION	report.h	/^#define STATUS_GCODE_MODAL_GROUP_VIOLATION /;"	d
+STATUS_GCODE_NO_AXIS_WORDS	report.h	/^#define STATUS_GCODE_NO_AXIS_WORDS /;"	d
+STATUS_GCODE_NO_AXIS_WORDS_IN_PLANE	report.h	/^#define STATUS_GCODE_NO_AXIS_WORDS_IN_PLANE /;"	d
+STATUS_GCODE_NO_OFFSETS_IN_PLANE	report.h	/^#define STATUS_GCODE_NO_OFFSETS_IN_PLANE /;"	d
+STATUS_GCODE_UNDEFINED_FEED_RATE	report.h	/^#define STATUS_GCODE_UNDEFINED_FEED_RATE /;"	d
+STATUS_GCODE_UNSUPPORTED_COMMAND	report.h	/^#define STATUS_GCODE_UNSUPPORTED_COMMAND /;"	d
+STATUS_GCODE_UNSUPPORTED_COORD_SYS	report.h	/^#define STATUS_GCODE_UNSUPPORTED_COORD_SYS /;"	d
+STATUS_GCODE_UNUSED_WORDS	report.h	/^#define STATUS_GCODE_UNUSED_WORDS /;"	d
+STATUS_GCODE_VALUE_WORD_MISSING	report.h	/^#define STATUS_GCODE_VALUE_WORD_MISSING /;"	d
+STATUS_GCODE_WORD_REPEATED	report.h	/^#define STATUS_GCODE_WORD_REPEATED /;"	d
+STATUS_IDLE_ERROR	report.h	/^#define STATUS_IDLE_ERROR /;"	d
+STATUS_INVALID_STATEMENT	report.h	/^#define STATUS_INVALID_STATEMENT /;"	d
+STATUS_MAX_STEP_RATE_EXCEEDED	report.h	/^#define STATUS_MAX_STEP_RATE_EXCEEDED /;"	d
+STATUS_NEGATIVE_VALUE	report.h	/^#define STATUS_NEGATIVE_VALUE /;"	d
+STATUS_OK	report.h	/^#define STATUS_OK /;"	d
+STATUS_OVERFLOW	report.h	/^#define STATUS_OVERFLOW /;"	d
+STATUS_SETTING_DISABLED	report.h	/^#define STATUS_SETTING_DISABLED /;"	d
+STATUS_SETTING_READ_FAIL	report.h	/^#define STATUS_SETTING_READ_FAIL /;"	d
+STATUS_SETTING_STEP_PULSE_MIN	report.h	/^#define STATUS_SETTING_STEP_PULSE_MIN /;"	d
+STATUS_SOFT_LIMIT_ERROR	report.h	/^#define STATUS_SOFT_LIMIT_ERROR /;"	d
+STEPPERS_DISABLE_BIT	cpu_map/cpu_map_atmega2560.h	/^#define STEPPERS_DISABLE_BIT /;"	d
+STEPPERS_DISABLE_BIT	cpu_map/cpu_map_atmega328p.h	/^#define STEPPERS_DISABLE_BIT /;"	d
+STEPPERS_DISABLE_DDR	cpu_map/cpu_map_atmega2560.h	/^#define STEPPERS_DISABLE_DDR /;"	d
+STEPPERS_DISABLE_DDR	cpu_map/cpu_map_atmega328p.h	/^#define STEPPERS_DISABLE_DDR /;"	d
+STEPPERS_DISABLE_MASK	cpu_map/cpu_map_atmega2560.h	/^#define STEPPERS_DISABLE_MASK /;"	d
+STEPPERS_DISABLE_MASK	cpu_map/cpu_map_atmega328p.h	/^#define STEPPERS_DISABLE_MASK /;"	d
+STEPPERS_DISABLE_PORT	cpu_map/cpu_map_atmega2560.h	/^#define STEPPERS_DISABLE_PORT /;"	d
+STEPPERS_DISABLE_PORT	cpu_map/cpu_map_atmega328p.h	/^#define STEPPERS_DISABLE_PORT /;"	d
+STEPS_PER_REV	defaults/defaults_sherline.h	/^  #define STEPS_PER_REV /;"	d
+STEPS_PER_REV	defaults/defaults_zen_toolworks_7x7.h	/^  #define STEPS_PER_REV /;"	d
+STEP_DDR	cpu_map/cpu_map_atmega2560.h	/^#define STEP_DDR /;"	d
+STEP_DDR	cpu_map/cpu_map_atmega328p.h	/^#define STEP_DDR /;"	d
+STEP_MASK	cpu_map/cpu_map_atmega2560.h	/^#define STEP_MASK /;"	d
+STEP_MASK	cpu_map/cpu_map_atmega328p.h	/^#define STEP_MASK /;"	d
+STEP_PIN	cpu_map/cpu_map_atmega2560.h	/^#define STEP_PIN /;"	d
+STEP_PORT	cpu_map/cpu_map_atmega2560.h	/^#define STEP_PORT /;"	d
+STEP_PORT	cpu_map/cpu_map_atmega328p.h	/^#define STEP_PORT /;"	d
+STEP_REVS_XY	defaults/defaults_shapeoko.h	/^  #define STEP_REVS_XY /;"	d
+STEP_REVS_XY	defaults/defaults_shapeoko2.h	/^  #define STEP_REVS_XY /;"	d
+STEP_REVS_XY	defaults/defaults_shapeoko3.h	/^  #define STEP_REVS_XY /;"	d
+STEP_REVS_XY	defaults/defaults_x_carve_1000mm.h	/^  #define STEP_REVS_XY /;"	d
+STEP_REVS_XY	defaults/defaults_x_carve_500mm.h	/^  #define STEP_REVS_XY /;"	d
+STEP_REVS_Z	defaults/defaults_shapeoko.h	/^  #define STEP_REVS_Z /;"	d
+STEP_REVS_Z	defaults/defaults_shapeoko2.h	/^  #define STEP_REVS_Z /;"	d
+STEP_REVS_Z	defaults/defaults_shapeoko3.h	/^  #define STEP_REVS_Z /;"	d
+STEP_REVS_Z	defaults/defaults_x_carve_1000mm.h	/^  #define STEP_REVS_Z /;"	d
+STEP_REVS_Z	defaults/defaults_x_carve_500mm.h	/^  #define STEP_REVS_Z /;"	d
+SUSPEND_DISABLE	system.h	/^#define SUSPEND_DISABLE /;"	d
+SUSPEND_ENABLE_HOLD	system.h	/^#define SUSPEND_ENABLE_HOLD /;"	d
+SUSPEND_ENABLE_READY	system.h	/^#define SUSPEND_ENABLE_READY /;"	d
+SUSPEND_ENERGIZE	system.h	/^#define SUSPEND_ENERGIZE /;"	d
+SUSPEND_MOTION_CANCEL	system.h	/^#define SUSPEND_MOTION_CANCEL /;"	d
+TCCRA_REGISTER	cpu_map/cpu_map_atmega2560.h	/^  #define TCCRA_REGISTER	/;"	d
+TCCRA_REGISTER	cpu_map/cpu_map_atmega328p.h	/^  #define TCCRA_REGISTER	/;"	d
+TCCRB_REGISTER	cpu_map/cpu_map_atmega2560.h	/^  #define TCCRB_REGISTER	/;"	d
+TCCRB_REGISTER	cpu_map/cpu_map_atmega328p.h	/^  #define TCCRB_REGISTER	/;"	d
+TICKS_PER_MICROSECOND	nuts_bolts.h	/^#define TICKS_PER_MICROSECOND /;"	d
+TOOL_LENGTH_OFFSET_AXIS	config.h	/^#define TOOL_LENGTH_OFFSET_AXIS /;"	d
+TOOL_LENGTH_OFFSET_CANCEL	gcode.h	/^#define TOOL_LENGTH_OFFSET_CANCEL /;"	d
+TOOL_LENGTH_OFFSET_ENABLE_DYNAMIC	gcode.h	/^#define TOOL_LENGTH_OFFSET_ENABLE_DYNAMIC /;"	d
+TX_BUFFER_SIZE	serial.h	/^  #define TX_BUFFER_SIZE /;"	d
+UNITS_MODE_INCHES	gcode.h	/^#define UNITS_MODE_INCHES /;"	d
+UNITS_MODE_MM	gcode.h	/^#define UNITS_MODE_MM /;"	d
+WAVE0_REGISTER	cpu_map/cpu_map_atmega2560.h	/^  #define WAVE0_REGISTER	/;"	d
+WAVE0_REGISTER	cpu_map/cpu_map_atmega328p.h	/^  #define WAVE0_REGISTER	/;"	d
+WAVE1_REGISTER	cpu_map/cpu_map_atmega2560.h	/^  #define WAVE1_REGISTER	/;"	d
+WAVE1_REGISTER	cpu_map/cpu_map_atmega328p.h	/^  #define WAVE1_REGISTER	/;"	d
+WAVE2_REGISTER	cpu_map/cpu_map_atmega2560.h	/^  #define WAVE2_REGISTER	/;"	d
+WAVE2_REGISTER	cpu_map/cpu_map_atmega328p.h	/^  #define WAVE2_REGISTER	/;"	d
+WAVE3_REGISTER	cpu_map/cpu_map_atmega2560.h	/^  #define WAVE3_REGISTER	/;"	d
+WAVE3_REGISTER	cpu_map/cpu_map_atmega328p.h	/^  #define WAVE3_REGISTER	/;"	d
+WORD_F	gcode.h	/^#define WORD_F /;"	d
+WORD_I	gcode.h	/^#define WORD_I /;"	d
+WORD_J	gcode.h	/^#define WORD_J /;"	d
+WORD_K	gcode.h	/^#define WORD_K /;"	d
+WORD_L	gcode.h	/^#define WORD_L /;"	d
+WORD_N	gcode.h	/^#define WORD_N /;"	d
+WORD_P	gcode.h	/^#define WORD_P /;"	d
+WORD_R	gcode.h	/^#define WORD_R /;"	d
+WORD_S	gcode.h	/^#define WORD_S /;"	d
+WORD_T	gcode.h	/^#define WORD_T /;"	d
+WORD_X	gcode.h	/^#define WORD_X /;"	d
+WORD_Y	gcode.h	/^#define WORD_Y /;"	d
+WORD_Z	gcode.h	/^#define WORD_Z /;"	d
+XOFF_CHAR	serial.h	/^  #define XOFF_CHAR /;"	d
+XOFF_SENT	serial.h	/^  #define XOFF_SENT /;"	d
+XON_CHAR	serial.h	/^  #define XON_CHAR /;"	d
+XON_SENT	serial.h	/^  #define XON_SENT /;"	d
+X_AXIS	nuts_bolts.h	/^#define X_AXIS /;"	d
+X_DIRECTION_BIT	cpu_map/cpu_map_atmega2560.h	/^#define X_DIRECTION_BIT /;"	d
+X_DIRECTION_BIT	cpu_map/cpu_map_atmega328p.h	/^#define X_DIRECTION_BIT /;"	d
+X_LIMIT_BIT	cpu_map/cpu_map_atmega2560.h	/^#define X_LIMIT_BIT /;"	d
+X_LIMIT_BIT	cpu_map/cpu_map_atmega328p.h	/^#define X_LIMIT_BIT /;"	d
+X_STEP_BIT	cpu_map/cpu_map_atmega2560.h	/^#define X_STEP_BIT /;"	d
+X_STEP_BIT	cpu_map/cpu_map_atmega328p.h	/^#define X_STEP_BIT /;"	d
+Y_AXIS	nuts_bolts.h	/^#define Y_AXIS /;"	d
+Y_DIRECTION_BIT	cpu_map/cpu_map_atmega2560.h	/^#define Y_DIRECTION_BIT /;"	d
+Y_DIRECTION_BIT	cpu_map/cpu_map_atmega328p.h	/^#define Y_DIRECTION_BIT /;"	d
+Y_LIMIT_BIT	cpu_map/cpu_map_atmega2560.h	/^#define Y_LIMIT_BIT /;"	d
+Y_LIMIT_BIT	cpu_map/cpu_map_atmega328p.h	/^#define Y_LIMIT_BIT /;"	d
+Y_STEP_BIT	cpu_map/cpu_map_atmega2560.h	/^#define Y_STEP_BIT /;"	d
+Y_STEP_BIT	cpu_map/cpu_map_atmega328p.h	/^#define Y_STEP_BIT /;"	d
+Z_AXIS	nuts_bolts.h	/^#define Z_AXIS /;"	d
+Z_DIRECTION_BIT	cpu_map/cpu_map_atmega2560.h	/^#define Z_DIRECTION_BIT /;"	d
+Z_DIRECTION_BIT	cpu_map/cpu_map_atmega328p.h	/^#define Z_DIRECTION_BIT /;"	d
+Z_LIMIT_BIT	cpu_map/cpu_map_atmega2560.h	/^#define Z_LIMIT_BIT /;"	d
+Z_LIMIT_BIT	cpu_map/cpu_map_atmega328p.h	/^  #define Z_LIMIT_BIT	/;"	d
+Z_LIMIT_BIT	cpu_map/cpu_map_atmega328p.h	/^  #define Z_LIMIT_BIT /;"	d
+Z_STEP_BIT	cpu_map/cpu_map_atmega2560.h	/^#define Z_STEP_BIT /;"	d
+Z_STEP_BIT	cpu_map/cpu_map_atmega328p.h	/^#define Z_STEP_BIT /;"	d
+abort	system.h	/^  uint8_t abort;                 \/\/ System abort flag. Forces exit back to main loop for reset.$/;"	m	struct:__anon12
+accelerate_until	stepper.c	/^  float accelerate_until; \/\/ Acceleration ramp end measured from end of block (mm)$/;"	m	struct:__anon11	file:
+acceleration	planner.h	/^  float acceleration;            \/\/ Axis-limit adjusted line acceleration in (mm\/min^2)$/;"	m	struct:__anon6
+acceleration	settings.h	/^  float acceleration[N_AXIS];$/;"	m	struct:__anon7
+amass_level	stepper.c	/^    uint8_t amass_level;    \/\/ Indicates AMASS level for the ISR to execute this segment$/;"	m	struct:__anon9	file:
+arc_tolerance	settings.h	/^  float arc_tolerance;$/;"	m	struct:__anon7
+bit	nuts_bolts.h	/^#define bit(/;"	d
+bit_false	nuts_bolts.h	/^#define bit_false(/;"	d
+bit_false_atomic	nuts_bolts.h	/^#define bit_false_atomic(/;"	d
+bit_isfalse	nuts_bolts.h	/^#define bit_isfalse(/;"	d
+bit_istrue	nuts_bolts.h	/^#define bit_istrue(/;"	d
+bit_toggle_atomic	nuts_bolts.h	/^#define bit_toggle_atomic(/;"	d
+bit_true	nuts_bolts.h	/^#define bit_true(/;"	d
+bit_true_atomic	nuts_bolts.h	/^#define bit_true_atomic(/;"	d
+block_buffer	planner.c	/^static plan_block_t block_buffer[BLOCK_BUFFER_SIZE];  \/\/ A ring buffer for motion instructions$/;"	v	file:
+block_buffer_head	planner.c	/^static uint8_t block_buffer_head;     \/\/ Index of the next block to be pushed$/;"	v	file:
+block_buffer_planned	planner.c	/^static uint8_t block_buffer_planned;  \/\/ Index of the optimally planned block$/;"	v	file:
+block_buffer_tail	planner.c	/^static uint8_t block_buffer_tail;     \/\/ Index of the block to process now$/;"	v	file:
+busy	stepper.c	/^static volatile uint8_t busy;   $/;"	v	file:
+clear_vector	nuts_bolts.h	/^#define clear_vector(/;"	d
+clear_vector_float	nuts_bolts.h	/^#define clear_vector_float(/;"	d
+config_h	config.h	/^#define config_h$/;"	d
+coolant	gcode.h	/^  uint8_t coolant;         \/\/ {M7,M8,M9}$/;"	m	struct:__anon1
+coolant_control_h	coolant_control.h	/^#define coolant_control_h /;"	d
+coolant_init	coolant_control.c	/^void coolant_init()$/;"	f
+coolant_run	coolant_control.c	/^void coolant_run(uint8_t mode)$/;"	f
+coolant_set_state	coolant_control.c	/^void coolant_set_state(uint8_t mode)$/;"	f
+coolant_stop	coolant_control.c	/^void coolant_stop()$/;"	f
+coord_offset	gcode.h	/^  float coord_offset[N_AXIS];   \/\/ Retains the G92 coordinate offset (work coordinates) relative to$/;"	m	struct:__anon3
+coord_select	gcode.h	/^  uint8_t coord_select;    \/\/ {G54,G55,G56,G57,G58,G59}$/;"	m	struct:__anon1
+coord_system	gcode.h	/^  float coord_system[N_AXIS];   \/\/ Current work coordinate system (G54+). Stores offset from absolute machine$/;"	m	struct:__anon3
+counter_x	stepper.c	/^  uint32_t counter_x,        \/\/ Counter variables for the bresenham line tracer$/;"	m	struct:__anon10	file:
+counter_y	stepper.c	/^           counter_y, $/;"	m	struct:__anon10	file:
+counter_z	stepper.c	/^           counter_z;$/;"	m	struct:__anon10	file:
+cpu_map_h	cpu_map.h	/^#define cpu_map_h$/;"	d
+current_speed	stepper.c	/^  float current_speed;    \/\/ Current speed at the end of the segment buffer (mm\/min)$/;"	m	struct:__anon11	file:
+cycles_per_tick	stepper.c	/^  uint16_t cycles_per_tick; \/\/ Step distance traveled per ISR tick, aka step rate.$/;"	m	struct:__anon9	file:
+decelerate_after	stepper.c	/^  float decelerate_after; \/\/ Deceleration ramp start measured from end of block (mm)$/;"	m	struct:__anon11	file:
+defaults_h	defaults/defaults_generic.h	/^#define defaults_h$/;"	d
+defaults_h	defaults/defaults_oxcnc.h	/^#define defaults_h$/;"	d
+defaults_h	defaults/defaults_shapeoko.h	/^#define defaults_h$/;"	d
+defaults_h	defaults/defaults_shapeoko2.h	/^#define defaults_h$/;"	d
+defaults_h	defaults/defaults_shapeoko3.h	/^#define defaults_h$/;"	d
+defaults_h	defaults/defaults_sherline.h	/^#define defaults_h$/;"	d
+defaults_h	defaults/defaults_simulator.h	/^#define defaults_h$/;"	d
+defaults_h	defaults/defaults_x_carve_1000mm.h	/^#define defaults_h$/;"	d
+defaults_h	defaults/defaults_x_carve_500mm.h	/^#define defaults_h$/;"	d
+defaults_h	defaults/defaults_zen_toolworks_7x7.h	/^#define defaults_h$/;"	d
+delay_ms	nuts_bolts.c	/^void delay_ms(uint16_t ms) $/;"	f
+delay_time	spindle_control.c	/^unsigned int delay_time = 50;$/;"	v
+delay_us	nuts_bolts.c	/^void delay_us(uint32_t us) $/;"	f
+dir_invert_mask	settings.h	/^  uint8_t dir_invert_mask;$/;"	m	struct:__anon7
+dir_outbits	stepper.c	/^  uint8_t dir_outbits;$/;"	m	struct:__anon10	file:
+dir_port_invert_mask	stepper.c	/^static uint8_t dir_port_invert_mask;$/;"	v	file:
+direction_bits	planner.h	/^  uint8_t direction_bits;    \/\/ The direction bit set for this block (refers to *_DIRECTION_BIT in config.h)$/;"	m	struct:__anon6
+direction_bits	stepper.c	/^  uint8_t direction_bits;$/;"	m	struct:__anon8	file:
+distance	gcode.h	/^  uint8_t distance;        \/\/ {G90,G91}$/;"	m	struct:__anon1
+dt_remainder	stepper.c	/^  float dt_remainder;$/;"	m	struct:__anon11	file:
+eeprom_get_char	eeprom.c	/^unsigned char eeprom_get_char( unsigned int addr )$/;"	f
+eeprom_h	eeprom.h	/^#define eeprom_h$/;"	d
+eeprom_put_char	eeprom.c	/^void eeprom_put_char( unsigned int addr, unsigned char new_value )$/;"	f
+entry_speed_sqr	planner.h	/^  float entry_speed_sqr;         \/\/ The current planned entry speed at block junction in (mm\/min)^2$/;"	m	struct:__anon6
+exec_block	stepper.c	/^  st_block_t *exec_block;   \/\/ Pointer to the block data for the segment being executed$/;"	m	struct:__anon10	file:
+exec_block_index	stepper.c	/^  uint8_t exec_block_index; \/\/ Tracks the current st_block index. Change indicates new block.$/;"	m	struct:__anon10	file:
+exec_segment	stepper.c	/^  segment_t *exec_segment;  \/\/ Pointer to the segment being executed$/;"	m	struct:__anon10	file:
+execute_step	stepper.c	/^  uint8_t execute_step;     \/\/ Flags step execution for each interrupt.$/;"	m	struct:__anon10	file:
+exit_speed	stepper.c	/^  float exit_speed;       \/\/ Exit speed of executing block (mm\/min)$/;"	m	struct:__anon11	file:
+f	gcode.h	/^  float f;         \/\/ Feed$/;"	m	struct:__anon2
+false	nuts_bolts.h	/^#define false /;"	d
+feed_rate	gcode.h	/^  float feed_rate;              \/\/ Millimeters\/min$/;"	m	struct:__anon3
+feed_rate	gcode.h	/^  uint8_t feed_rate;       \/\/ {G93,G94}$/;"	m	struct:__anon1
+flag_partial_block	stepper.c	/^  uint8_t flag_partial_block;  \/\/ Flag indicating the last block completed. Time to load a new one.$/;"	m	struct:__anon11	file:
+flags	settings.h	/^  uint8_t flags;  \/\/ Contains default boolean settings$/;"	m	struct:__anon7
+flow_ctrl	serial.c	/^  volatile uint8_t flow_ctrl = XON_SENT; \/\/ Flow control state variable$/;"	v
+gc_block	gcode.c	/^parser_block_t gc_block;$/;"	v
+gc_check_same_position	gcode.c	/^static uint8_t gc_check_same_position(float *pos_a, float *pos_b) $/;"	f	file:
+gc_execute_line	gcode.c	/^uint8_t gc_execute_line(char *line) $/;"	f
+gc_init	gcode.c	/^void gc_init() $/;"	f
+gc_modal_t	gcode.h	/^} gc_modal_t;  $/;"	t	typeref:struct:__anon1
+gc_state	gcode.c	/^parser_state_t gc_state;$/;"	v
+gc_sync_position	gcode.c	/^void gc_sync_position() $/;"	f
+gc_values_t	gcode.h	/^} gc_values_t;$/;"	t	typeref:struct:__anon2
+gcode_h	gcode.h	/^#define gcode_h$/;"	d
+get_direction_pin_mask	settings.c	/^uint8_t get_direction_pin_mask(uint8_t axis_idx)$/;"	f
+get_limit_pin_mask	settings.c	/^uint8_t get_limit_pin_mask(uint8_t axis_idx)$/;"	f
+get_step_pin_mask	settings.c	/^uint8_t get_step_pin_mask(uint8_t axis_idx)$/;"	f
+grbl_h	grbl.h	/^#define grbl_h$/;"	d
+homing_axis_lock	system.h	/^  uint8_t homing_axis_lock;       \/\/ Locks axes when limits engage. Used as an axis motion mask in the stepper ISR.$/;"	m	struct:__anon12
+homing_debounce_delay	settings.h	/^  uint16_t homing_debounce_delay;$/;"	m	struct:__anon7
+homing_dir_mask	settings.h	/^  uint8_t homing_dir_mask;$/;"	m	struct:__anon7
+homing_feed_rate	settings.h	/^  float homing_feed_rate;$/;"	m	struct:__anon7
+homing_pulloff	settings.h	/^  float homing_pulloff;$/;"	m	struct:__anon7
+homing_seek_rate	settings.h	/^  float homing_seek_rate;$/;"	m	struct:__anon7
+hypot_f	nuts_bolts.c	/^float hypot_f(float x, float y) { return(sqrt(x*x + y*y)); }$/;"	f
+ijk	gcode.h	/^  float ijk[3];    \/\/ I,J,K Axis arc offsets$/;"	m	struct:__anon2
+junction_deviation	settings.h	/^  float junction_deviation;$/;"	m	struct:__anon7
+l	gcode.h	/^  uint8_t l;       \/\/ G10 or canned cycles parameters$/;"	m	struct:__anon2
+limits_disable	limits.c	/^void limits_disable()$/;"	f
+limits_get_state	limits.c	/^uint8_t limits_get_state()$/;"	f
+limits_go_home	limits.c	/^void limits_go_home(uint8_t cycle_mask) $/;"	f
+limits_h	limits.h	/^#define limits_h /;"	d
+limits_init	limits.c	/^void limits_init() $/;"	f
+limits_soft_check	limits.c	/^void limits_soft_check(float *target)$/;"	f
+line	protocol.c	/^static char line[LINE_BUFFER_SIZE]; \/\/ Line to be executed. Zero-terminated.$/;"	v	file:
+line_number	gcode.h	/^  int32_t line_number;          \/\/ Last line number sent$/;"	m	struct:__anon3
+line_number	planner.h	/^    int32_t line_number;$/;"	m	struct:__anon6
+main	main.c	/^int main(void)$/;"	f
+max	nuts_bolts.h	/^#define max(/;"	d
+max_entry_speed_sqr	planner.h	/^  float max_entry_speed_sqr;     \/\/ Maximum allowable entry speed based on the minimum of junction limit and $/;"	m	struct:__anon6
+max_junction_speed_sqr	planner.h	/^  float max_junction_speed_sqr;  \/\/ Junction entry speed limit based on direction vectors in (mm\/min)^2$/;"	m	struct:__anon6
+max_rate	settings.h	/^  float max_rate[N_AXIS];$/;"	m	struct:__anon7
+max_travel	settings.h	/^  float max_travel[N_AXIS];$/;"	m	struct:__anon7
+maximum_speed	stepper.c	/^  float maximum_speed;    \/\/ Maximum speed of executing block. Not always nominal speed. (mm\/min)$/;"	m	struct:__anon11	file:
+mc_arc	motion_control.c	/^  void mc_arc(float *position, float *target, float *offset, float radius, float feed_rate, $/;"	f
+mc_dwell	motion_control.c	/^void mc_dwell(float seconds) $/;"	f
+mc_homing_cycle	motion_control.c	/^void mc_homing_cycle()$/;"	f
+mc_line	motion_control.c	/^  void mc_line(float *target, float feed_rate, uint8_t invert_feed_rate, int32_t line_number)$/;"	f
+mc_probe_cycle	motion_control.c	/^  void mc_probe_cycle(float *target, float feed_rate, uint8_t invert_feed_rate, uint8_t is_probe_away, $/;"	f
+mc_reset	motion_control.c	/^void mc_reset()$/;"	f
+memcpy_from_eeprom_with_checksum	eeprom.c	/^int memcpy_from_eeprom_with_checksum(char *destination, unsigned int source, unsigned int size) {$/;"	f
+memcpy_to_eeprom_with_checksum	eeprom.c	/^void memcpy_to_eeprom_with_checksum(unsigned int destination, char *source, unsigned int size) {$/;"	f
+millimeters	planner.h	/^  float millimeters;             \/\/ The remaining distance for this block to be executed in (mm)$/;"	m	struct:__anon6
+min	nuts_bolts.h	/^#define min(/;"	d
+mm_complete	stepper.c	/^  float mm_complete;      \/\/ End of velocity profile from end of current planner block in (mm).$/;"	m	struct:__anon11	file:
+modal	gcode.h	/^  gc_modal_t modal;$/;"	m	struct:__anon3
+modal	gcode.h	/^  gc_modal_t modal;$/;"	m	struct:__anon4
+motion	gcode.h	/^  uint8_t motion;          \/\/ {G0,G1,G2,G3,G38.2,G80}$/;"	m	struct:__anon1
+motion_control_h	motion_control.h	/^#define motion_control_h$/;"	d
+my_SPINDLE_ENABLE_BIT_1	cpu_map/cpu_map_atmega328p.h	/^  #define my_SPINDLE_ENABLE_BIT_1 /;"	d
+my_SPINDLE_ENABLE_DDR	cpu_map/cpu_map_atmega328p.h	/^  #define my_SPINDLE_ENABLE_DDR /;"	d
+my_SPINDLE_ENABLE_PIN	cpu_map/cpu_map_atmega328p.h	/^  #define my_SPINDLE_ENABLE_PIN /;"	d
+my_SPINDLE_ENABLE_PORT	cpu_map/cpu_map_atmega328p.h	/^  #define my_SPINDLE_ENABLE_PORT /;"	d
+n	gcode.h	/^  int32_t n;       \/\/ Line number$/;"	m	struct:__anon2
+n_step	stepper.c	/^  uint16_t n_step;          \/\/ Number of step events to be executed for this segment$/;"	m	struct:__anon9	file:
+next_buffer_head	planner.c	/^static uint8_t next_buffer_head;      \/\/ Index of the next buffer head$/;"	v	file:
+nominal_speed_sqr	planner.h	/^  float nominal_speed_sqr;       \/\/ Axis-limit adjusted nominal speed for this block in (mm\/min)^2$/;"	m	struct:__anon6
+non_modal_command	gcode.h	/^  uint8_t non_modal_command;$/;"	m	struct:__anon4
+nuts_bolts_h	nuts_bolts.h	/^#define nuts_bolts_h$/;"	d
+p	gcode.h	/^  float p;         \/\/ G10 or dwell parameters$/;"	m	struct:__anon2
+parser_block_t	gcode.h	/^} parser_block_t;$/;"	t	typeref:struct:__anon4
+parser_state_t	gcode.h	/^} parser_state_t;$/;"	t	typeref:struct:__anon3
+pl	planner.c	/^static planner_t pl;$/;"	v	file:
+pl_block	stepper.c	/^static plan_block_t *pl_block;     \/\/ Pointer to the planner block being prepped$/;"	v	file:
+plan_block_t	planner.h	/^} plan_block_t;$/;"	t	typeref:struct:__anon6
+plan_buffer_line	planner.c	/^  void plan_buffer_line(float *target, float feed_rate, uint8_t invert_feed_rate, int32_t line_number) $/;"	f
+plan_check_full_buffer	planner.c	/^uint8_t plan_check_full_buffer()$/;"	f
+plan_cycle_reinitialize	planner.c	/^void plan_cycle_reinitialize()$/;"	f
+plan_discard_current_block	planner.c	/^void plan_discard_current_block() $/;"	f
+plan_get_block_buffer_count	planner.c	/^uint8_t plan_get_block_buffer_count()$/;"	f
+plan_get_current_block	planner.c	/^plan_block_t *plan_get_current_block() $/;"	f
+plan_get_exec_block_exit_speed	planner.c	/^float plan_get_exec_block_exit_speed()$/;"	f
+plan_next_block_index	planner.c	/^uint8_t plan_next_block_index(uint8_t block_index) $/;"	f
+plan_prev_block_index	planner.c	/^static uint8_t plan_prev_block_index(uint8_t block_index) $/;"	f	file:
+plan_reset	planner.c	/^void plan_reset() $/;"	f
+plan_sync_position	planner.c	/^void plan_sync_position()$/;"	f
+plane_select	gcode.h	/^  uint8_t plane_select;    \/\/ {G17,G18,G19}$/;"	m	struct:__anon1
+planner_h	planner.h	/^#define planner_h$/;"	d
+planner_recalculate	planner.c	/^static void planner_recalculate() $/;"	f	file:
+planner_t	planner.c	/^} planner_t;$/;"	t	typeref:struct:__anon5	file:
+position	gcode.h	/^  float position[N_AXIS];       \/\/ Where the interpreter considers the tool to be at this point in the code$/;"	m	struct:__anon3
+position	planner.c	/^  int32_t position[N_AXIS];          \/\/ The planner position of the tool in absolute steps. Kept separate$/;"	m	struct:__anon5	file:
+position	system.h	/^  int32_t position[N_AXIS];      \/\/ Real-time machine (aka home) position vector in steps. $/;"	m	struct:__anon12
+prep	stepper.c	/^static st_prep_t prep;$/;"	v	file:
+prescaler	stepper.c	/^    uint8_t prescaler;      \/\/ Without AMASS, a prescaler is required to adjust for slow timing.$/;"	m	struct:__anon9	file:
+previous_nominal_speed_sqr	planner.c	/^  float previous_nominal_speed_sqr;  \/\/ Nominal speed of previous path line segment$/;"	m	struct:__anon5	file:
+previous_unit_vec	planner.c	/^  float previous_unit_vec[N_AXIS];   \/\/ Unit vector of previous path line segment$/;"	m	struct:__anon5	file:
+printFloat	print.c	/^void printFloat(float n, uint8_t decimal_places)$/;"	f
+printFloat_CoordValue	print.c	/^void printFloat_CoordValue(float n) { $/;"	f
+printFloat_RateValue	print.c	/^void printFloat_RateValue(float n) { $/;"	f
+printFloat_SettingValue	print.c	/^void printFloat_SettingValue(float n) { printFloat(n,N_DECIMAL_SETTINGVALUE); }$/;"	f
+printInteger	print.c	/^void printInteger(long n)$/;"	f
+printPgmString	print.c	/^void printPgmString(const char *s)$/;"	f
+printString	print.c	/^void printString(const char *s)$/;"	f
+print_h	print.h	/^#define print_h$/;"	d
+print_uint32_base10	print.c	/^void print_uint32_base10(uint32_t n)$/;"	f
+print_uint8_base10	print.c	/^void print_uint8_base10(uint8_t n)$/;"	f
+print_uint8_base2	print.c	/^void print_uint8_base2(uint8_t n) {$/;"	f
+print_unsigned_int8	print.c	/^void print_unsigned_int8(uint8_t n, uint8_t base, uint8_t digits)$/;"	f
+probe_configure_invert_mask	probe.c	/^void probe_configure_invert_mask(uint8_t is_probe_away)$/;"	f
+probe_get_state	probe.c	/^uint8_t probe_get_state() { return((PROBE_PIN & PROBE_MASK) ^ probe_invert_mask); }$/;"	f
+probe_h	probe.h	/^#define probe_h /;"	d
+probe_init	probe.c	/^void probe_init() $/;"	f
+probe_invert_mask	probe.c	/^uint8_t probe_invert_mask;$/;"	v
+probe_position	system.h	/^  int32_t probe_position[N_AXIS]; \/\/ Last probe position in machine coordinates and steps.$/;"	m	struct:__anon12
+probe_state_monitor	probe.c	/^void probe_state_monitor()$/;"	f
+probe_succeeded	system.h	/^  uint8_t probe_succeeded;        \/\/ Tracks if last probing cycle was successful.$/;"	m	struct:__anon12
+program_flow	gcode.h	/^  uint8_t program_flow;    \/\/ {M0,M1,M2,M30}$/;"	m	struct:__anon1
+protocol_auto_cycle_start	protocol.c	/^void protocol_auto_cycle_start() { bit_true_atomic(sys_rt_exec_state, EXEC_CYCLE_START); } $/;"	f
+protocol_buffer_synchronize	protocol.c	/^void protocol_buffer_synchronize()$/;"	f
+protocol_execute_line	protocol.c	/^static void protocol_execute_line(char *line) $/;"	f	file:
+protocol_execute_realtime	protocol.c	/^void protocol_execute_realtime()$/;"	f
+protocol_h	protocol.h	/^#define protocol_h$/;"	d
+protocol_main_loop	protocol.c	/^void protocol_main_loop()$/;"	f
+pulse_microseconds	settings.h	/^  uint8_t pulse_microseconds;$/;"	m	struct:__anon7
+r	gcode.h	/^  float r;         \/\/ Arc radius$/;"	m	struct:__anon2
+ramp_type	stepper.c	/^  uint8_t ramp_type;      \/\/ Current segment ramp state$/;"	m	struct:__anon11	file:
+read_float	nuts_bolts.c	/^uint8_t read_float(char *line, uint8_t *char_counter, float *float_ptr)                  $/;"	f
+read_global_settings	settings.c	/^uint8_t read_global_settings() {$/;"	f
+report_alarm_message	report.c	/^void report_alarm_message(int8_t alarm_code)$/;"	f
+report_build_info	report.c	/^void report_build_info(char *line)$/;"	f
+report_echo_line_received	report.c	/^void report_echo_line_received(char *line)$/;"	f
+report_feedback_message	report.c	/^void report_feedback_message(uint8_t message_code)$/;"	f
+report_gcode_modes	report.c	/^void report_gcode_modes()$/;"	f
+report_grbl_help	report.c	/^void report_grbl_help() {$/;"	f
+report_grbl_settings	report.c	/^void report_grbl_settings() {$/;"	f
+report_h	report.h	/^#define report_h$/;"	d
+report_init_message	report.c	/^void report_init_message()$/;"	f
+report_ngc_parameters	report.c	/^void report_ngc_parameters()$/;"	f
+report_probe_parameters	report.c	/^void report_probe_parameters()$/;"	f
+report_realtime_status	report.c	/^void report_realtime_status()$/;"	f
+report_startup_line	report.c	/^void report_startup_line(uint8_t n, char *line)$/;"	f
+report_status_message	report.c	/^void report_status_message(uint8_t status_code) $/;"	f
+req_mm_increment	stepper.c	/^  float req_mm_increment;$/;"	m	struct:__anon11	file:
+s	gcode.h	/^  float s;         \/\/ Spindle speed$/;"	m	struct:__anon2
+segment_buffer	stepper.c	/^static segment_t segment_buffer[SEGMENT_BUFFER_SIZE];$/;"	v	file:
+segment_buffer_head	stepper.c	/^static uint8_t segment_buffer_head;$/;"	v	file:
+segment_buffer_tail	stepper.c	/^static volatile uint8_t segment_buffer_tail;$/;"	v	file:
+segment_next_head	stepper.c	/^static uint8_t segment_next_head;$/;"	v	file:
+segment_t	stepper.c	/^} segment_t;$/;"	t	typeref:struct:__anon9	file:
+serial_get_rx_buffer_count	serial.c	/^uint8_t serial_get_rx_buffer_count()$/;"	f
+serial_get_tx_buffer_count	serial.c	/^uint8_t serial_get_tx_buffer_count()$/;"	f
+serial_h	serial.h	/^#define serial_h$/;"	d
+serial_init	serial.c	/^void serial_init()$/;"	f
+serial_read	serial.c	/^uint8_t serial_read()$/;"	f
+serial_reset_read_buffer	serial.c	/^void serial_reset_read_buffer() $/;"	f
+serial_rx_buffer	serial.c	/^uint8_t serial_rx_buffer[RX_BUFFER_SIZE];$/;"	v
+serial_rx_buffer_head	serial.c	/^uint8_t serial_rx_buffer_head = 0;$/;"	v
+serial_rx_buffer_tail	serial.c	/^volatile uint8_t serial_rx_buffer_tail = 0;$/;"	v
+serial_tx_buffer	serial.c	/^uint8_t serial_tx_buffer[TX_BUFFER_SIZE];$/;"	v
+serial_tx_buffer_head	serial.c	/^uint8_t serial_tx_buffer_head = 0;$/;"	v
+serial_tx_buffer_tail	serial.c	/^volatile uint8_t serial_tx_buffer_tail = 0;$/;"	v
+serial_write	serial.c	/^void serial_write(uint8_t data) {$/;"	f
+settings	settings.c	/^settings_t settings;$/;"	v
+settings_h	settings.h	/^#define settings_h$/;"	d
+settings_init	settings.c	/^void settings_init() {$/;"	f
+settings_read_build_info	settings.c	/^uint8_t settings_read_build_info(char *line)$/;"	f
+settings_read_coord_data	settings.c	/^uint8_t settings_read_coord_data(uint8_t coord_select, float *coord_data)$/;"	f
+settings_read_startup_line	settings.c	/^uint8_t settings_read_startup_line(uint8_t n, char *line)$/;"	f
+settings_restore	settings.c	/^void settings_restore(uint8_t restore_flag) {  $/;"	f
+settings_store_build_info	settings.c	/^void settings_store_build_info(char *line)$/;"	f
+settings_store_global_setting	settings.c	/^uint8_t settings_store_global_setting(uint8_t parameter, float value) {$/;"	f
+settings_store_startup_line	settings.c	/^void settings_store_startup_line(uint8_t n, char *line)$/;"	f
+settings_t	settings.h	/^} settings_t;$/;"	t	typeref:struct:__anon7
+settings_write_coord_data	settings.c	/^void settings_write_coord_data(uint8_t coord_select, float *coord_data)$/;"	f
+soft_limit	system.h	/^  uint8_t soft_limit;            \/\/ Tracks soft limit errors for the state machine. (boolean)$/;"	m	struct:__anon12
+spindle	gcode.h	/^  uint8_t spindle;         \/\/ {M3,M4,M5}$/;"	m	struct:__anon1
+spindle_control_h	spindle_control.h	/^#define spindle_control_h /;"	d
+spindle_init	spindle_control.c	/^void spindle_init()$/;"	f
+spindle_run	spindle_control.c	/^void spindle_run(uint8_t state, float rpm)$/;"	f
+spindle_set_state	spindle_control.c	/^void spindle_set_state(uint8_t state, float rpm)$/;"	f
+spindle_speed	gcode.h	/^  float spindle_speed;          \/\/ RPM$/;"	m	struct:__anon3
+spindle_start	spindle_control.c	/^void spindle_start()$/;"	f
+spindle_stop	spindle_control.c	/^void spindle_stop()$/;"	f
+st	stepper.c	/^static stepper_t st;$/;"	v	file:
+st_block_buffer	stepper.c	/^static st_block_t st_block_buffer[SEGMENT_BUFFER_SIZE-1];$/;"	v	file:
+st_block_index	stepper.c	/^  uint8_t st_block_index;   \/\/ Stepper block data index. Uses this information to execute this segment.$/;"	m	struct:__anon9	file:
+st_block_index	stepper.c	/^  uint8_t st_block_index;  \/\/ Index of stepper common data block being prepped$/;"	m	struct:__anon11	file:
+st_block_t	stepper.c	/^} st_block_t;$/;"	t	typeref:struct:__anon8	file:
+st_generate_step_dir_invert_masks	stepper.c	/^void st_generate_step_dir_invert_masks()$/;"	f
+st_get_realtime_rate	stepper.c	/^  float st_get_realtime_rate()$/;"	f
+st_go_idle	stepper.c	/^void st_go_idle() $/;"	f
+st_prep_block	stepper.c	/^static st_block_t *st_prep_block;  \/\/ Pointer to the stepper block data being prepped $/;"	v	file:
+st_prep_buffer	stepper.c	/^void st_prep_buffer()$/;"	f
+st_prep_t	stepper.c	/^} st_prep_t;$/;"	t	typeref:struct:__anon11	file:
+st_reset	stepper.c	/^void st_reset()$/;"	f
+st_update_plan_block_parameters	stepper.c	/^void st_update_plan_block_parameters()$/;"	f
+st_wake_up	stepper.c	/^void st_wake_up() $/;"	f
+state	system.h	/^  uint8_t state;                 \/\/ Tracks the current state of Grbl.$/;"	m	struct:__anon12
+status_report_mask	settings.h	/^  uint8_t status_report_mask; \/\/ Mask to indicate desired report data.$/;"	m	struct:__anon7
+step_bits	stepper.c	/^    uint8_t step_bits;  \/\/ Stores out_bits output to complete the step pulse delay$/;"	m	struct:__anon10	file:
+step_count	stepper.c	/^  uint16_t step_count;       \/\/ Steps remaining in line segment motion  $/;"	m	struct:__anon10	file:
+step_event_count	planner.h	/^  uint32_t step_event_count; \/\/ The maximum step axis count and number of steps required to complete this block. $/;"	m	struct:__anon6
+step_event_count	stepper.c	/^  uint32_t step_event_count;$/;"	m	struct:__anon8	file:
+step_invert_mask	settings.h	/^  uint8_t step_invert_mask;$/;"	m	struct:__anon7
+step_outbits	stepper.c	/^  uint8_t step_outbits;         \/\/ The next stepping-bits to be output$/;"	m	struct:__anon10	file:
+step_per_mm	stepper.c	/^  float step_per_mm;           \/\/ Current planner block step\/millimeter conversion scalar$/;"	m	struct:__anon11	file:
+step_port_invert_mask	stepper.c	/^static uint8_t step_port_invert_mask;$/;"	v	file:
+step_pulse_time	stepper.c	/^  uint8_t step_pulse_time;  \/\/ Step pulse reset time after step rise$/;"	m	struct:__anon10	file:
+stepper_h	stepper.h	/^#define stepper_h /;"	d
+stepper_idle_lock_time	settings.h	/^  uint8_t stepper_idle_lock_time; \/\/ If max value 255, steppers do not disable.$/;"	m	struct:__anon7
+stepper_init	stepper.c	/^void stepper_init()$/;"	f
+stepper_t	stepper.c	/^} stepper_t;$/;"	t	typeref:struct:__anon10	file:
+steps	planner.h	/^  uint32_t steps[N_AXIS];    \/\/ Step count along each axis$/;"	m	struct:__anon6
+steps	stepper.c	/^    uint32_t steps[N_AXIS];$/;"	m	struct:__anon10	file:
+steps	stepper.c	/^  uint32_t steps[N_AXIS];$/;"	m	struct:__anon8	file:
+steps_per_mm	settings.h	/^  float steps_per_mm[N_AXIS];$/;"	m	struct:__anon7
+steps_remaining	stepper.c	/^  float steps_remaining;$/;"	m	struct:__anon11	file:
+suspend	system.h	/^  uint8_t suspend;               \/\/ System suspend bitflag variable that manages holds, cancels, and safety door.$/;"	m	struct:__anon12
+sys	main.c	/^system_t sys; $/;"	v
+sys_probe_state	system.h	/^volatile uint8_t sys_probe_state;   \/\/ Probing state value.  Used to coordinate the probing cycle with stepper ISR.$/;"	v
+sys_rt_exec_alarm	system.h	/^volatile uint8_t sys_rt_exec_alarm;  \/\/ Global realtime executor bitflag variable for setting various alarms.$/;"	v
+sys_rt_exec_state	system.h	/^volatile uint8_t sys_rt_exec_state;  \/\/ Global realtime executor bitflag variable for state management. See EXEC bitmasks.$/;"	v
+system_check_safety_door_ajar	system.c	/^uint8_t system_check_safety_door_ajar()$/;"	f
+system_convert_array_steps_to_mpos	system.c	/^void system_convert_array_steps_to_mpos(float *position, int32_t *steps)$/;"	f
+system_convert_axis_steps_to_mpos	system.c	/^float system_convert_axis_steps_to_mpos(int32_t *steps, uint8_t idx)$/;"	f
+system_execute_line	system.c	/^uint8_t system_execute_line(char *line) $/;"	f
+system_execute_startup	system.c	/^void system_execute_startup(char *line) $/;"	f
+system_h	system.h	/^#define system_h$/;"	d
+system_init	system.c	/^void system_init() $/;"	f
+system_t	system.h	/^} system_t;$/;"	t	typeref:struct:__anon12
+t	gcode.h	/^  uint8_t t;       \/\/ Tool selection$/;"	m	struct:__anon2
+tool	gcode.h	/^  uint8_t tool;                 \/\/ Tracks tool number. NOT USED.$/;"	m	struct:__anon3
+tool_length	gcode.h	/^  uint8_t tool_length;     \/\/ {G43.1,G49}$/;"	m	struct:__anon1
+tool_length_offset	gcode.h	/^  float tool_length_offset;     \/\/ Tracks tool length offset value when enabled.$/;"	m	struct:__anon3
+true	nuts_bolts.h	/^#define true /;"	d
+units	gcode.h	/^  uint8_t units;           \/\/ {G20,G21}$/;"	m	struct:__anon1
+values	gcode.h	/^  gc_values_t values;$/;"	m	struct:__anon4
+write_global_settings	settings.c	/^void write_global_settings() $/;"	f
+xyz	gcode.h	/^  float xyz[3];    \/\/ X,Y,Z Translational axes$/;"	m	struct:__anon2
