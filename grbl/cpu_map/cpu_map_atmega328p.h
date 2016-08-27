@@ -108,7 +108,7 @@
 // a later date if flash and memory space allows.
 #define COOLANT_FLOOD_DDR   DDRC
 #define COOLANT_FLOOD_PORT  PORTC
-#define COOLANT_FLOOD_BIT   3  // Uno Analog Pin 3
+#define COOLANT_FLOOD_BIT   2//3  // Uno Analog Pin 3
 #ifdef ENABLE_M7 // Mist coolant disabled by default. See config.h to enable/disable.
   #define COOLANT_MIST_DDR   DDRC
   #define COOLANT_MIST_PORT  PORTC
@@ -122,7 +122,7 @@
 #define CONTROL_PORT      PORTC
 #define RESET_BIT         0  // Uno Analog Pin 0
 #define FEED_HOLD_BIT     1  // Uno Analog Pin 1
-#define CYCLE_START_BIT   2  // Uno Analog Pin 2
+#define CYCLE_START_BIT   0  // Uno Analog Pin 2//------A4-----------//
 #define SAFETY_DOOR_BIT   1  // Uno Analog Pin 1 NOTE: Safety door is shared with feed hold. Enabled by config define.
 #define CONTROL_INT       PCIE1  // Pin change interrupt enable pin
 #define CONTROL_INT_vect  PCINT1_vect

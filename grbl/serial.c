@@ -68,7 +68,7 @@ void serial_init()
   UBRR0H = UBRR0_value >> 8;
   UBRR0L = UBRR0_value;
   
-  //UBRR0 = 7;          
+  //UBRR0 = 3;          
   // enable rx and tx
   UCSR0B |= 1<<RXEN0;
   UCSR0B |= 1<<TXEN0;

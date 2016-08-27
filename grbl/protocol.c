@@ -346,7 +346,7 @@ void protocol_execute_realtime()
         // has issued a resume command or reset.
         if (sys.suspend & SUSPEND_ENERGIZE) { // De-energize system if safety door has been opened.
           spindle_stop();
-          coolant_stop();
+          //coolant_stop();/********A4********/
         }
         bit_true(sys.suspend,SUSPEND_ENABLE_READY);
       } else { // Motion is complete. Includes CYCLE, HOMING, and MOTION_CANCEL states.
